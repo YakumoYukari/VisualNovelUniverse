@@ -70,6 +70,8 @@ namespace Visual_Novel_Universe.ViewModels
             var ViewModel = new DirectoriesViewModel();
             Settings.Instance.WorkingDirectories.ForEach(ViewModel.ActiveDirectories.Add);
 
+            VnListSearchBoxText = "";
+
             WindowManager.ShowDialog(ViewModel);
 
             Settings.Instance.WorkingDirectories = ViewModel.ActiveDirectories.ToList();
@@ -381,6 +383,8 @@ namespace Visual_Novel_Universe.ViewModels
             if (AutoGoToNextOption)
             {
                 Logger.Instance.Log("Starting AutoGoToNext");
+
+                VnListSearchBoxText = "";
 
                 ShownVisualNovels.Clear();
                 VisualNovels.ToList().ForEach(ShownVisualNovels.Add);

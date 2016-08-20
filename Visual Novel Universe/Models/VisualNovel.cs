@@ -83,10 +83,16 @@ namespace Visual_Novel_Universe.Models
         }
 
         public string DisplayDeveloper
-            =>
-                Developers == null || Developers.Count == 0
-                    ? Properties.Resources.MissingDeveloperInfo
-                    : Developers[0] ?? Properties.Resources.MissingDeveloperInfo;
+        {
+            get
+            {
+                if (Developers == null || Developers.Count == 0)
+                {
+                    return !HasVnInfo ? Properties.Resources.UnconfirmedVN : Properties.Resources.MissingDeveloperInfo;
+                }
+                return Developers[0] ?? Properties.Resources.MissingDeveloperInfo;
+            }
+        }
 
         private List<Publisher> _Publishers;
         public List<Publisher> Publishers

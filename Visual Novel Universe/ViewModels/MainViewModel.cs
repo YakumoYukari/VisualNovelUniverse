@@ -28,6 +28,33 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
+        private int _SelectedVisualNovelIndex;
+        public int SelectedVisualNovelIndex
+        {
+            get { return _SelectedVisualNovelIndex; }
+            set
+            {
+                if (value > ShownVisualNovels.Count - 1)
+                {
+                    _SelectedVisualNovelIndex = ShownVisualNovels.Count - 1;
+                    if (AutoGoToNextOption)
+                    {
+                        AutoGoToNextOption = false;
+                        LoadVnList();
+                    }
+                }
+                else if (value < 0)
+                {
+                    _SelectedVisualNovelIndex = -1;
+                }
+                else
+                {
+                    _SelectedVisualNovelIndex = value;
+                }
+                NotifyOfPropertyChange(() => SelectedVisualNovelIndex);
+            }
+        }
+
         private VisualNovel _VndbPageNovel;
         public VisualNovel VndbPageNovel
         {
@@ -140,6 +167,7 @@ namespace Visual_Novel_Universe.ViewModels
         private static VisualNovel LoadVisualNovel(string FolderName, bool ForceSave)
         {
             var Vn = VisualNovelLoader.Load(FolderName);
+            Vn.HasVnInfo = true;
             if (ForceSave)
             {
                 VisualNovelLoader.Save(Vn, FolderName);
@@ -159,7 +187,7 @@ namespace Visual_Novel_Universe.ViewModels
                 EnglishName = PathUtils.LastElementOfPath(FolderName),
                 JapaneseName = PathUtils.LastElementOfPath(FolderName),
                 VnFolderPath = FolderName,
-                Developers = new List<string>(new[] { Properties.Resources.MissingDeveloperInfo }),
+                Developers = new List<string>(),
                 HasVnInfo = false,
                 Owned = true
             };

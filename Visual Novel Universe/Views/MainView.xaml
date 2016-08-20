@@ -18,7 +18,7 @@
                         <TextBlock Width="60" Style="{StaticResource MainMenuTextBlockStyle}">FILE</TextBlock>
                     </StackPanel>
                 </MenuItem.Header>
-                <MenuItem Command="{Binding ChooseDirectoryCommand}" Header="Choose Directory..."/>
+                <MenuItem Command="{Binding ChooseDirectoryCommand}" Header="Choose Directories..."/>
                 <MenuItem Command="{Binding ExportVnListCommand}"  Header="Export VN List..."/>
                 <MenuItem Command="{Binding OpenContainingFolderCommand}" Header="Open Containing Folder"/>
             </MenuItem>
@@ -149,7 +149,7 @@
                     <ToggleButton x:Name="ShowFavoritesButton" Command="{Binding HighlightFavoritesCommand}" Content="FAV" IsChecked="{Binding HighlightFavoritesChecked}" Height="25" Padding="0" Grid.Column="2" Style="{StaticResource ToggleMenuButton}"/>
                     <Button x:Name="RandomVnButton" Command="{Binding SelectRandomCommand}" Content="RND" Height="25" Padding="0" Grid.Column="3" Style="{StaticResource MenuButton}"/>
                 </Grid>
-                <ListView x:Name="VisualNovels" ItemsSource="{Binding ShownVisualNovels}" thirdParty:GridViewSort.AutoSort="True" Grid.IsSharedSizeScope="True" BorderBrush="#00000000" Background="#FF2E2E2E" Foreground="Black" IsSynchronizedWithCurrentItem="True" Grid.Row="1" Style="{DynamicResource VnListViewStyle}" SelectedItem="{Binding SelectedVisualNovel}" MouseDoubleClick="VnListMouseDoubleClick">
+                <ListView x:Name="VisualNovels" ItemsSource="{Binding ShownVisualNovels}" SelectedIndex="{Binding SelectedVisualNovelIndex}" thirdParty:GridViewSort.AutoSort="True" Grid.IsSharedSizeScope="True" BorderBrush="#00000000" Background="#FF2E2E2E" Foreground="Black" IsSynchronizedWithCurrentItem="True" Grid.Row="1" Style="{DynamicResource VnListViewStyle}" SelectedItem="{Binding SelectedVisualNovel}" MouseDoubleClick="VnListMouseDoubleClick">
                     <i:Interaction.Behaviors>
                         <thirdParty:ScrollIntoViewBehavior />
                     </i:Interaction.Behaviors>
@@ -232,7 +232,7 @@
                 </Grid>
                 <WindowsFormsHost Grid.Row="1">
                     <WindowsFormsHost.Child>
-                        <forms:WebBrowser x:Name="VnBrowser" Url="https://vndb.org" Navigated="VnBrowserNavigated" DocumentCompleted="VnBrowserLoadCompleted"/>
+                        <forms:WebBrowser x:Name="VnBrowser" Url="https://vndb.org" Navigating="VnBrowser_OnNavigating" Navigated="VnBrowserNavigated" DocumentCompleted="VnBrowserLoadCompleted"/>
                     </WindowsFormsHost.Child>
                 </WindowsFormsHost>
                 <!--<WebBrowser x:Name="VnBrowser" Grid.Row="1" Source="{Binding WebBrowserLink}"/>-->

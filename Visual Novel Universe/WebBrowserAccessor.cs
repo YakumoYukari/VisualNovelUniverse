@@ -105,7 +105,7 @@ namespace Visual_Novel_Universe
 
             if (WebBrowser.Document == null)
             {
-                Logger.Instance.LogError("HighlightOwnedVnsOnPage: Browser document is null.");
+                Logger.Instance.LogError("ShowConfirmationNeededMessage: Browser document is null.");
                 return;
             }
             
@@ -115,7 +115,30 @@ namespace Visual_Novel_Universe
                 .Where(he => he.InnerText == "Browse visual novels"))
             {
                 Element.Style = @"background-color:#000000;color:#FF0000";
-                Element.InnerText = " An exact match has not been found. Select the correct VN below and go to Data -> Confirm VN. ";
+                Element.InnerText = " Select the correct VN below (or change your search) and go to Data -> Confirm VN. ";
+            }
+        }
+
+        public static void AppendConfirmVnDirective()
+        {
+            if (!IsOnVndbPage()) return;
+
+            if (WebBrowser.Document == null)
+            {
+                Logger.Instance.LogError("AppendConfirmVnDirective: Browser document is null.");
+                return;
+            }
+
+            var HeaderElements = WebBrowser.Document.GetElementsByTagName("h1");
+
+            int Index = 0;
+            foreach (var Element in HeaderElements.Cast<HtmlElement>())
+            {
+                //I hate mshtml
+                Index++;
+                if (Index != 2) continue;
+                Element.InnerHtml += @"  <a href=""vnu://confirmvn"">Confirm Selected VN is This Entry</a>";
+                break;
             }
         }
     }

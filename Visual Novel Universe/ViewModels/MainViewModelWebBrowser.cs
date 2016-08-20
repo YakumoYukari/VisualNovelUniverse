@@ -64,9 +64,28 @@ namespace Visual_Novel_Universe.ViewModels
             WebBrowserAccessor.Navigate(BrowserAddressBarText.GetUri());
         }
 
+        public void OnWebBrowserNavigating(object sender, WebBrowserNavigatingEventArgs e)
+        {
+            if (!e.Url.AbsoluteUri.StartsWith("vnu://")) return;
+
+            e.Cancel = true;
+            ProcessDirective(e.Url.AbsoluteUri);
+        }
+
+        public void ProcessDirective(string DirectiveUrl)
+        {
+            if (!DirectiveUrl.StartsWith("vnu://")) return;
+
+            if (DirectiveUrl.StartsWith("vnu://confirmvn"))
+            {
+                SetVnInfo();
+            }
+        }
+
         public void OnWebBrowserNavigate(object sender, WebBrowserNavigatedEventArgs e)
         {
             if (e.Url == null) return;
+
             Logger.Instance.Log($"OnWebBrowserNavigate URL: {e.Url}");
             BrowserAddressBarText = e.Url.AbsoluteUri;
         }
@@ -88,7 +107,7 @@ namespace Visual_Novel_Universe.ViewModels
                 }
                 if (AutoGoToNextOption)
                 {
-                    SelectNextVn();
+                    SelectedVisualNovelIndex++;
                 }
             }
 
@@ -106,20 +125,28 @@ namespace Visual_Novel_Universe.ViewModels
                 WebBrowserAccessor.SetVndbTitleColor(Settings.Instance.VndbOwnedVnTitleColor, 14);
             }
 
+            if (SelectedVisualNovel != null && !SelectedVisualNovel.HasVnInfo)
+            {
+                WebBrowserAccessor.AppendConfirmVnDirective();
+            }
+
             if ((AutoGoToNextOption && Settings.Instance.AutoGoToNextOverwrites) || (SelectedVisualNovel != null && !SelectedVisualNovel.HasVnInfo && LookingForVndbEntry))
             {
                 SelectedVisualNovel = VisualNovelMerger.MergeLocalAndWeb(SelectedVisualNovel, VndbPageNovel);
                 VisualNovelLoader.Save(SelectedVisualNovel);
                 SaveCoverImage();
 
-                var Temp = SelectedVisualNovel;
-                LoadVnList();
-                SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                if (!AutoGoToNextOption)
+                {
+                    var Temp = SelectedVisualNovel;
+                    LoadVnList();
+                    SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                }
             }
 
-            if (AutoGoToNextOption)
+            if(AutoGoToNextOption)
             {
-                SelectNextVn();
+                SelectedVisualNovelIndex++;
             }
         }
     }

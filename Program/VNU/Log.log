@@ -892,3 +892,1593 @@
 8/20/2016 1:59:05 AM: Starting LoadVnList.
 8/20/2016 1:59:06 AM: Ending LoadVnList.
 8/20/2016 1:59:08 AM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:13:20 PM: Starting InitVnList
+8/20/2016 4:13:20 PM: Starting InitMenuBar
+8/20/2016 4:13:20 PM: Starting ReloadVnListColumns
+8/20/2016 4:13:20 PM: Starting LoadVnList
+8/20/2016 4:13:20 PM: Starting LoadVnList.
+8/20/2016 4:13:21 PM: Ending LoadVnList.
+8/20/2016 4:13:23 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:13:23 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:13:25 PM: Opening directories window.
+8/20/2016 4:13:59 PM: Starting LoadVnList.
+8/20/2016 4:13:59 PM: Ending LoadVnList.
+8/20/2016 4:14:09 PM: Opening directories window.
+8/20/2016 4:14:15 PM: Starting LoadVnList.
+8/20/2016 4:14:15 PM: Ending LoadVnList.
+8/20/2016 4:14:19 PM: Starting AutoGoToNext
+8/20/2016 4:14:19 PM: Selected visual novel changed to: Air
+8/20/2016 4:14:19 PM: Searching VNDB for Air
+8/20/2016 4:14:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:14:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:14:27 PM: Stopping AutoGoToNext (command)
+8/20/2016 4:17:13 PM: Starting InitVnList
+8/20/2016 4:17:13 PM: Starting InitMenuBar
+8/20/2016 4:17:13 PM: Starting ReloadVnListColumns
+8/20/2016 4:17:13 PM: Starting LoadVnList
+8/20/2016 4:17:13 PM: Starting LoadVnList.
+8/20/2016 4:17:13 PM: Ending LoadVnList.
+8/20/2016 4:17:14 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:17:15 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:17:17 PM: Starting AutoGoToNext
+8/20/2016 4:17:17 PM: Selected visual novel changed to: Air
+8/20/2016 4:17:17 PM: Searching VNDB for Air
+8/20/2016 4:17:17 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:17:17 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:34 PM: Starting InitVnList
+8/20/2016 4:18:34 PM: Starting InitMenuBar
+8/20/2016 4:18:34 PM: Starting ReloadVnListColumns
+8/20/2016 4:18:34 PM: Starting LoadVnList
+8/20/2016 4:18:34 PM: Starting LoadVnList.
+8/20/2016 4:18:34 PM: Ending LoadVnList.
+8/20/2016 4:18:35 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:18:36 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:18:37 PM: Starting AutoGoToNext
+8/20/2016 4:18:37 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:37 PM: Searching VNDB for Air
+8/20/2016 4:18:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:38 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:38 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:38 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:18:38 PM: Searching VNDB for Clannad
+8/20/2016 4:18:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:38 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:38 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:39 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:39 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:39 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:39 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:40 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:40 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:40 PM: Searching VNDB for Air
+8/20/2016 4:18:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:41 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:41 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:41 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:18:41 PM: Searching VNDB for Clannad
+8/20/2016 4:18:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:42 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:42 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:42 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:42 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:42 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:42 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:42 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:43 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:43 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:43 PM: Searching VNDB for Air
+8/20/2016 4:18:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:43 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:43 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:43 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:44 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:44 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:18:44 PM: Searching VNDB for Clannad
+8/20/2016 4:18:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:44 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:44 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:44 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:45 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:45 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:45 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:45 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:45 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:45 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:45 PM: Searching VNDB for Air
+8/20/2016 4:18:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:46 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:46 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:46 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:18:46 PM: Searching VNDB for Clannad
+8/20/2016 4:18:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:47 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:47 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:47 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:47 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:47 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:47 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:47 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:48 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:48 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:48 PM: Searching VNDB for Air
+8/20/2016 4:18:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:48 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:48 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:49 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:49 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:18:49 PM: Searching VNDB for Clannad
+8/20/2016 4:18:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:49 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:18:49 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:49 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:50 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:50 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:50 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:50 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:50 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:50 PM: Selected visual novel changed to: Air
+8/20/2016 4:18:50 PM: Searching VNDB for Air
+8/20/2016 4:18:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:18:51 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:18:51 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:18:51 PM: Stopping AutoGoToNext (command)
+8/20/2016 4:18:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:18:54 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:54 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:54 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:54 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:18:54 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:54 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:54 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:18:55 PM: Starting LoadVnList.
+8/20/2016 4:18:55 PM: Ending LoadVnList.
+8/20/2016 4:18:55 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:18:55 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:18:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:18:55 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:19:43 PM: Starting InitVnList
+8/20/2016 4:19:43 PM: Starting InitMenuBar
+8/20/2016 4:19:43 PM: Starting ReloadVnListColumns
+8/20/2016 4:19:43 PM: Starting LoadVnList
+8/20/2016 4:19:43 PM: Starting LoadVnList.
+8/20/2016 4:19:43 PM: Ending LoadVnList.
+8/20/2016 4:19:44 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:19:45 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:19:46 PM: Starting AutoGoToNext
+8/20/2016 4:19:46 PM: Selected visual novel changed to: Air
+8/20/2016 4:19:46 PM: Searching VNDB for Air
+8/20/2016 4:19:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:47 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:47 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:19:47 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:19:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:47 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:47 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:19:47 PM: Searching VNDB for Clannad
+8/20/2016 4:19:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:48 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:19:48 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:19:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:19:48 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:19:48 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:48 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:19:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:19:49 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:19:49 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:49 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:19:49 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:19:50 PM: Selected visual novel changed to: Air
+8/20/2016 4:19:50 PM: Searching VNDB for Air
+8/20/2016 4:19:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:50 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:50 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:19:50 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:19:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:51 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:19:51 PM: Searching VNDB for Clannad
+8/20/2016 4:19:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:51 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:19:51 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:19:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:19:52 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:19:52 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:52 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:19:52 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:19:52 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:19:52 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:52 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:19:52 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:19:53 PM: Selected visual novel changed to: Air
+8/20/2016 4:19:53 PM: Searching VNDB for Air
+8/20/2016 4:19:53 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:53 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:53 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:19:53 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:19:53 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:53 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:19:53 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:19:53 PM: Searching VNDB for Clannad
+8/20/2016 4:19:54 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:54 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:19:54 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:19:54 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:19:54 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:19:54 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:19:54 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:54 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:19:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:19:55 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:19:55 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:19:55 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:19:55 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:19:55 PM: Selected visual novel changed to: Air
+8/20/2016 4:19:55 PM: Searching VNDB for Air
+8/20/2016 4:19:55 PM: Stopping AutoGoToNext (command)
+8/20/2016 4:19:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:19:56 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:20:41 PM: Starting InitVnList
+8/20/2016 4:20:41 PM: Starting InitMenuBar
+8/20/2016 4:20:41 PM: Starting ReloadVnListColumns
+8/20/2016 4:20:41 PM: Starting LoadVnList
+8/20/2016 4:20:41 PM: Starting LoadVnList.
+8/20/2016 4:20:41 PM: Ending LoadVnList.
+8/20/2016 4:20:43 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:20:43 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:20:44 PM: Starting AutoGoToNext
+8/20/2016 4:20:44 PM: Selected visual novel changed to: Air
+8/20/2016 4:20:44 PM: Searching VNDB for Air
+8/20/2016 4:20:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:20:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:20:47 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:20:47 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:20:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:20:47 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:20:48 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:20:48 PM: Searching VNDB for Clannad
+8/20/2016 4:20:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:20:49 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:20:49 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:20:49 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:20:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:20:49 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:20:55 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:20:55 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:20:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:20:55 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:21:20 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:21:20 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:22:05 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:16 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:22:16 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:22:22 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:22 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:22 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:22:22 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:22:22 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:22 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:22 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:22:22 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:22:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:23 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:23 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:22:23 PM: Searching VNDB for Planetarian
+8/20/2016 4:22:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:23 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:23 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:22:23 PM: Searching VNDB for Rewrite
+8/20/2016 4:22:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:23 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:23 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:23 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:22:24 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:22:24 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:22:24 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:24 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:22:24 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 4:22:25 PM: Selected visual novel changed to: Air
+8/20/2016 4:22:25 PM: Searching VNDB for Air
+8/20/2016 4:22:25 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:25 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:25 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:22:25 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:22:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:26 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:26 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:22:26 PM: Searching VNDB for Clannad
+8/20/2016 4:22:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:26 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:26 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:22:26 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:22:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:22:26 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:22:26 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:22:26 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:22:27 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:22:27 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:22:27 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:22:27 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:22:27 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:27 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:27 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:22:27 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:22:27 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:28 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:28 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:22:28 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:22:28 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:28 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:28 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:22:28 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:22:28 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:28 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:28 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:22:28 PM: Searching VNDB for Planetarian
+8/20/2016 4:22:29 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:29 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:29 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:22:29 PM: Searching VNDB for Rewrite
+8/20/2016 4:22:29 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:29 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:29 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:29 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:22:29 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:22:30 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:22:30 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:30 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 4:22:30 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 4:22:30 PM: Selected visual novel changed to: Air
+8/20/2016 4:22:30 PM: Searching VNDB for Air
+8/20/2016 4:22:30 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:30 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:30 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:22:30 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:22:31 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:31 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:31 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:22:31 PM: Searching VNDB for Clannad
+8/20/2016 4:22:31 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:31 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:31 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:22:31 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:22:32 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:22:32 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:22:32 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:22:32 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:22:32 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:22:32 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:22:32 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:22:32 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:22:32 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:32 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:32 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:22:32 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:22:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:33 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:33 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:22:33 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:22:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:33 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:33 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:22:33 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:22:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:33 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:22:33 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:22:33 PM: Searching VNDB for Planetarian
+8/20/2016 4:22:34 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:22:34 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:22:34 PM: Searching VNDB for Rewrite
+8/20/2016 4:22:34 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:22:34 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:34 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:22:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:22:35 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:22:35 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:22:35 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 4:22:35 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 4:22:35 PM: Selected visual novel changed to: Air
+8/20/2016 4:22:35 PM: Searching VNDB for Air
+8/20/2016 4:22:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:22:36 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:22:36 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:22:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:22:36 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:22:36 PM: Searching VNDB for Clannad
+8/20/2016 4:22:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:22:37 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:22:37 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:22:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:22:37 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:22:37 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:22:37 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:22:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:22:37 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:22:37 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:22:37 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:22:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:22:38 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:22:38 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:22:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:22:38 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:22:38 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:22:38 PM: Stopping AutoGoToNext (command)
+8/20/2016 4:22:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:22:39 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:26:38 PM: Starting InitVnList
+8/20/2016 4:26:38 PM: Starting InitMenuBar
+8/20/2016 4:26:38 PM: Starting ReloadVnListColumns
+8/20/2016 4:26:38 PM: Starting LoadVnList
+8/20/2016 4:26:38 PM: Starting LoadVnList.
+8/20/2016 4:26:38 PM: Ending LoadVnList.
+8/20/2016 4:26:39 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:26:39 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:26:42 PM: Starting AutoGoToNext
+8/20/2016 4:26:42 PM: Selected visual novel changed to: Air
+8/20/2016 4:26:42 PM: Searching VNDB for Air
+8/20/2016 4:26:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:26:42 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:26:42 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:26:42 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:26:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:26:42 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:26:42 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:26:42 PM: Searching VNDB for Clannad
+8/20/2016 4:26:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:26:43 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:26:43 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:26:43 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:26:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:26:43 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:26:43 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:26:43 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:26:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:26:44 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:26:44 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:26:44 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:26:44 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:26:44 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:26:44 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:26:45 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:26:45 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:26:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:26:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:26:45 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:26:45 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:26:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:26:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:26:45 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:26:45 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:26:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:26:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:26:46 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:26:46 PM: Searching VNDB for Planetarian
+8/20/2016 4:26:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:26:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:26:46 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:26:46 PM: Searching VNDB for Rewrite
+8/20/2016 4:26:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:26:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:26:46 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:26:46 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 4:26:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:26:47 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:26:47 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:26:47 PM: Searching VNDB for Symphonic Rain
+8/20/2016 4:26:47 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:26:47 PM: Searching VNDB for Symphonic Rain
+8/20/2016 4:26:47 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 4:26:47 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:26:47 PM: Searching VNDB for Tsukihime
+8/20/2016 4:26:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:26:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:26:48 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:26:48 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:26:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:26:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:26:48 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:26:48 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:26:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:26:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:26:59 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:26:59 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:26:59 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:00 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:00 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:27:00 PM: Searching VNDB for Planetarian
+8/20/2016 4:27:00 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:27:00 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:27:01 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:27:01 PM: Searching VNDB for Symphonic Rain
+8/20/2016 4:27:02 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 4:27:02 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 4:27:02 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:27:02 PM: Going to known address: https://vndb.org/v38
+8/20/2016 4:27:02 PM: Saving cover image from https://vndb.org/v38.
+8/20/2016 4:27:02 PM: Starting LoadVnList.
+8/20/2016 4:27:02 PM: Ending LoadVnList.
+8/20/2016 4:27:02 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:27:02 PM: Going to known address: https://vndb.org/v38
+8/20/2016 4:27:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 4:27:03 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 4:27:04 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:27:04 PM: Searching VNDB for Tsukihime
+8/20/2016 4:27:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:27:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:27:05 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:05 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:05 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:07 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:27:07 PM: Searching VNDB for Rewrite
+8/20/2016 4:27:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:27:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:27:07 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:27:07 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:27:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:08 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:09 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:27:09 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:27:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:27:09 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:27:09 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:27:09 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:27:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:27:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:27:10 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:27:10 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:27:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:27:11 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:27:11 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:27:11 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:27:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:27:11 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:27:11 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:27:11 PM: Searching VNDB for Clannad
+8/20/2016 4:27:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:12 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:27:12 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:27:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:13 PM: Selected visual novel changed to: Air
+8/20/2016 4:27:13 PM: Searching VNDB for Air
+8/20/2016 4:27:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:13 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:14 PM: Starting AutoGoToNext
+8/20/2016 4:27:14 PM: Selected visual novel changed to: Air
+8/20/2016 4:27:14 PM: Searching VNDB for Air
+8/20/2016 4:27:14 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:15 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:15 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:27:15 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:27:15 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:15 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:15 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:27:15 PM: Searching VNDB for Clannad
+8/20/2016 4:27:15 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:15 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:15 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:27:15 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:27:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:27:16 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:27:16 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:27:16 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:27:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:27:16 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:27:16 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:27:16 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:27:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:27:17 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:27:17 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:27:17 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:27:17 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:27:17 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:27:17 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:27:17 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:27:17 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:27:18 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:27:18 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:27:18 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:27:18 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:27:18 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:18 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:27:18 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:27:18 PM: Searching VNDB for Planetarian
+8/20/2016 4:27:18 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:27:18 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:27:18 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:27:18 PM: Searching VNDB for Rewrite
+8/20/2016 4:27:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:27:19 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:27:19 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:27:19 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 4:27:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:27:19 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:27:19 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:27:19 PM: Going to known address: https://vndb.org/v38
+8/20/2016 4:27:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 4:27:20 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 4:27:20 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:27:20 PM: Searching VNDB for Tsukihime
+8/20/2016 4:27:20 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:27:20 PM: Searching VNDB for Tsukihime
+8/20/2016 4:27:20 PM: Saving cover image from https://vndb.org/v38.
+8/20/2016 4:27:20 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:20 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:20 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:27:20 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:27:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:27:21 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:27:37 PM: Selected visual novel changed to: Air
+8/20/2016 4:27:37 PM: Searching VNDB for Air
+8/20/2016 4:27:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:27:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v36
+8/20/2016 4:27:39 PM: Load completed on VNDB page: https://vndb.org/v36
+8/20/2016 4:27:40 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Air to match Air.
+8/20/2016 4:27:40 PM: Selected visual novel changed to: Air
+8/20/2016 4:27:40 PM: Searching VNDB for Air
+8/20/2016 4:27:40 PM: Saving cover image from https://vndb.org/v36.
+8/20/2016 4:27:41 PM: Starting LoadVnList.
+8/20/2016 4:27:41 PM: Ending LoadVnList.
+8/20/2016 4:27:41 PM: Selected visual novel changed to: Air
+8/20/2016 4:27:41 PM: Going to known address: https://vndb.org/v36
+8/20/2016 4:27:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v36
+8/20/2016 4:27:41 PM: Load completed on VNDB page: https://vndb.org/v36
+8/20/2016 4:27:42 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:27:42 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:27:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:44 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:27:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v382
+8/20/2016 4:27:48 PM: Load completed on VNDB page: https://vndb.org/v382
+8/20/2016 4:27:48 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Chaos;Head to match Chaos;Head.
+8/20/2016 4:27:48 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:27:48 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:27:48 PM: Saving cover image from https://vndb.org/v382.
+8/20/2016 4:27:49 PM: Starting LoadVnList.
+8/20/2016 4:27:49 PM: Ending LoadVnList.
+8/20/2016 4:27:49 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:27:49 PM: Going to known address: https://vndb.org/v382
+8/20/2016 4:27:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v382
+8/20/2016 4:27:49 PM: Load completed on VNDB page: https://vndb.org/v382
+8/20/2016 4:27:50 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:27:50 PM: Searching VNDB for Clannad
+8/20/2016 4:27:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:27:53 PM: OnWebBrowserNavigate URL: https://vndb.org/v4
+8/20/2016 4:27:53 PM: Load completed on VNDB page: https://vndb.org/v4
+8/20/2016 4:27:57 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Clannad to match Clannad.
+8/20/2016 4:27:57 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:27:57 PM: Searching VNDB for Clannad
+8/20/2016 4:27:57 PM: Saving cover image from https://vndb.org/v4.
+8/20/2016 4:27:57 PM: Starting LoadVnList.
+8/20/2016 4:27:57 PM: Ending LoadVnList.
+8/20/2016 4:27:57 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:27:57 PM: Going to known address: https://vndb.org/v4
+8/20/2016 4:27:58 PM: OnWebBrowserNavigate URL: https://vndb.org/v4
+8/20/2016 4:27:58 PM: Load completed on VNDB page: https://vndb.org/v4
+8/20/2016 4:27:58 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:58 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:58 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:27:59 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:28:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Clannad&fil=&rfil=
+8/20/2016 4:28:03 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Clannad&fil=&rfil=
+8/20/2016 4:28:06 PM: OnWebBrowserNavigate URL: https://vndb.org/v5698
+8/20/2016 4:28:07 PM: Load completed on VNDB page: https://vndb.org/v5698
+8/20/2016 4:28:12 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Umineko no Naku Koro ni Chiru to match Clannad: Lost "Winter".
+8/20/2016 4:28:12 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:28:12 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:28:12 PM: Saving cover image from https://vndb.org/v5698.
+8/20/2016 4:28:13 PM: Starting LoadVnList.
+8/20/2016 4:28:13 PM: Ending LoadVnList.
+8/20/2016 4:28:13 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:28:13 PM: Going to known address: https://vndb.org/v5698
+8/20/2016 4:28:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v5698
+8/20/2016 4:28:13 PM: Load completed on VNDB page: https://vndb.org/v5698
+8/20/2016 4:28:30 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:28:30 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:28:30 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:28:30 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:28:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+8/20/2016 4:28:36 PM: Load completed on VNDB page: https://vndb.org/v11
+8/20/2016 4:28:39 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Stay Night to match Fate/Stay Night.
+8/20/2016 4:28:39 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:28:39 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:28:39 PM: Saving cover image from https://vndb.org/v11.
+8/20/2016 4:28:39 PM: Starting LoadVnList.
+8/20/2016 4:28:39 PM: Ending LoadVnList.
+8/20/2016 4:28:39 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:28:40 PM: Going to known address: https://vndb.org/v11
+8/20/2016 4:28:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+8/20/2016 4:28:40 PM: Load completed on VNDB page: https://vndb.org/v11
+8/20/2016 4:28:41 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:28:41 PM: Searching VNDB for Planetarian
+8/20/2016 4:28:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:28:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:28:46 PM: Opening cover grid with 12 VNs
+8/20/2016 4:28:51 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:28:51 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:28:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:28:51 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:29:19 PM: Selected visual novel changed to: Air
+8/20/2016 4:29:19 PM: Going to known address: https://vndb.org/v36
+8/20/2016 4:29:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v36
+8/20/2016 4:29:19 PM: Load completed on VNDB page: https://vndb.org/v36
+8/20/2016 4:35:58 PM: Starting InitVnList
+8/20/2016 4:35:58 PM: Starting InitMenuBar
+8/20/2016 4:35:58 PM: Starting ReloadVnListColumns
+8/20/2016 4:35:58 PM: Starting LoadVnList
+8/20/2016 4:35:58 PM: Starting LoadVnList.
+8/20/2016 4:35:58 PM: Ending LoadVnList.
+8/20/2016 4:36:00 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:36:00 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:36:15 PM: Starting AutoGoToNext
+8/20/2016 4:36:15 PM: Selected visual novel changed to: Air
+8/20/2016 4:36:15 PM: Searching VNDB for Air
+8/20/2016 4:36:15 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:36:16 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:36:16 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:36:16 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:36:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:36:16 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:36:16 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:36:16 PM: Searching VNDB for Clannad
+8/20/2016 4:36:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:36:17 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:36:17 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:36:17 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:36:17 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:36:17 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:36:17 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:36:17 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:36:17 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 4:36:18 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:36:18 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:36:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:36:19 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:36:19 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:36:19 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 4:36:19 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:36:19 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:36:19 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:36:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:36:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 4:36:20 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:36:20 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:36:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:36:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:36:20 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:36:20 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:36:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:36:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:36:20 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:36:20 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:36:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:36:21 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:36:21 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:36:21 PM: Searching VNDB for Planetarian
+8/20/2016 4:36:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:36:22 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:36:22 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:36:22 PM: Searching VNDB for Rewrite
+8/20/2016 4:36:22 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:36:22 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:36:22 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:36:22 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:36:22 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:36:23 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:36:23 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:36:23 PM: Searching VNDB for Rose Guns Days
+8/20/2016 4:36:23 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 4:36:23 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:36:23 PM: Searching VNDB for Symphonic Rain
+8/20/2016 4:36:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 4:36:23 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 4:36:23 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:36:23 PM: Searching VNDB for Symphonic Rain
+8/20/2016 4:36:24 PM: Saving cover image from https://vndb.org/v38.
+8/20/2016 4:36:24 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:36:24 PM: Searching VNDB for Tsukihime
+8/20/2016 4:36:24 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:36:24 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 4:36:24 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:36:24 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:36:24 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:36:25 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:36:25 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:36:25 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:36:25 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:36:25 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:09 PM: Starting LoadVnList.
+8/20/2016 4:37:09 PM: Ending LoadVnList.
+8/20/2016 4:37:28 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:28 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:28 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:29 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Yuki+Yuuna&fil=&rfil=
+8/20/2016 4:37:33 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Yuki+Yuuna&fil=&rfil=
+8/20/2016 4:37:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Yuuki+Yuuna&fil=&rfil=
+8/20/2016 4:37:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Yuuki+Yuuna&fil=&rfil=
+8/20/2016 4:37:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 4:37:39 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 4:37:41 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Yuki Yuuna wa Yuusha de Aru to match Yuuki Yuuna wa Yuusha de Aru.
+8/20/2016 4:37:41 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:41 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:41 PM: Saving cover image from https://vndb.org/v16448.
+8/20/2016 4:37:41 PM: Starting LoadVnList.
+8/20/2016 4:37:41 PM: Ending LoadVnList.
+8/20/2016 4:37:41 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:37:41 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 4:37:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 4:37:41 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 4:41:46 PM: Starting InitVnList
+8/20/2016 4:41:46 PM: Starting InitMenuBar
+8/20/2016 4:41:46 PM: Starting ReloadVnListColumns
+8/20/2016 4:41:46 PM: Starting LoadVnList
+8/20/2016 4:41:46 PM: Starting LoadVnList.
+8/20/2016 4:41:47 PM: Ending LoadVnList.
+8/20/2016 4:46:17 PM: Starting InitVnList
+8/20/2016 4:46:17 PM: Starting InitMenuBar
+8/20/2016 4:46:17 PM: Starting ReloadVnListColumns
+8/20/2016 4:46:17 PM: Starting LoadVnList
+8/20/2016 4:46:17 PM: Starting LoadVnList.
+8/20/2016 4:46:17 PM: Ending LoadVnList.
+8/20/2016 4:46:18 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:46:19 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:46:23 PM: Selected visual novel changed to: Air
+8/20/2016 4:46:23 PM: Searching VNDB for Air
+8/20/2016 4:46:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:46:23 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:48:04 PM: Starting InitVnList
+8/20/2016 4:48:04 PM: Starting InitMenuBar
+8/20/2016 4:48:04 PM: Starting ReloadVnListColumns
+8/20/2016 4:48:04 PM: Starting LoadVnList
+8/20/2016 4:48:04 PM: Starting LoadVnList.
+8/20/2016 4:48:04 PM: Ending LoadVnList.
+8/20/2016 4:48:05 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:48:05 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:48:07 PM: Selected visual novel changed to: Air
+8/20/2016 4:48:07 PM: Searching VNDB for Air
+8/20/2016 4:48:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:48:08 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:48:43 PM: Starting InitVnList
+8/20/2016 4:48:43 PM: Starting InitMenuBar
+8/20/2016 4:48:43 PM: Starting ReloadVnListColumns
+8/20/2016 4:48:43 PM: Starting LoadVnList
+8/20/2016 4:48:43 PM: Starting LoadVnList.
+8/20/2016 4:48:44 PM: Ending LoadVnList.
+8/20/2016 4:48:45 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:48:45 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:54:02 PM: Starting InitVnList
+8/20/2016 4:54:02 PM: Starting InitMenuBar
+8/20/2016 4:54:02 PM: Starting ReloadVnListColumns
+8/20/2016 4:54:02 PM: Starting LoadVnList
+8/20/2016 4:54:02 PM: Starting LoadVnList.
+8/20/2016 4:54:02 PM: Ending LoadVnList.
+8/20/2016 4:54:04 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:54:04 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:54:06 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:54:06 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 4:54:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 4:54:07 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 4:54:07 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:54:07 PM: Searching VNDB for Rewrite
+8/20/2016 4:54:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:54:08 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 4:54:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 4:54:09 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 4:54:10 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Rewrite to match Rewrite.
+8/20/2016 4:54:10 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:54:10 PM: Searching VNDB for Rewrite
+8/20/2016 4:54:10 PM: Saving cover image from https://vndb.org/v751.
+8/20/2016 4:54:11 PM: Starting LoadVnList.
+8/20/2016 4:54:12 PM: Ending LoadVnList.
+8/20/2016 4:54:12 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:54:12 PM: Going to known address: https://vndb.org/v751
+8/20/2016 4:54:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 4:54:12 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 4:54:15 PM: Starting LoadVnList.
+8/20/2016 4:54:15 PM: Ending LoadVnList.
+8/20/2016 4:54:16 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:54:16 PM: Going to known address: https://vndb.org/v751
+8/20/2016 4:54:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 4:54:17 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 4:54:19 PM: Starting AutoGoToNext
+8/20/2016 4:54:19 PM: Starting LoadVnList.
+8/20/2016 4:54:19 PM: Ending LoadVnList.
+8/20/2016 4:54:19 PM: Selected visual novel changed to: Air
+8/20/2016 4:54:19 PM: Searching VNDB for Air
+8/20/2016 4:54:19 PM: Starting LoadVnList.
+8/20/2016 4:54:19 PM: Ending LoadVnList.
+8/20/2016 4:54:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:54:19 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:54:21 PM: Selected visual novel changed to: Air
+8/20/2016 4:54:21 PM: Searching VNDB for Air
+8/20/2016 4:54:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:54:22 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:54:23 PM: Starting AutoGoToNext
+8/20/2016 4:54:23 PM: Starting LoadVnList.
+8/20/2016 4:54:23 PM: Ending LoadVnList.
+8/20/2016 4:54:23 PM: Selected visual novel changed to: Air
+8/20/2016 4:54:23 PM: Searching VNDB for Air
+8/20/2016 4:54:23 PM: Starting LoadVnList.
+8/20/2016 4:54:23 PM: Ending LoadVnList.
+8/20/2016 4:54:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:54:23 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:55:02 PM: Starting InitVnList
+8/20/2016 4:55:02 PM: Starting InitMenuBar
+8/20/2016 4:55:02 PM: Starting ReloadVnListColumns
+8/20/2016 4:55:02 PM: Starting LoadVnList
+8/20/2016 4:55:02 PM: Starting LoadVnList.
+8/20/2016 4:55:02 PM: Ending LoadVnList.
+8/20/2016 4:55:03 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 4:55:03 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 4:55:05 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:55:05 PM: Searching VNDB for Planetarian
+8/20/2016 4:55:05 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:55:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:55:06 PM: Starting AutoGoToNext
+8/20/2016 4:55:06 PM: Starting LoadVnList.
+8/20/2016 4:55:06 PM: Ending LoadVnList.
+8/20/2016 4:55:06 PM: Selected visual novel changed to: Air
+8/20/2016 4:55:06 PM: Searching VNDB for Air
+8/20/2016 4:55:06 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 4:55:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 4:55:07 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 4:55:07 PM: Searching VNDB for Chaos;Head
+8/20/2016 4:55:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:55:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 4:55:07 PM: Selected visual novel changed to: Clannad
+8/20/2016 4:55:07 PM: Searching VNDB for Clannad
+8/20/2016 4:55:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:55:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 4:55:07 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 4:55:07 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 4:55:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 4:55:08 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 4:55:08 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 4:55:08 PM: Going to known address: https://vndb.org/v17
+8/20/2016 4:55:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 4:55:08 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 4:55:08 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:55:08 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:55:08 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 4:55:08 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 4:55:08 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 4:55:09 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:55:09 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:55:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:55:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:55:10 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 4:55:10 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 4:55:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:55:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 4:55:10 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 4:55:10 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 4:55:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:55:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 4:55:10 PM: Selected visual novel changed to: Planetarian
+8/20/2016 4:55:10 PM: Searching VNDB for Planetarian
+8/20/2016 4:55:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:55:11 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 4:55:11 PM: Selected visual novel changed to: Rewrite
+8/20/2016 4:55:11 PM: Going to known address: https://vndb.org/v751
+8/20/2016 4:55:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 4:55:11 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 4:55:11 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 4:55:11 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 4:55:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 4:55:12 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 4:55:12 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 4:55:12 PM: Going to known address: https://vndb.org/v38
+8/20/2016 4:55:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 4:55:12 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 4:55:12 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:55:12 PM: Searching VNDB for Tsukihime
+8/20/2016 4:55:12 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 4:55:12 PM: Searching VNDB for Tsukihime
+8/20/2016 4:55:12 PM: Saving cover image from https://vndb.org/v38.
+8/20/2016 4:55:12 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:12 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:13 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:13 PM: Starting LoadVnList.
+8/20/2016 4:55:13 PM: Ending LoadVnList.
+8/20/2016 4:55:17 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 4:55:17 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 4:55:17 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:55:18 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 4:55:19 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 4:55:19 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 4:55:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 4:55:19 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 4:55:20 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:20 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:55:21 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 4:58:05 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Fata+morgana+no+yakata&fil=&rfil=
+8/20/2016 4:58:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Fata+morgana+no+yakata&fil=&rfil=
+8/20/2016 4:58:10 PM: Starting LoadVnList.
+8/20/2016 4:58:10 PM: Ending LoadVnList.
+8/20/2016 5:04:21 PM: Opening settings.
+8/20/2016 5:06:35 PM: Starting InitVnList
+8/20/2016 5:06:35 PM: Starting InitMenuBar
+8/20/2016 5:06:35 PM: Starting ReloadVnListColumns
+8/20/2016 5:06:35 PM: Starting LoadVnList
+8/20/2016 5:06:35 PM: Starting LoadVnList.
+8/20/2016 5:06:35 PM: Ending LoadVnList.
+8/20/2016 5:06:36 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 5:06:37 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 5:06:40 PM: Starting AutoGoToNext
+8/20/2016 5:06:40 PM: Selected visual novel changed to: Air
+8/20/2016 5:06:40 PM: Searching VNDB for Air
+8/20/2016 5:06:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:06:40 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:06:40 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 5:06:40 PM: Searching VNDB for Chaos;Head
+8/20/2016 5:06:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:06:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:06:41 PM: Selected visual novel changed to: Clannad
+8/20/2016 5:06:41 PM: Searching VNDB for Clannad
+8/20/2016 5:06:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:06:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:06:41 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:06:41 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:06:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 5:06:42 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 5:06:42 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:06:42 PM: Searching VNDB for Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:06:42 PM: Saving cover image from https://vndb.org/v4037.
+8/20/2016 5:06:43 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:06:43 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 5:06:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:06:44 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:06:44 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:06:44 PM: Searching VNDB for Ever17 -The Out of Infinity-
+8/20/2016 5:06:44 PM: Saving cover image from https://vndb.org/v17.
+8/20/2016 5:06:44 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:06:44 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:06:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:06:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:06:45 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:06:45 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:06:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:06:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:06:45 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:06:45 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:06:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:06:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:06:45 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:06:45 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:06:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:06:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:06:46 PM: Selected visual novel changed to: Planetarian
+8/20/2016 5:06:46 PM: Searching VNDB for Planetarian
+8/20/2016 5:06:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:06:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:06:46 PM: Selected visual novel changed to: Rewrite
+8/20/2016 5:06:46 PM: Searching VNDB for Rewrite
+8/20/2016 5:06:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:06:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:06:46 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:06:46 PM: Searching VNDB for Rose Guns Days
+8/20/2016 5:06:47 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 5:06:47 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 5:06:47 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:06:47 PM: Searching VNDB for Rose Guns Days
+8/20/2016 5:06:47 PM: Saving cover image from https://vndb.org/v9678.
+8/20/2016 5:06:47 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:06:47 PM: Searching VNDB for Symphonic Rain
+8/20/2016 5:06:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 5:06:48 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 5:06:48 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:06:48 PM: Searching VNDB for Symphonic Rain
+8/20/2016 5:06:48 PM: Saving cover image from https://vndb.org/v38.
+8/20/2016 5:06:48 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 5:06:48 PM: Searching VNDB for Tsukihime
+8/20/2016 5:06:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:06:49 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:06:49 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:06:49 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:06:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:06:49 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:06:49 PM: Starting LoadVnList.
+8/20/2016 5:06:49 PM: Ending LoadVnList.
+8/20/2016 5:06:53 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:06:54 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:06:54 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:06:54 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:06:58 PM: Starting AutoGoToNext
+8/20/2016 5:06:58 PM: Starting LoadVnList.
+8/20/2016 5:06:58 PM: Ending LoadVnList.
+8/20/2016 5:06:58 PM: Selected visual novel changed to: Air
+8/20/2016 5:06:58 PM: Searching VNDB for Air
+8/20/2016 5:06:59 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:06:59 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:06:59 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 5:06:59 PM: Searching VNDB for Chaos;Head
+8/20/2016 5:07:00 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:07:00 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:07:00 PM: Selected visual novel changed to: Clannad
+8/20/2016 5:07:00 PM: Searching VNDB for Clannad
+8/20/2016 5:07:00 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:07:00 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:07:00 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:07:00 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 5:07:00 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 5:07:00 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 5:07:01 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:07:01 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:07:01 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:07:01 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:07:01 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:07:01 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:07:01 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:01 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:01 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:07:01 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:07:02 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:07:02 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:07:02 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:07:02 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:07:02 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:07:02 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:07:02 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:07:02 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:07:02 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:07:02 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:07:02 PM: Selected visual novel changed to: Planetarian
+8/20/2016 5:07:02 PM: Searching VNDB for Planetarian
+8/20/2016 5:07:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:07:03 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:07:03 PM: Selected visual novel changed to: Rewrite
+8/20/2016 5:07:03 PM: Searching VNDB for Rewrite
+8/20/2016 5:07:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:07:03 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:07:03 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:07:03 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 5:07:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 5:07:03 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 5:07:03 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:07:03 PM: Going to known address: https://vndb.org/v38
+8/20/2016 5:07:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 5:07:04 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 5:07:04 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 5:07:04 PM: Searching VNDB for Tsukihime
+8/20/2016 5:07:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:07:04 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:07:04 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:07:04 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:07:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:07:05 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:07:05 PM: Starting LoadVnList.
+8/20/2016 5:07:05 PM: Ending LoadVnList.
+8/20/2016 5:07:09 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:07:09 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:07:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:11 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:07:11 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:07:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:07:12 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:07:12 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:07:12 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 5:07:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 5:07:13 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 5:07:13 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:07:13 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:07:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:07:13 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:07:14 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:07:14 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:07:14 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:14 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:07:17 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:07:17 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:07:17 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:07:18 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:07:21 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:07:21 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:07:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:07:21 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:07:24 PM: Selected visual novel changed to: Rewrite
+8/20/2016 5:07:24 PM: Searching VNDB for Rewrite
+8/20/2016 5:07:24 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:07:24 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:07:26 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:07:26 PM: Going to known address: https://vndb.org/v38
+8/20/2016 5:07:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 5:07:27 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 5:07:57 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:07:57 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 5:07:57 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 5:07:57 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 5:08:02 PM: Mass renaming to English.
+8/20/2016 5:08:03 PM: Selected visual novel changed to: Air
+8/20/2016 5:08:03 PM: Searching VNDB for Air
+8/20/2016 5:08:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:08:03 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:08:04 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:08:04 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:08:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:08:04 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:08:11 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:08:11 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:08:11 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:11 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Yuuki+Yuuna+wa+Yuusha+de+Aru&fil=&rfil=
+8/20/2016 5:08:16 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Yuuki+Yuuna+wa+Yuusha+de+Aru&fil=&rfil=
+8/20/2016 5:08:27 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 5:08:27 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 5:08:29 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Yuki Yuuna wa Yuusha de Aru to match Yuuki Yuuna wa Yuusha de Aru.
+8/20/2016 5:08:29 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:29 PM: Searching VNDB for Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:29 PM: Saving cover image from https://vndb.org/v16448.
+8/20/2016 5:08:30 PM: Starting LoadVnList.
+8/20/2016 5:08:30 PM: Ending LoadVnList.
+8/20/2016 5:08:30 PM: Selected visual novel changed to: Yuki Yuuna wa Yuusha de Aru
+8/20/2016 5:08:30 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 5:08:30 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 5:08:30 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 5:08:32 PM: Mass renaming to English.
+8/20/2016 5:08:38 PM: Selected visual novel changed to: Planetarian
+8/20/2016 5:08:38 PM: Searching VNDB for Planetarian
+8/20/2016 5:08:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:08:39 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:08:39 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:08:39 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:08:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:08:39 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:08:40 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:08:40 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:08:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:08:40 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:08:41 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:08:41 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:08:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:08:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:08:50 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:08:50 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:08:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:08:50 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:08:51 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:08:51 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:08:52 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:08:52 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:13:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+8/20/2016 5:13:49 PM: Load completed on VNDB page: https://vndb.org/v11
+8/20/2016 5:13:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:13:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:19:25 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:19:25 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 5:19:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 5:19:26 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 5:19:30 PM: Starting LoadVnList.
+8/20/2016 5:19:30 PM: Ending LoadVnList.
+8/20/2016 5:19:33 PM: Starting AutoGoToNext
+8/20/2016 5:19:33 PM: Selected visual novel changed to: Air
+8/20/2016 5:19:33 PM: Searching VNDB for Air
+8/20/2016 5:19:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:19:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:19:34 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 5:19:34 PM: Searching VNDB for Chaos;Head
+8/20/2016 5:19:34 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:19:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:19:34 PM: Selected visual novel changed to: Clannad
+8/20/2016 5:19:34 PM: Searching VNDB for Clannad
+8/20/2016 5:19:34 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:19:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:19:34 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:19:34 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 5:19:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 5:19:35 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 5:19:35 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:19:35 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:19:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:19:35 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:19:35 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:19:35 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:19:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:19:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:19:36 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:19:36 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:19:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:19:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:19:36 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:19:36 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:19:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:19:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:19:36 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:19:36 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:19:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:19:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:19:37 PM: Selected visual novel changed to: Planetarian
+8/20/2016 5:19:37 PM: Searching VNDB for Planetarian
+8/20/2016 5:19:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:19:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:19:37 PM: Selected visual novel changed to: Rewrite
+8/20/2016 5:19:37 PM: Searching VNDB for Rewrite
+8/20/2016 5:19:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:19:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:19:37 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:19:37 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 5:19:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 5:19:38 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 5:19:38 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:19:38 PM: Going to known address: https://vndb.org/v38
+8/20/2016 5:19:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 5:19:38 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 5:19:38 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 5:19:38 PM: Searching VNDB for Tsukihime
+8/20/2016 5:19:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:19:38 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:19:39 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:19:39 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:19:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:19:39 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:19:39 PM: Starting LoadVnList.
+8/20/2016 5:19:39 PM: Ending LoadVnList.
+8/20/2016 5:19:43 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:19:43 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:19:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:19:43 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:21:01 PM: Starting InitVnList
+8/20/2016 5:21:01 PM: Starting InitMenuBar
+8/20/2016 5:21:01 PM: Starting ReloadVnListColumns
+8/20/2016 5:21:01 PM: Starting LoadVnList
+8/20/2016 5:21:01 PM: Starting LoadVnList.
+8/20/2016 5:21:01 PM: Ending LoadVnList.
+8/20/2016 5:21:02 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 5:21:03 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 5:21:06 PM: Starting AutoGoToNext
+8/20/2016 5:21:06 PM: Selected visual novel changed to: Air
+8/20/2016 5:21:06 PM: Searching VNDB for Air
+8/20/2016 5:21:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:21:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:21:07 PM: Selected visual novel changed to: Chaos;Head
+8/20/2016 5:21:07 PM: Searching VNDB for Chaos;Head
+8/20/2016 5:21:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:21:07 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+8/20/2016 5:21:07 PM: Selected visual novel changed to: Clannad
+8/20/2016 5:21:07 PM: Searching VNDB for Clannad
+8/20/2016 5:21:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:21:08 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+8/20/2016 5:21:08 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+8/20/2016 5:21:08 PM: Going to known address: https://vndb.org/v4037
+8/20/2016 5:21:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+8/20/2016 5:21:08 PM: Load completed on VNDB page: https://vndb.org/v4037
+8/20/2016 5:21:08 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+8/20/2016 5:21:08 PM: Going to known address: https://vndb.org/v17
+8/20/2016 5:21:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+8/20/2016 5:21:08 PM: Load completed on VNDB page: https://vndb.org/v17
+8/20/2016 5:21:08 PM: Selected visual novel changed to: Fata morgana no yakata
+8/20/2016 5:21:08 PM: Searching VNDB for Fata morgana no yakata
+8/20/2016 5:21:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:21:09 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+8/20/2016 5:21:09 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 5:21:09 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 5:21:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:21:09 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 5:21:09 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 5:21:09 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 5:21:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:21:09 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 5:21:10 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 5:21:10 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 5:21:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:21:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 5:21:10 PM: Selected visual novel changed to: Planetarian
+8/20/2016 5:21:10 PM: Searching VNDB for Planetarian
+8/20/2016 5:21:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:21:10 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 5:21:10 PM: Selected visual novel changed to: Rewrite
+8/20/2016 5:21:10 PM: Searching VNDB for Rewrite
+8/20/2016 5:21:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:21:11 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 5:21:11 PM: Selected visual novel changed to: Rose Guns Days
+8/20/2016 5:21:11 PM: Going to known address: https://vndb.org/v9678
+8/20/2016 5:21:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+8/20/2016 5:21:11 PM: Load completed on VNDB page: https://vndb.org/v9678
+8/20/2016 5:21:11 PM: Selected visual novel changed to: Symphonic Rain
+8/20/2016 5:21:11 PM: Going to known address: https://vndb.org/v38
+8/20/2016 5:21:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+8/20/2016 5:21:11 PM: Load completed on VNDB page: https://vndb.org/v38
+8/20/2016 5:21:11 PM: Selected visual novel changed to: Tsukihime
+8/20/2016 5:21:11 PM: Searching VNDB for Tsukihime
+8/20/2016 5:21:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:21:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+8/20/2016 5:21:12 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:21:12 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:21:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:21:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:21:12 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:21:12 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:21:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:21:12 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:21:12 PM: Starting LoadVnList.
+8/20/2016 5:21:12 PM: Ending LoadVnList.
+8/20/2016 5:21:34 PM: Selected visual novel changed to: Air
+8/20/2016 5:21:34 PM: Searching VNDB for Air
+8/20/2016 5:21:34 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+8/20/2016 5:21:34 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+8/20/2016 5:21:35 PM: OnWebBrowserNavigate URL: https://vndb.org/v36
+8/20/2016 5:21:36 PM: Load completed on VNDB page: https://vndb.org/v36
+8/20/2016 5:46:57 PM: Starting InitVnList
+8/20/2016 5:46:57 PM: Starting InitMenuBar
+8/20/2016 5:46:57 PM: Starting ReloadVnListColumns
+8/20/2016 5:46:57 PM: Starting LoadVnList
+8/20/2016 5:46:57 PM: Starting LoadVnList.
+8/20/2016 5:46:57 PM: Ending LoadVnList.
+8/20/2016 5:46:58 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 5:46:59 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 5:47:02 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:02 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:02 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:03 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 5:47:04 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 5:47:16 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 5:47:16 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 5:47:19 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 5:47:19 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 5:47:19 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:47:19 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 5:47:20 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:20 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:20 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 5:47:23 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 5:47:23 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 6:01:11 PM: Starting InitVnList
+8/20/2016 6:01:11 PM: Starting InitMenuBar
+8/20/2016 6:01:11 PM: Starting ReloadVnListColumns
+8/20/2016 6:01:11 PM: Starting LoadVnList
+8/20/2016 6:01:11 PM: Starting LoadVnList.
+8/20/2016 6:01:12 PM: Ending LoadVnList.
+8/20/2016 6:01:13 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 6:01:13 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 6:01:15 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:01:15 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:01:15 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:01:15 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:01:17 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 6:01:17 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 6:02:46 PM: Starting InitVnList
+8/20/2016 6:02:46 PM: Starting InitMenuBar
+8/20/2016 6:02:46 PM: Starting ReloadVnListColumns
+8/20/2016 6:02:46 PM: Starting LoadVnList
+8/20/2016 6:02:46 PM: Starting LoadVnList.
+8/20/2016 6:02:46 PM: Ending LoadVnList.
+8/20/2016 6:02:47 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 6:02:48 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 6:02:49 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:49 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:49 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:50 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 6:02:51 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 6:02:54 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Yuuki Yuuna wa Yuusha de Aru to match Yuuki Yuuna wa Yuusha de Aru.
+8/20/2016 6:02:54 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:54 PM: Searching VNDB for Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:54 PM: Saving cover image from https://vndb.org/v16448.
+8/20/2016 6:02:55 PM: Starting LoadVnList.
+8/20/2016 6:02:55 PM: Ending LoadVnList.
+8/20/2016 6:02:55 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:55 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 6:02:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 6:02:55 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 6:02:58 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+8/20/2016 6:02:58 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+8/20/2016 6:02:58 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 6:02:58 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+8/20/2016 6:02:59 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+8/20/2016 6:02:59 PM: Going to known address: https://vndb.org/v16448
+8/20/2016 6:02:59 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+8/20/2016 6:02:59 PM: Load completed on VNDB page: https://vndb.org/v16448
+8/20/2016 6:03:01 PM: Selected visual novel changed to: Rewrite
+8/20/2016 6:03:01 PM: Searching VNDB for Rewrite
+8/20/2016 6:03:01 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 6:03:01 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Rewrite
+8/20/2016 6:03:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 6:03:03 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 6:03:07 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Rewrite to match Rewrite.
+8/20/2016 6:03:07 PM: Selected visual novel changed to: Rewrite
+8/20/2016 6:03:07 PM: Searching VNDB for Rewrite
+8/20/2016 6:03:07 PM: Saving cover image from https://vndb.org/v751.
+8/20/2016 6:03:08 PM: Starting LoadVnList.
+8/20/2016 6:03:08 PM: Ending LoadVnList.
+8/20/2016 6:03:08 PM: Selected visual novel changed to: Rewrite
+8/20/2016 6:03:08 PM: Going to known address: https://vndb.org/v751
+8/20/2016 6:03:08 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+8/20/2016 6:03:08 PM: Load completed on VNDB page: https://vndb.org/v751
+8/20/2016 6:03:09 PM: Selected visual novel changed to: Planetarian
+8/20/2016 6:03:09 PM: Searching VNDB for Planetarian
+8/20/2016 6:03:09 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 6:03:09 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Planetarian
+8/20/2016 6:03:11 PM: OnWebBrowserNavigate URL: https://vndb.org/v34
+8/20/2016 6:03:11 PM: Load completed on VNDB page: https://vndb.org/v34
+8/20/2016 6:03:13 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Planetarian to match Planetarian ~Chiisana Hoshi no Yume~.
+8/20/2016 6:03:13 PM: Selected visual novel changed to: Planetarian
+8/20/2016 6:03:13 PM: Searching VNDB for Planetarian
+8/20/2016 6:03:13 PM: Saving cover image from https://vndb.org/v34.
+8/20/2016 6:03:14 PM: Starting LoadVnList.
+8/20/2016 6:03:14 PM: Ending LoadVnList.
+8/20/2016 6:03:14 PM: Selected visual novel changed to: Planetarian
+8/20/2016 6:03:14 PM: Going to known address: https://vndb.org/v34
+8/20/2016 6:03:14 PM: OnWebBrowserNavigate URL: https://vndb.org/v34
+8/20/2016 6:03:14 PM: Load completed on VNDB page: https://vndb.org/v34
+8/20/2016 6:03:15 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+8/20/2016 6:03:15 PM: Searching VNDB for Higurashi no Naku Koro ni
+8/20/2016 6:03:15 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 6:03:15 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+8/20/2016 6:04:45 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 6:04:45 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 6:04:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 6:04:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Stay Night
+8/20/2016 6:05:07 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+8/20/2016 6:05:07 PM: Load completed on VNDB page: https://vndb.org/v11
+8/20/2016 6:05:11 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Stay Night to match Fate/Stay Night.
+8/20/2016 6:05:11 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 6:05:11 PM: Searching VNDB for Fate／Stay Night
+8/20/2016 6:05:11 PM: Saving cover image from https://vndb.org/v11.
+8/20/2016 6:05:12 PM: Starting LoadVnList.
+8/20/2016 6:05:12 PM: Ending LoadVnList.
+8/20/2016 6:05:12 PM: Selected visual novel changed to: Fate／Stay Night
+8/20/2016 6:05:12 PM: Going to known address: https://vndb.org/v11
+8/20/2016 6:05:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+8/20/2016 6:05:13 PM: Load completed on VNDB page: https://vndb.org/v11
+8/20/2016 6:05:29 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 6:05:29 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 6:05:29 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 6:05:29 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate／Hollow Ataraxia
+8/20/2016 6:05:30 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+8/20/2016 6:05:30 PM: Load completed on VNDB page: https://vndb.org/v50
+8/20/2016 6:05:32 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Hollow Ataraxia to match Fate/Hollow Ataraxia.
+8/20/2016 6:05:32 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 6:05:32 PM: Searching VNDB for Fate／Hollow Ataraxia
+8/20/2016 6:05:32 PM: Saving cover image from https://vndb.org/v50.
+8/20/2016 6:05:33 PM: Starting LoadVnList.
+8/20/2016 6:05:33 PM: Ending LoadVnList.
+8/20/2016 6:05:33 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+8/20/2016 6:05:33 PM: Going to known address: https://vndb.org/v50
+8/20/2016 6:05:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+8/20/2016 6:05:33 PM: Load completed on VNDB page: https://vndb.org/v50

@@ -39,5 +39,10 @@ namespace Visual_Novel_Universe.Views
         {
             _ViewModel?.VnListMouseDoubleClick();
         }
+
+        private void VnBrowser_OnNavigating(object sender, WebBrowserNavigatingEventArgs e)
+        {
+            _ViewModel?.OnWebBrowserNavigating(sender, e);
+        }
     }
 }

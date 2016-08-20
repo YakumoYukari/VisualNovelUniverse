@@ -70,7 +70,7 @@ namespace Visual_Novel_Universe.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;VN Not Confirmed&gt;.
+        ///   Looks up a localized string similar to &lt;No Developer Info&gt;.
         /// </summary>
         internal static string MissingDeveloperInfo {
             get {
@@ -102,6 +102,15 @@ namespace Visual_Novel_Universe.Properties {
         internal static string StatusLabel_Owned {
             get {
                 return ResourceManager.GetString("StatusLabel_Owned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;VN Not Confirmed&gt;.
+        /// </summary>
+        internal static string UnconfirmedVN {
+            get {
+                return ResourceManager.GetString("UnconfirmedVN", resourceCulture);
             }
         }
     }

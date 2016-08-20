@@ -121,7 +121,7 @@
     <value>Visual Novel Universe is an application for helping you catalogue, maintain, and discover Visual Novels. By using the Visual Novel Database as an engine, it can sort your folders, download relevant info to keep locally, and help you discover new visual novels via enhanced search functionality.\n\nMaintaining Visual Novels:\n1. Go into the file menu and select which directories you wish to have as your base VN directories.\n2. Put all your visual novel folders in there.\n3. Go to Data -&gt; Import VNs and your folders will have their names cleaned and you will see your VNs appear in the list to the left.\n4. Click on each one to automatically search it on VNDB. If it finds an exact match, the VN will be automatically associated. If it doesn't, you can manually find the entry on VNDB and use Data -&gt; Confirm VN to set it once you've found it.\n\nSearching Visual Novels:\n1. Customize your searches before doing this, or use the ones pre-made for you. When adding searches, be sure to replace the query text in the URL with {0}!\n2.Go to any VN page on VNDB.\n3. Use the English or Japanese search options to search for that VNs English or Japanese names, respectively.\n\nVisual Novel Universe also highlights VNs you own on VNDB in yellow, and will highlight the title in green when you visit their page.\n\nThis program is a labor of love by Hot Soup. It is to be used as-is and has no guarantees of any kind, whatsoever, express or implied.</value>
   </data>
   <data name="MissingDeveloperInfo" xml:space="preserve">
-    <value>&lt;VN Not Confirmed&gt;</value>
+    <value>&lt;No Developer Info&gt;</value>
   </data>
   <data name="StatusLabel_NoSelection" xml:space="preserve">
     <value>No VN Selected!</value>
@@ -131,5 +131,8 @@
   </data>
   <data name="StatusLabel_Owned" xml:space="preserve">
     <value>Owned!</value>
+  </data>
+  <data name="UnconfirmedVN" xml:space="preserve">
+    <value>&lt;VN Not Confirmed&gt;</value>
   </data>
 </root>

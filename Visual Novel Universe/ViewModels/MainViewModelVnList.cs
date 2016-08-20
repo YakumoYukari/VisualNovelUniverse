@@ -37,7 +37,6 @@ namespace Visual_Novel_Universe.ViewModels
         }
 
         private string _VnListSearchBoxText;
-
         public string VnListSearchBoxText
         {
             get { return _VnListSearchBoxText; }
@@ -138,21 +137,6 @@ namespace Visual_Novel_Universe.ViewModels
         {
             int SelectedIndex = new Random().Next(0, VisualNovels.Count);
             SelectedVisualNovel = VisualNovels.ElementAt(SelectedIndex);
-        }
-
-        public void SelectNextVn()
-        {
-            if (!ShownVisualNovels.Any()) return;
-
-            int idx = ShownVisualNovels.IndexOf(SelectedVisualNovel);
-            if (idx < ShownVisualNovels.Count - 1)
-            {
-                SelectedVisualNovel = ShownVisualNovels.ElementAt(idx + 1);
-            }
-            else
-            {
-                AutoGoToNextOption = false;
-            }
         }
 
         public void ClearVnSearchButton()
