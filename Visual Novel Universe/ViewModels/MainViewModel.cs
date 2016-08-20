@@ -93,7 +93,7 @@ namespace Visual_Novel_Universe.ViewModels
 
         private void LoadVnList()
         {
-            Logger.Instance.Log($"Starting LoadVnList.");
+            Logger.Instance.Log("Starting LoadVnList.");
 
             ShownVisualNovels.Clear();
             VisualNovels.Clear();
@@ -134,7 +134,7 @@ namespace Visual_Novel_Universe.ViewModels
             DisplayName = $"Visual Novel Universe :: {VisualNovels.Count} VNs";
             VnListSearchBoxText = VnListSearchBoxText;
 
-            Logger.Instance.Log($"Ending LoadVnList.");
+            Logger.Instance.Log("Ending LoadVnList.");
         }
 
         private static VisualNovel LoadVisualNovel(string FolderName, bool ForceSave)

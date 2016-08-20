@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
 
@@ -106,6 +107,15 @@ namespace Visual_Novel_Universe
                 .Replace("？", "?")
                 .Replace("：", ":")
                 .Trim();
+        }
+
+        public static string[] SplitWithQuotes(string Text)
+        {
+            return Text.Split('"')
+                     .Select((element, index) => index % 2 == 0
+                                           ? element.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                                           : new[] { element })
+                     .SelectMany(element => element).ToArray();
         }
     }
 }

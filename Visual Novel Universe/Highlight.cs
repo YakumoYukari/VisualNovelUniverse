@@ -18,7 +18,7 @@ namespace Visual_Novel_Universe
             var HighlightedVns = new List<VisualNovel>();
 
             SearchTerm = SearchTerm.ToLower().Trim();
-            var SearchTerms = SearchTerm.Split(' ');
+            var SearchTerms = StringUtils.SplitWithQuotes(SearchTerm);
 
             foreach (var Vn in VisualNovels)
             {

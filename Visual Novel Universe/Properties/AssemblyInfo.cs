@@ -6,9 +6,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Visual Novel Universe")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A tool to categorize, organize, and discover visual novels.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Hot Soup")]
 [assembly: AssemblyProduct("Visual Novel Universe")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

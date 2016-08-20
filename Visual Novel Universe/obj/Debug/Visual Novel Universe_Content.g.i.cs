@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/vnuicon2large.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vnulogo2.ico")]
 
 

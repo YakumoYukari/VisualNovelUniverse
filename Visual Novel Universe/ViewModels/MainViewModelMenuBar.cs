@@ -372,7 +372,7 @@ namespace Visual_Novel_Universe.ViewModels
         }
         private void LookupJapaneseTitle()
         {
-            if (VndbPageNovel == null || string.IsNullOrWhiteSpace(VndbPageNovel?.JapaneseName)) return;
+            if (string.IsNullOrWhiteSpace(VndbPageNovel?.JapaneseName)) return;
             WebBrowserAccessor.Navigate($@"http://jisho.org/search/{VndbPageNovel.JapaneseName.SafeForUrl()}".GetUri());
         }
         private void AutoGoToNext()
