@@ -102,7 +102,7 @@ namespace Visual_Novel_Universe.ViewModels
 
             try
             {
-                foreach (string BaseDirectory in Settings.Instance.WorkingDirectories)
+                foreach (string BaseDirectory in Settings.Instance.WorkingDirectories.Where(Directory.Exists))
                 {
                     foreach (string FolderName in Directory.GetDirectories(BaseDirectory))
                     {

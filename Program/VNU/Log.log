@@ -892,13 +892,3 @@
 8/20/2016 1:59:05 AM: Starting LoadVnList.
 8/20/2016 1:59:06 AM: Ending LoadVnList.
 8/20/2016 1:59:08 AM: Load completed on non-VNDB page: https://vndb.org/
-8/20/2016 2:02:25 AM: Starting InitVnList
-8/20/2016 2:02:25 AM: Starting InitMenuBar
-8/20/2016 2:02:25 AM: Starting ReloadVnListColumns
-8/20/2016 2:02:25 AM: Starting LoadVnList
-8/20/2016 2:02:25 AM: Starting LoadVnList.
-8/20/2016 2:02:26 AM: Ending LoadVnList.
-8/20/2016 2:02:26 AM: OnWebBrowserNavigate URL: https://vndb.org/
-8/20/2016 2:02:27 AM: Load completed on non-VNDB page: https://vndb.org/
-8/20/2016 2:02:29 AM: OnWebBrowserNavigate URL: https://vndb.org/v4894
-8/20/2016 2:02:30 AM: Load completed on VNDB page: https://vndb.org/v4894

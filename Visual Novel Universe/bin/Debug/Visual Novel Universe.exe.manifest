@@ -139,14 +139,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Visual Novel Universe.exe" size="678896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Visual Novel Universe.exe" size="679408">
       <assemblyIdentity name="Visual Novel Universe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qs1prO51jHZHdnLuFOlWFTbJnzucA/D9F/YvmFUAZ3w=</dsig:DigestValue>
+        <dsig:DigestValue>Mz9oDuyRvvgje9bFHUQy7Bt+XBc6820CnV+4af1p/+k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
