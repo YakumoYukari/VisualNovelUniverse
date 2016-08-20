@@ -1,0 +1,271 @@
+﻿<Window x:Class="Visual_Novel_Universe.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:thirdParty="clr-namespace:Visual_Novel_Universe.ThirdParty"
+        xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:cal="http://www.caliburnproject.org"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Height="768" Width="{Binding MainWindowWidth}" MinWidth="1024" MinHeight="768" Background="#FF474747"
+        Icon="/Visual Novel Universe;component/Resources/VNULogo2.ico" WindowState="Maximized" Loaded="OnLoaded">
+    <Grid Background="#FF2E2E2E">
+        <Menu x:Name="MenuBar" Height="30" VerticalAlignment="Top" Background="#FF2E2E2E" Foreground="#FFC9C9C9" HorizontalContentAlignment="Center">
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="60" Style="{StaticResource MainMenuTextBlockStyle}">FILE</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Command="{Binding ChooseDirectoryCommand}" Header="Choose Directory..."/>
+                <MenuItem Command="{Binding ExportVnListCommand}"  Header="Export VN List..."/>
+                <MenuItem Command="{Binding OpenContainingFolderCommand}" Header="Open Containing Folder"/>
+            </MenuItem>
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="60" Style="{StaticResource MainMenuTextBlockStyle}">EDIT</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="Copy VN Link" Command="{Binding CopyVnLinkCommand}"/>
+                <MenuItem Header="Copy English Name From VNDB" Command="{Binding CopyVnEnglishNameCommand}"/>
+                <MenuItem Header="Copy Japanese Name From VNDB" Command="{Binding CopyVnJapaneseNameCommand}"/>
+            </MenuItem>
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="60" Style="{StaticResource MainMenuTextBlockStyle}">VIEW</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Command="{Binding OpenCoverImageViewCommand}" Header="View Cover Image Grid"/>
+            </MenuItem>
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="100" Style="{StaticResource MainMenuTextBlockStyle}">HIGHLIGHTING</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="Clear Highlighting" Command="{Binding ClearHighlightingCommand}"/>
+                <MenuItem Header="English Release Available" Command="{Binding HighlightEnglishAvailableMenuCommand}"/>
+                <MenuItem Header="Favorited" Command="{Binding HighlightFavoritesMenuCommand}"/>
+                <MenuItem Header="Missing Info Files" Command="{Binding HighlightMissingInfoCommand}"/>
+                <MenuItem Header="Missing Cover Images" Command="{Binding HighlightMissingImageCommand}"/>
+            </MenuItem>
+            <MenuItem x:Name="EnglishSearchMenu" ItemsSource="{Binding EnglishSearchEntries}" Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">ENGLISH SEARCH</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem.ItemTemplate>
+                    <DataTemplate>
+                        <MenuItem Header="{Binding Name}" Command="{Binding SearchForVnCommand}" CommandParameter="{Binding EnglishCommandString}"/>
+                    </DataTemplate>
+                </MenuItem.ItemTemplate>
+            </MenuItem>
+            <MenuItem x:Name="JapaneseSearchMenu" ItemsSource="{Binding JapaneseSearchEntries}" Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">JAPANESE SEARCH</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem.ItemTemplate>
+                    <DataTemplate>
+                        <MenuItem Header="{Binding Name}" Command="{Binding SearchForVnCommand}" CommandParameter="{Binding JapaneseCommandString}"/>
+                    </DataTemplate>
+                </MenuItem.ItemTemplate>
+            </MenuItem>
+            <MenuItem x:Name="CustomSearchMenu" Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">CUSTOM SEARCH</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="Customize Search..." Command="{Binding CustomizeSearchesCommand}" MinWidth="{Binding ElementName= CustomSearchMenu, Path=ActualWidth}"/>
+            </MenuItem>
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="75" Style="{StaticResource MainMenuTextBlockStyle}">DATA</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="Refresh VN List" Command="{Binding RefreshVnListCommand}"/>
+                <MenuItem Header="Confirm VN" Command="{Binding SetVnInfoCommand}"/>
+                <MenuItem Header="Save Cover Image" Command="{Binding SaveCoverImageCommand}"/>
+                <MenuItem Header="Favorite / Unfavorite" Command="{Binding FavoriteCommand}"/>
+            </MenuItem>
+            <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="75" Style="{StaticResource MainMenuTextBlockStyle}">TOOLS</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="Import All New VNs" Command="{Binding ImportVnsCommand}"/>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <TextBlock Style="{StaticResource MainMenuTextBlockStyle}" Padding="12,0,0,0" TextAlignment="Left">Mass Rename Folders</TextBlock>
+                    </MenuItem.Header>
+                    <MenuItem Header="To English" Command="{Binding MassRenameToEnglishCommand}"/>
+                    <MenuItem Header="To Japanese" Command="{Binding MassRenameToJapaneseCommand}"/>
+                </MenuItem>
+                <MenuItem Command="{Binding AutoGoToNextCommand}"  Header="Toggle Auto Scroll"/>
+                <MenuItem Command="{Binding LookupJapaneseTitleCommand}"  Header="Lookup Japanese Title on Jisho"/>
+                <MenuItem Command="{Binding OpenSettingsMenuCommand}"  Header="Settings..."/>
+            </MenuItem>
+            <MenuItem x:Name="HelpMenuButton" Height="30" Padding="0" HorizontalContentAlignment="Center">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="75" Style="{StaticResource MainMenuTextBlockStyle}">HELP</TextBlock>
+                    </StackPanel>
+                </MenuItem.Header>
+                <MenuItem Header="About" Command="{Binding GetHelpCommand}" MinWidth="{Binding ElementName= HelpMenuButton, Path=ActualWidth}"/>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="MainGrid" Margin="0,30,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="{Binding SpreaderDistance, Mode=TwoWay}"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF2E2E2E"/>
+
+            <Grid Grid.Column="0" Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid x:Name="VnListToolbar" Margin="0" VerticalAlignment="Top" Height="30" DockPanel.Dock="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="ClearHighlightingButton" Command="{Binding ClearHighlightingCommand}" Content="CLR"  Height="25" Padding="0" Grid.Column="0" Style="{StaticResource MenuButton}"/>
+                    <ToggleButton x:Name="EnglishAvailableButton" Command="{Binding HighlightEnglishAvailableCommand}" Content="ENG" IsChecked="{Binding HighlightEnglishAvailableChecked}" Height="25" Padding="0" Grid.Column="1" Style="{StaticResource ToggleMenuButton}"/>
+                    <ToggleButton x:Name="ShowFavoritesButton" Command="{Binding HighlightFavoritesCommand}" Content="FAV" IsChecked="{Binding HighlightFavoritesChecked}" Height="25" Padding="0" Grid.Column="2" Style="{StaticResource ToggleMenuButton}"/>
+                    <Button x:Name="RandomVnButton" Command="{Binding SelectRandomCommand}" Content="RND" Height="25" Padding="0" Grid.Column="3" Style="{StaticResource MenuButton}"/>
+                </Grid>
+                <ListView x:Name="VisualNovels" ItemsSource="{Binding ShownVisualNovels}" thirdParty:GridViewSort.AutoSort="True" Grid.IsSharedSizeScope="True" BorderBrush="#00000000" Background="#FF2E2E2E" Foreground="Black" IsSynchronizedWithCurrentItem="True" Grid.Row="1" Style="{DynamicResource VnListViewStyle}" SelectedItem="{Binding SelectedVisualNovel}" MouseDoubleClick="VnListMouseDoubleClick">
+                    <i:Interaction.Behaviors>
+                        <thirdParty:ScrollIntoViewBehavior />
+                    </i:Interaction.Behaviors>
+                    <ListView.Resources>
+                        <Style TargetType="{x:Type ScrollBar}">
+                            <Setter Property="Background" Value="#2E2E2E" />
+                            <Setter Property="Foreground" Value="#606466"/>
+                            <Setter Property="BorderBrush" Value="#2E2E2E"/>
+                        </Style>
+                    </ListView.Resources>
+                    <ListView.View>
+                        <GridView ColumnHeaderContainerStyle="{StaticResource ResourceKey=VnGridViewColumnHeader}">
+                            <GridViewColumn Header="English Name"  thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowEnglishNameColumn}" DisplayMemberBinding="{Binding EnglishName}" Width="200" thirdParty:GridViewSort.PropertyName="EnglishName"/>
+                            <GridViewColumn Header="Developer" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowDeveloperColumn}" DisplayMemberBinding="{Binding DisplayDeveloper}" Width="150" thirdParty:GridViewSort.PropertyName="DisplayDeveloper"/>
+                            <GridViewColumn Header="Japanese Name" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowJapaneseNameColumn}" DisplayMemberBinding="{Binding JapaneseName}" Width="200" thirdParty:GridViewSort.PropertyName="JapaneseName"/>
+                            <GridViewColumn Header="Length" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowLengthColumn}" DisplayMemberBinding="{Binding LengthString}" Width="100" thirdParty:GridViewSort.PropertyName="LengthString"/>
+                            <GridViewColumn Header="Age Rating" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowAgeRatingColumn}" DisplayMemberBinding="{Binding RatingString}" Width="100" thirdParty:GridViewSort.PropertyName="RatingString"/>
+                        </GridView>
+                    </ListView.View>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="Background" Value="#2E2E2E" />
+                            <Setter Property="Foreground" Value="#C9C9C9"/>
+                            <Setter Property="FontWeight" Value="Bold" />
+                            <Style.Resources>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="DarkGoldenrod"/>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.ActiveBorderBrushKey}" Color="DarkGoldenrod"/>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveBorderBrushKey}" Color="DarkGoldenrod"/>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="DarkGoldenrod"/>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.ActiveCaptionBrushKey}" Color="DarkGoldenrod"/>
+                                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="DarkGoldenrod" />
+                            </Style.Resources>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#2E2E2E" />
+                                    <Setter Property="Foreground" Value="DarkGoldenrod" />
+                                    <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                                    <Setter Property="FontWeight" Value="Bold" />
+                                </Trigger>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="#2E2E2E" />
+                                    <Setter Property="Foreground" Value="DarkGoldenrod" />
+                                    <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                                    <Setter Property="FontWeight" Value="Bold" />
+                                </Trigger>
+                                <DataTrigger Binding="{Binding Highlighted}" Value="True">
+                                    <Setter Property="Background" Value="{Binding HighlightColor}" />
+                                    <Setter Property="Foreground" Value="WhiteSmoke" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+                <TextBox Grid.Row="2" x:Name="VnListSearchBoxText" Style="{StaticResource TextBoxStyle}" Padding="5,0,30,0"/>
+                <Button x:Name="ClearVnSearchButton" Content="⨯" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Center" Width="25" Height="25" Style="{StaticResource MenuButton}" Background="{x:Null}" Padding="0,0,2,0" FontSize="18"/>
+            </Grid>
+            <Grid Grid.Column="2" Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid Margin="0" Background="#2E2E2E">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="BrowserAddressBarText" cal:Message.Attach="[Event KeyDown] = [Action NavigationBarKeyDown($eventArgs)]" Grid.Column="3" TextWrapping="NoWrap" FontSize="14" Style="{StaticResource TextBoxStyle}"/>
+                    <Button Command="{Binding BackCommand}" Content="BACK" Grid.Column="0" Style="{StaticResource MenuButton}"/>
+                    <Button Command="{Binding ForwardCommand}" Content="FWD" Grid.Column="1" Style="{StaticResource MenuButton}"/>
+                    <Button Command="{Binding RefreshCommand}" Content="RFR" Grid.Column="2" Style="{StaticResource MenuButton}"/>
+                    <Button Command="{Binding GoCommand}" CommandParameter="{Binding BrowserAddressBarText}" Content="GO" Grid.Column="4" Style="{StaticResource MenuButton}"/>
+                    <Button Command="{Binding GoCommand}" CommandParameter="https://www.vndb.org" Content="VNDB" Grid.Column="5" Style="{StaticResource MenuButton}"/>
+                    <Button Command="{Binding GoCommand}" CommandParameter="{Binding VndbPageNovel.VndbLink}" Content="LAST" Grid.Column="6" Style="{StaticResource MenuButton}"/>
+                </Grid>
+                <WindowsFormsHost Grid.Row="1">
+                    <WindowsFormsHost.Child>
+                        <forms:WebBrowser x:Name="VnBrowser" Url="https://vndb.org" Navigated="VnBrowserNavigated" DocumentCompleted="VnBrowserLoadCompleted"/>
+                    </WindowsFormsHost.Child>
+                </WindowsFormsHost>
+                <!--<WebBrowser x:Name="VnBrowser" Grid.Row="1" Source="{Binding WebBrowserLink}"/>-->
+                <StatusBar x:Name="VnStatusBar" Margin="0" Grid.Row="2" Background="#2E2E2E">
+                    <Grid Width="{Binding ActualWidth, ElementName=VnStatusBar, Mode=OneWay}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="VndbSearchText" cal:Message.Attach="[Event KeyDown] = [Action DoVndbSearch($executionContext)]" Margin="0" Width="300" Style="{StaticResource TextBoxStyle}" HorizontalAlignment="Left" Padding="5,0,30,0"/>
+                        <Button  x:Name="ClearVndbSearchButton" Content="⨯" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Width="25" Height="25" Style="{StaticResource MenuButton}" Background="{x:Null}" Padding="0" FontSize="18"/>
+                        <Border BorderBrush="#636363" BorderThickness="1" Height="18" MinWidth="100" CornerRadius="8" Grid.Column="1" Margin="5,0,0,0">
+                            <Border.OpacityMask>
+                                <VisualBrush>
+                                    <VisualBrush.Visual>
+                                        <Border 
+                                            Background="Black"
+                                            SnapsToDevicePixels="True"
+                                            CornerRadius="{Binding CornerRadius, RelativeSource={RelativeSource FindAncestor, AncestorType=Border}}"
+                                            Width="{Binding ActualWidth, RelativeSource={RelativeSource FindAncestor, AncestorType=Border}}"
+                                            Height="{Binding ActualHeight, RelativeSource={RelativeSource FindAncestor, AncestorType=Border}}" />
+                                    </VisualBrush.Visual>
+                                </VisualBrush>
+                            </Border.OpacityMask>
+                            <Label x:Name="OwnedStatusText" Padding="5,0" MinWidth="100" HorizontalContentAlignment="Center" Background="{Binding OwnedStatusLabelColor}" Foreground="#2E2E2E"/>
+                        </Border>
+                        <Border BorderBrush="#636363" BorderThickness="1" Height="18" MinWidth="100" CornerRadius="8" Grid.Column="2" Margin="5,0,6,0">
+                            <Label x:Name="CurrentVnLabel" Padding="5,0" MinWidth="100" HorizontalContentAlignment="Center" Content="Current English / Current Japanese" Foreground="#D1D1D1"/>
+                        </Border>
+                    </Grid>
+                </StatusBar>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

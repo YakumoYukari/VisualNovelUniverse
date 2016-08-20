@@ -1,0 +1,46 @@
+﻿<Window x:Class="Visual_Novel_Universe.Views.CoverImageGridView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Title="Visual Novel Covers" Height="300" Width="300" MinWidth="800" MinHeight="600" Icon="/Visual Novel Universe;component/Resources/VNULogo2.ico" ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto" CanContentScroll="True">
+            <ScrollViewer.Resources>
+                <Style TargetType="{x:Type ScrollBar}">
+                    <Setter Property="Background" Value="#2E2E2E" />
+                    <Setter Property="Foreground" Value="#606466"/>
+                    <Setter Property="BorderBrush" Value="#2E2E2E"/>
+                </Style>
+            </ScrollViewer.Resources>
+            <!--<UniformGrid x:Name="CoverImages" Background="#2E2E2E" Columns="5">
+
+            </UniformGrid>-->
+            <ItemsControl ItemsSource="{Binding CoverImages}" Background="#2E2E2E">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="{Binding ColumnsDisplayed}"></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding Filepath}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseDown">
+                                    <cal:ActionMessage MethodName="CoverImageClicked">
+                                        <cal:Parameter Value="{Binding}" />
+                                    </cal:ActionMessage>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </Image>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+        <Button x:Name="ZoomOut" Content ="-" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="25" Height="25" Background="#2E2E2E" BorderBrush="#FF7163FF" FontWeight="Bold" Foreground="DarkGoldenrod"/>
+        <Button x:Name="ZoomIn" Content ="+" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="25" Height="25" Background="#2E2E2E" BorderBrush="#FF7163FF" FontWeight="Bold" Foreground="DarkGoldenrod" Margin="25,0,0,0"/>
+    </Grid>
+</Window>

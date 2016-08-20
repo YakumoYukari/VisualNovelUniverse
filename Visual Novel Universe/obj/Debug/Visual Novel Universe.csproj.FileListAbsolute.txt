@@ -1,0 +1,43 @@
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Visual Novel Universe.exe.config
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.csprojResolveAssemblyReference.cache
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\App.g.cs
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe_MarkupCompile.cache
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe_MarkupCompile.lref
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Visual Novel Universe.exe
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Visual Novel Universe.pdb
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.g.resources
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual_Novel_Universe.Properties.Resources.resources
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.csproj.GenerateResource.Cache
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.exe
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.pdb
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Resources\StyleDict.baml
+c:\users\lukez_000\documents\visual studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\App.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\MainView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\MainView.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\DirectoriesView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\DirectoriesView.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\SearchCustomizerView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\SearchCustomizerView.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\CoverImageGridView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\CoverImageGridView.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\SettingsView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\SettingsView.baml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\HelpView.g.cs
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Views\HelpView.baml

@@ -1,0 +1,15 @@
+﻿<Application x:Class="Visual_Novel_Universe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Visual_Novel_Universe">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <local:VisualNovelUniverseBootstrapper x:Key="Bootstrapper" />
+                </ResourceDictionary>
+                <ResourceDictionary Source="Resources/StyleDict.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
