@@ -6,6 +6,7 @@ using Caliburn.Micro;
 using Visual_Novel_Universe.Models;
 using System.IO;
 using System.Windows.Markup;
+using System.Security.Permissions;
 
 namespace Visual_Novel_Universe.ViewModels
 {
@@ -78,20 +79,27 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
+        [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlAppDomain)]
         public MainViewModel()
         {
             DisplayName = "Visual Novel Universe";
 
-            Events.Aggregator.Subscribe(this);
-            Settings.Instance.SearchOptions.ForEach((s) =>
+            AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
             {
-                s.SearchForVnCommand = new RelayCommand<string>(SearchForVn);
-            });
-            Settings.Instance.SearchOptions.ForEach(EnglishSearchEntries.Add);
-            Settings.Instance.SearchOptions.ForEach(JapaneseSearchEntries.Add);
+                var e = (Exception)args.ExceptionObject;
+                Logger.Instance.LogError($"Uncaught exception: {e.Message}\n{e.StackTrace}");
+            };
 
             try
             {
+                Events.Aggregator.Subscribe(this);
+                Settings.Instance.SearchOptions.ForEach((s) =>
+                {
+                    s.SearchForVnCommand = new RelayCommand<string>(SearchForVn);
+                });
+                Settings.Instance.SearchOptions.ForEach(EnglishSearchEntries.Add);
+                Settings.Instance.SearchOptions.ForEach(JapaneseSearchEntries.Add);
+
                 Logger.Instance.Log("Starting InitVnList");
                 InitVnList();
                 Logger.Instance.Log("Starting InitMenuBar");
