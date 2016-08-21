@@ -2482,3 +2482,28 @@
 8/20/2016 6:05:33 PM: Going to known address: https://vndb.org/v50
 8/20/2016 6:05:33 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
 8/20/2016 6:05:33 PM: Load completed on VNDB page: https://vndb.org/v50
+8/20/2016 8:41:16 PM: Starting InitVnList
+8/20/2016 8:41:16 PM: Starting InitMenuBar
+8/20/2016 8:41:16 PM: Starting ReloadVnListColumns
+8/20/2016 8:41:16 PM: Starting LoadVnList
+8/20/2016 8:41:16 PM: Starting LoadVnList.
+8/20/2016 8:41:16 PM: Ending LoadVnList.
+8/20/2016 8:41:17 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 8:41:18 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 8:41:19 PM: Opening directories window.
+8/20/2016 8:41:21 PM: Starting LoadVnList.
+8/20/2016 8:41:21 PM: Ending LoadVnList.
+8/20/2016 8:41:21 PM: Opening cover grid with 9 VNs
+8/20/2016 8:41:24 PM: Opening settings.
+8/20/2016 8:41:26 PM: Opening help.
+8/20/2016 8:42:16 PM: Starting InitVnList
+8/20/2016 8:42:16 PM: Starting InitMenuBar
+8/20/2016 8:42:16 PM: Starting ReloadVnListColumns
+8/20/2016 8:42:16 PM: Starting LoadVnList
+8/20/2016 8:42:16 PM: Starting LoadVnList.
+8/20/2016 8:42:16 PM: Ending LoadVnList.
+8/20/2016 8:42:17 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 8:42:17 PM: Load completed on non-VNDB page: https://vndb.org/
+8/20/2016 8:42:23 PM: Opening directories window.
+8/20/2016 8:42:25 PM: Starting LoadVnList.
+8/20/2016 8:42:25 PM: Ending LoadVnList.
