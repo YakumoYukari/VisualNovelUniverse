@@ -58,8 +58,6 @@ namespace Visual_Novel_Universe
             }
             catch (Exception e)
             {
-                //MessageBox.Show($"Error renaming {FromDir} to {ToDir}. This is usually because the target folder already exists, and you have duplicates.");
-                Console.WriteLine($"Failed trying to move [{FromDir}] to [{ToDir}]");
                 Logger.Instance.LogError($"Error renaming folder ({FromDir} to {ToDir}): {e.Message}");
                 return false;
             }
@@ -67,31 +65,51 @@ namespace Visual_Novel_Universe
 
         public static void EncapsulateAllFiles(string Dir)
         {
-            var VNDirectoryFilenames = Directory.GetFiles(Dir);
-            int ErrorCount = 0;
-
-            foreach (string Filename in VNDirectoryFilenames)
+            try
             {
-                string OriginalFile = Path.GetFileName(Filename);
-                string NewFolderName = Path.GetFileNameWithoutExtension(Filename);
-                NewFolderName = PathUtils.ConvertToPathSafe(NewFolderName);
+                var VNDirectoryFilenames = Directory.GetFiles(Dir);
+                int ErrorCount = 0;
 
-                string NewPath = Path.Combine(Dir, NewFolderName);
-                if (!Directory.Exists(NewPath))
-                    Directory.CreateDirectory(NewPath);
+                foreach (string Filepath in VNDirectoryFilenames)
+                {
+                    string FixedFilepath = Filepath;
+                    //Having a file with no extension is bad news because we can't have a directory with the same name
+                    bool AdjustedFilename = false;
+                    if (!Path.HasExtension(Filepath))
+                    {
+                        Move(Filepath, Filepath + ".FILE");
+                        FixedFilepath = Filepath + ".FILE";
+                        AdjustedFilename = true;
+                    }
 
-                if (OriginalFile == null) continue;
+                    string Filename = Path.GetFileName(FixedFilepath);
+                    if (Filename == null) continue;
 
-                string ToDestination = Path.Combine(NewPath, OriginalFile);
+                    string NewFolderName = Path.GetFileNameWithoutExtension(FixedFilepath);
+                    NewFolderName = PathUtils.ConvertToPathSafe(NewFolderName);
 
-                if (!Move(Filename, ToDestination))
-                    ErrorCount++;
+                    string NewPath = Path.Combine(Dir, NewFolderName);
+                    if (!Directory.Exists(NewPath))
+                        Directory.CreateDirectory(NewPath);
+
+                    string ToDestination = AdjustedFilename ? Path.Combine(NewPath, Filename.Substring(0, Filename.Length - 5)) : Path.Combine(NewPath, Filename);
+
+                    if (!Move(FixedFilepath, ToDestination))
+                    {
+                        ErrorCount++;
+                    }
+                }
+
+                if (ErrorCount > 0)
+                {
+                    MessageBox.Show("One or more files could not be put into folders, probably because a folder already exists.", "Import Error", MessageBoxButton.OK);
+                }
             }
-
-            if (ErrorCount > 0)
+            catch (Exception e)
             {
-                MessageBox.Show($"{ErrorCount} errors have occurred while encapsulating files. This is usually because of an already existing VN.");
+                Logger.Instance.LogError($"Encapsulate Error: {e.Message}\n{e.StackTrace}");
             }
+            
         }
 
         public static void RenameAllFolders(IEnumerable<VisualNovel> VisualNovels, Language NameLanguage)
