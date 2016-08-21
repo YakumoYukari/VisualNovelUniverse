@@ -2507,3 +2507,11 @@
 8/20/2016 8:42:23 PM: Opening directories window.
 8/20/2016 8:42:25 PM: Starting LoadVnList.
 8/20/2016 8:42:25 PM: Ending LoadVnList.
+8/20/2016 8:48:24 PM: Starting InitVnList
+8/20/2016 8:48:24 PM: Starting InitMenuBar
+8/20/2016 8:48:24 PM: Starting ReloadVnListColumns
+8/20/2016 8:48:24 PM: Starting LoadVnList
+8/20/2016 8:48:24 PM: Starting LoadVnList.
+8/20/2016 8:48:24 PM: Ending LoadVnList.
+8/20/2016 8:48:24 PM: OnWebBrowserNavigate URL: https://vndb.org/
+8/20/2016 8:48:25 PM: Load completed on non-VNDB page: https://vndb.org/
