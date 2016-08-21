@@ -117,20 +117,20 @@ namespace Visual_Novel_Universe.ViewModels
 
         private void SelectedVisualNovelChanged(VisualNovel NewSelection)
         {
-            if (SelectedVisualNovel == null) return;
+            if (NewSelection == null) return;
             if (SelectedVisualNovel == NewSelection) return;
-            Logger.Instance.Log($"Selected visual novel changed to: {SelectedVisualNovel.FolderName}");
+            Logger.Instance.Log($"Selected visual novel changed to: {NewSelection.FolderName}");
 
-            if (SelectedVisualNovel.HasVnInfo && !string.IsNullOrWhiteSpace(SelectedVisualNovel.VndbLink))
+            if (NewSelection.HasVnInfo && !string.IsNullOrWhiteSpace(NewSelection.VndbLink))
             {
-                Logger.Instance.Log($"Going to known address: {SelectedVisualNovel.VndbLink}");
-                WebBrowserAccessor.Navigate(SelectedVisualNovel.VndbLink);
+                Logger.Instance.Log($"Going to known address: {NewSelection.VndbLink}");
+                WebBrowserAccessor.Navigate(NewSelection.VndbLink);
             }
             else
             {
-                Logger.Instance.Log($"Searching VNDB for {SelectedVisualNovel.FolderName}");
+                Logger.Instance.Log($"Searching VNDB for {NewSelection.FolderName}");
                 LookingForVndbEntry = true;
-                WebBrowserAccessor.SearchVndb(SelectedVisualNovel.FolderName);
+                WebBrowserAccessor.SearchVndb(NewSelection.FolderName);
             }
         }
 
