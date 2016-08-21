@@ -20,26 +20,40 @@ namespace Visual_Novel_Universe
             }
             catch (InvalidOperationException Ioe)
             {
-                Logger.Instance.LogError($"Error loading VN {PathUtils.LastElementOfPath(FolderPath)}: {Ioe.Message}");
+                Logger.Instance.LogError($"Error loading VN {FolderPath}: {Ioe.Message}");
                 return null;
             }
         }
 
         public static void Save(VisualNovel Vn, string FolderPath)
         {
-            using (var sw = new StreamWriter(Path.Combine(FolderPath, ConfigurationManager.AppSettings["VnInfoFilename"])))
+            try
             {
-                var xmls = new XmlSerializer(typeof(VisualNovel));
-                xmls.Serialize(sw, Vn);
+                using (var sw = new StreamWriter(Path.Combine(FolderPath, ConfigurationManager.AppSettings["VnInfoFilename"])))
+                {
+                    var xmls = new XmlSerializer(typeof(VisualNovel));
+                    xmls.Serialize(sw, Vn);
+                }
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error saving VN: [{Vn.VnFolderPath}]: {e.Message}\n{e.StackTrace}");
             }
         }
 
         public static void Save(VisualNovel Vn)
         {
-            using (var sw = new StreamWriter(Vn.VnInfoFilepath))
+            try
             {
-                var xmls = new XmlSerializer(typeof(VisualNovel));
-                xmls.Serialize(sw, Vn);
+                using (var sw = new StreamWriter(Vn.VnInfoFilepath))
+                {
+                    var xmls = new XmlSerializer(typeof(VisualNovel));
+                    xmls.Serialize(sw, Vn);
+                }
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error saving VN: [{Vn.VnFolderPath}]: {e.Message}\n{e.StackTrace}");
             }
         }
     }

@@ -5,6 +5,7 @@ using System.Linq;
 using Caliburn.Micro;
 using Visual_Novel_Universe.Models;
 using System.IO;
+using System.Windows.Markup;
 
 namespace Visual_Novel_Universe.ViewModels
 {
@@ -21,9 +22,8 @@ namespace Visual_Novel_Universe.ViewModels
             get { return _SelectedVisualNovel; }
             set
             {
-                if (_SelectedVisualNovel == value) return;
+                SelectedVisualNovelChanged(value);
                 _SelectedVisualNovel = value;
-                SelectedVisualNovelChanged();
                 NotifyOfPropertyChange(() => SelectedVisualNovel);
             }
         }
@@ -90,19 +90,27 @@ namespace Visual_Novel_Universe.ViewModels
             Settings.Instance.SearchOptions.ForEach(EnglishSearchEntries.Add);
             Settings.Instance.SearchOptions.ForEach(JapaneseSearchEntries.Add);
 
-            Logger.Instance.Log("Starting InitVnList");
-            InitVnList();
-            Logger.Instance.Log("Starting InitMenuBar");
-            InitMenuBar();
-            Logger.Instance.Log("Starting ReloadVnListColumns");
-            ReloadVnListColumns();
-            Logger.Instance.Log("Starting LoadVnList");
-            LoadVnList();
+            try
+            {
+                Logger.Instance.Log("Starting InitVnList");
+                InitVnList();
+                Logger.Instance.Log("Starting InitMenuBar");
+                InitMenuBar();
+                Logger.Instance.Log("Starting ReloadVnListColumns");
+                ReloadVnListColumns();
+                Logger.Instance.Log("Starting LoadVnList");
+                LoadVnList();
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error initializing MainViewModel: {e.Message}\n{e.StackTrace}");
+            }
         }
 
-        private void SelectedVisualNovelChanged()
+        private void SelectedVisualNovelChanged(VisualNovel NewSelection)
         {
             if (SelectedVisualNovel == null) return;
+            if (SelectedVisualNovel == NewSelection) return;
             Logger.Instance.Log($"Selected visual novel changed to: {SelectedVisualNovel.FolderName}");
 
             if (SelectedVisualNovel.HasVnInfo && !string.IsNullOrWhiteSpace(SelectedVisualNovel.VndbLink))

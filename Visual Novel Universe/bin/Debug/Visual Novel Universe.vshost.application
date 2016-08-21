@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Visual Novel Universe.exe.manifest" size="10178">
+    <dependentAssembly dependencyType="install" codebase="Visual Novel Universe.exe.manifest" size="10659">
       <assemblyIdentity name="Visual Novel Universe.exe" version="3.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>khF5SfBTILbSTGIO6CxZ3uPa4ro/GL0BYfhYGOdI2ow=</dsig:DigestValue>
+        <dsig:DigestValue>bohyMFKocOTNIa4NrG8tmCnZ3mnBMIbP0N2kXJ31/No=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

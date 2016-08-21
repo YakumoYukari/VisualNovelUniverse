@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using System.Windows.Input;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
@@ -138,9 +139,16 @@ namespace Visual_Novel_Universe.ViewModels
 
                 if (!AutoGoToNextOption)
                 {
-                    var Temp = SelectedVisualNovel;
-                    LoadVnList();
-                    SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                    try
+                    {
+                        var Temp = SelectedVisualNovel;
+                        LoadVnList();
+                        SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                    }
+                    catch (Exception e)
+                    {
+                        Logger.Instance.LogError($"Error selecting newly saved VN: {e.Message}\n{e.StackTrace}");
+                    }
                 }
             }
 

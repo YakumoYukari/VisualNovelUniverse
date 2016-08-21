@@ -156,18 +156,25 @@ namespace Visual_Novel_Universe.ViewModels
 
         private void OpenCoverImageView()
         {
-            var Manager = new WindowManager();
-            var CoverImageViewModel = new CoverImageGridViewModel {MaxDisplayableRows = 10};
-
-            int CoverImagesAdded = 0;
-            foreach (var Vn in VisualNovels.Where(v => v.HasCoverImage))
+            try
             {
-                CoverImageViewModel.AddCover(Vn);
-                CoverImagesAdded++;
-            }
-            Logger.Instance.Log($"Opening cover grid with {CoverImagesAdded} VNs");
+                var Manager = new WindowManager();
+                var CoverImageViewModel = new CoverImageGridViewModel {MaxDisplayableRows = 10};
 
-            Manager.ShowWindow(CoverImageViewModel);
+                int CoverImagesAdded = 0;
+                foreach (var Vn in VisualNovels.Where(v => v.HasCoverImage))
+                {
+                    CoverImageViewModel.AddCover(Vn);
+                    CoverImagesAdded++;
+                }
+                Logger.Instance.Log($"Opening cover grid with {CoverImagesAdded} VNs");
+
+                Manager.ShowWindow(CoverImageViewModel);
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error opening cover image view: {e.Message}\n{e.StackTrace}");
+            }
         }
         public void Handle(CoverImageClickedMessage Message)
         {
@@ -319,9 +326,17 @@ namespace Visual_Novel_Universe.ViewModels
 
             SaveCoverImage();
 
-            var Temp = SelectedVisualNovel;
-            LoadVnList();
-            SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+            try
+            {
+                var Temp = SelectedVisualNovel;
+                LoadVnList();
+                SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error in SetVnInfo: {e.Message}\n{e.StackTrace}");
+                SelectedVisualNovel = ShownVisualNovels.FirstOrDefault();
+            }
         }
         private void SaveCoverImage()
         {
@@ -329,8 +344,16 @@ namespace Visual_Novel_Universe.ViewModels
             if (!WebBrowserAccessor.IsOnVndbPage()) return;
             Logger.Instance.Log($"Saving cover image from {WebBrowserAccessor.WebBrowser.Url}.");
 
-            var Image = VndbExtractor.ExtractCoverImage(WebBrowserAccessor.Html);
-            Image.Save(SelectedVisualNovel.CoverImagePath);
+            try
+            {
+                var Image = VndbExtractor.ExtractCoverImage(WebBrowserAccessor.Html);
+                Image.Save(SelectedVisualNovel.CoverImagePath);
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error saving cover image: {e.Message}\n{e.StackTrace}");
+            }
+            
         }
         private void Favorite()
         {
@@ -353,24 +376,45 @@ namespace Visual_Novel_Universe.ViewModels
 
         private void ImportVns()
         {
-            Logger.Instance.Log("Import started.");
-            foreach (string Dir in Settings.Instance.WorkingDirectories)
+            try
             {
-                FolderTools.EncapsulateAllFiles(Dir);
-                FolderTools.CleanAllFolderNames(Dir);
+                Logger.Instance.Log("Import started.");
+                foreach (string Dir in Settings.Instance.WorkingDirectories)
+                {
+                    FolderTools.EncapsulateAllFiles(Dir);
+                    FolderTools.CleanAllFolderNames(Dir);
+                }
+                LoadVnList();
+                Logger.Instance.Log($"Import command ended. {VisualNovels.Count} VNs loaded.");
             }
-            LoadVnList();
-            Logger.Instance.Log($"Import command ended. {VisualNovels.Count} VNs loaded.");
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Import error: {e.Message}\n{e.StackTrace}");
+            }
         }
         private void MassRenameToEnglish()
         {
-            Logger.Instance.Log("Mass renaming to English.");
-            FolderTools.RenameAllFolders(VisualNovels, Language.English);
+            try
+            {
+                Logger.Instance.Log("Mass renaming to English.");
+                FolderTools.RenameAllFolders(VisualNovels, Language.English);
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error renaming all to English: {e.Message}\n{e.StackTrace}");
+            }
         }
         private void MassRenameToJapanese()
         {
-            Logger.Instance.Log("Mass renaming to Japanese.");
-            FolderTools.RenameAllFolders(VisualNovels, Language.Japanese);
+            try
+            {
+                Logger.Instance.Log("Mass renaming to Japanese.");
+                FolderTools.RenameAllFolders(VisualNovels, Language.Japanese);
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error renaming all to Japanese: {e.Message}\n{e.StackTrace}");
+            }
         }
         private void LookupJapaneseTitle()
         {
@@ -399,15 +443,22 @@ namespace Visual_Novel_Universe.ViewModels
         }
         private void OpenSettingsMenu()
         {
-            Logger.Instance.Log("Opening settings.");
-            var ViewModel = new SettingsViewModel();
+            try
+            {
+                Logger.Instance.Log("Opening settings.");
+                var ViewModel = new SettingsViewModel();
 
-            var Manager = new WindowManager();
-            Manager.ShowDialog(ViewModel);
+                var Manager = new WindowManager();
+                Manager.ShowDialog(ViewModel);
 
-            ReloadVnListColumns();
-            RefreshWindowSizes();
-            VnListSearchBoxText = VnListSearchBoxText;
+                ReloadVnListColumns();
+                RefreshWindowSizes();
+                VnListSearchBoxText = VnListSearchBoxText;
+            }
+            catch (Exception e)
+            {
+                Logger.Instance.LogError($"Error in OpenSettingsMenu: {e.Message}\n{e.StackTrace}");
+            }
         }
 
         #endregion
