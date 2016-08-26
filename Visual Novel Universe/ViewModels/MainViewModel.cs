@@ -79,17 +79,11 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
-        [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlAppDomain)]
+        
         public MainViewModel()
         {
             DisplayName = "Visual Novel Universe";
-
-            AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
-            {
-                var e = (Exception)args.ExceptionObject;
-                Logger.Instance.LogError($"Uncaught exception: {e.Message}\n{e.StackTrace}");
-            };
-
+            
             try
             {
                 Events.Aggregator.Subscribe(this);
@@ -118,7 +112,7 @@ namespace Visual_Novel_Universe.ViewModels
         private void SelectedVisualNovelChanged(VisualNovel NewSelection)
         {
             if (NewSelection == null) return;
-            if (SelectedVisualNovel == NewSelection) return;
+            if (WebBrowserAccessor.IsOnVndbPage() && VndbPageNovel?.VndbLink == NewSelection.VndbLink) return;
             Logger.Instance.Log($"Selected visual novel changed to: {NewSelection.FolderName}");
 
             if (NewSelection.HasVnInfo && !string.IsNullOrWhiteSpace(NewSelection.VndbLink))

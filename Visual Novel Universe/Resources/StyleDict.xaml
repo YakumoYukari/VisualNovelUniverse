@@ -137,7 +137,68 @@
         </Setter>
     </Style>
 
-    <SolidColorBrush x:Key="ListBorder" Color="#828790"/>
+    <ControlTemplate x:Key="ListViewTemplate" TargetType="{x:Type ListViewItem}">
+        <Border CornerRadius="2" SnapsToDevicePixels="True"
+          BorderThickness="{TemplateBinding BorderThickness}" 
+          BorderBrush="{TemplateBinding BorderBrush}" 
+          Background="{TemplateBinding Background}">
+            <Border Name="InnerBorder" CornerRadius="1" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition MaxHeight="11" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Rectangle Name="UpperHighlight" Visibility="Collapsed" Fill="#75FFFFFF" />
+                    <GridViewRowPresenter Grid.Row="0" Grid.RowSpan="2" 
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}" 
+                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                </Grid>
+            </Border>
+        </Border>
+
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource ListItemHoverFill}" />
+                <Setter Property="BorderBrush" Value="#FFCCF0FF" />
+                <Setter TargetName="UpperHighlight" Property="Visibility" Value="Visible" />
+            </Trigger>
+
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="{StaticResource ListItemSelectedFill}" />
+                <Setter Property="BorderBrush" Value="#FF98DDFB" />
+                <Setter TargetName="InnerBorder" Property="BorderBrush" Value="#80FFFFFF" />
+                <Setter TargetName="UpperHighlight" Property="Visibility" Value="Visible" />
+                <Setter TargetName="UpperHighlight" Property="Fill" Value="#40FFFFFF" />
+            </Trigger>
+
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsSelected" Value="True" />
+                    <Condition Property="Selector.IsSelectionActive" Value="False" />
+                </MultiTrigger.Conditions>
+
+                <Setter Property="Background" Value="#000000" />
+                <Setter Property="BorderBrush" Value="#FFCFCFCF" />
+            </MultiTrigger>
+
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsSelected" Value="True" />
+                    <Condition Property="IsMouseOver" Value="True" />
+                </MultiTrigger.Conditions>
+
+                <Setter Property="Background" Value="#000000" />
+                <Setter Property="BorderBrush" Value="#FF98DDFB" />
+            </MultiTrigger>
+
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <SolidColorBrush x:Key="ListBorder" Color="#FF3E3E3E"/>
     <Style x:Key="VnListViewStyle" TargetType="{x:Type ListView}">
         <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
         <Setter Property="BorderThickness" Value="0"/>

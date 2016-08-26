@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using mshtml;
 using Visual_Novel_Universe.Models;
+using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
 namespace Visual_Novel_Universe
 {
@@ -138,6 +139,40 @@ namespace Visual_Novel_Universe
                 Index++;
                 if (Index != 2) continue;
                 Element.InnerHtml += @"  <a href=""vnu://confirmvn"">Confirm Selected VN is This Entry</a>";
+                break;
+            }
+        }
+
+        public static void AppendTabsToVnPage()
+        {
+            if (!IsOnVndbPage()) return;
+
+            if (WebBrowser.Document == null)
+            {
+                Logger.Instance.LogError("AppendConfirmVnDirective: Browser document is null.");
+                return;
+            }
+
+            var Doc = new HtmlDocument();
+            Doc.LoadHtml(Html);
+            
+            var MainBox = Doc.DocumentNode.SelectSingleNode("//div[@class=\"mainbox\"]");
+
+            string EnglishTitle = MainBox.SelectSingleNode("h1")?.InnerText;
+            string EnglishName = StringUtils.FixUrlCharacters(EnglishTitle);
+
+            string JapaneseTitle = MainBox.SelectSingleNode("h2")?.InnerText;
+            string JapaneseName = StringUtils.FixUrlCharacters(JapaneseTitle);
+
+            var HeaderElements = WebBrowser.Document.GetElementsByTagName("ul");
+
+            const string SUKEBEI_NYAA = @"http://sukebei.nyaa.se/?page=search&term={0}&sort=2";
+
+            foreach (var Element in HeaderElements.Cast<HtmlElement>())
+            {
+                Element.InnerHtml +=
+                    $@"<li><a href=""{string.Format(SUKEBEI_NYAA, EnglishName).GetUri()}"">sukebei eng</a></li>" +
+                    (!string.IsNullOrEmpty(JapaneseName) ? $@"<li><a href=""{string.Format(SUKEBEI_NYAA, JapaneseName).GetUri()}"">sukebei jpn</a></li>" : "");
                 break;
             }
         }

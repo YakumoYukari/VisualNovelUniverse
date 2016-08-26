@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:thirdParty="clr-namespace:Visual_Novel_Universe.ThirdParty"
         mc:Ignorable="d"
         Title="Customize Searches" Height="300" Width="300" MinWidth="600" MinHeight="300" ResizeMode="CanResizeWithGrip" Icon="/Visual Novel Universe;component/Resources/VNULogo2.ico">
     <Grid Background="#FF2E2E2E">
@@ -12,6 +14,9 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <ListView x:Name="ActiveDirectories" ItemsSource="{Binding SearchEntries}" SelectedItem="{Binding SelectedItem}"  IsSynchronizedWithCurrentItem="True" Margin="10,10,10,10" Background="#FF3F3F3F" Foreground="#C9C9C9" BorderBrush="#00000000" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5">
+            <i:Interaction.Behaviors>
+                <thirdParty:ScrollIntoViewBehavior />
+            </i:Interaction.Behaviors>
             <ListView.Resources>
                 <Style TargetType="{x:Type ScrollBar}">
                     <Setter Property="Background" Value="#2E2E2E" />
@@ -19,14 +24,6 @@
                     <Setter Property="BorderBrush" Value="#2E2E2E"/>
                 </Style>
             </ListView.Resources>
-            <ListView.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="0.88"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="1.413"/>
-                </TransformGroup>
-            </ListView.RenderTransform>
             <ListView.View>
                 <GridView ColumnHeaderContainerStyle="{StaticResource ResourceKey=VnGridViewColumnHeader}">
                     <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="200"/>
@@ -38,25 +35,30 @@
                     <Setter Property="Background" Value="#2E2E2E" />
                     <Setter Property="Foreground" Value="#C9C9C9"/>
                     <Setter Property="FontWeight" Value="Bold" />
-                    <Style.Resources>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="DarkGoldenrod"/>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.ActiveBorderBrushKey}" Color="DarkGoldenrod"/>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveBorderBrushKey}" Color="DarkGoldenrod"/>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="DarkGoldenrod"/>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.ActiveCaptionBrushKey}" Color="DarkGoldenrod"/>
-                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="DarkGoldenrod" />
-                    </Style.Resources>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                <Border CornerRadius="8" BorderBrush="{TemplateBinding BorderBrush}"  BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                                    <GridViewRowPresenter HorizontalAlignment="Stretch" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Width="Auto" Margin="0,1" Content="{TemplateBinding Content}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="#2E2E2E" />
                             <Setter Property="Foreground" Value="DarkGoldenrod" />
                             <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                            <Setter Property="BorderThickness" Value="2" />
                             <Setter Property="FontWeight" Value="Bold" />
                         </Trigger>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="#2E2E2E" />
-                            <Setter Property="Foreground" Value="DarkGoldenrod" />
-                            <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                            <Setter Property="Background" Value="DarkGoldenrod" />
+                            <Setter Property="Foreground" Value="GhostWhite" />
+                            <Setter Property="BorderBrush" Value="GhostWhite" />
+                            <Setter Property="BorderThickness" Value="2" />
                             <Setter Property="FontWeight" Value="Bold" />
                         </Trigger>
                     </Style.Triggers>

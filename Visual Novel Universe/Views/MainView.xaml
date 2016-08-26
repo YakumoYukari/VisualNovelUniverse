@@ -6,6 +6,7 @@
         xmlns:thirdParty="clr-namespace:Visual_Novel_Universe.ThirdParty"
         xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:cal="http://www.caliburnproject.org"
+        xmlns:local="clr-namespace:Visual_Novel_Universe"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         Height="768" Width="{Binding MainWindowWidth}" MinWidth="1024" MinHeight="768" Background="#FF474747"
@@ -58,9 +59,16 @@
                         <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">ENGLISH SEARCH</TextBlock>
                     </StackPanel>
                 </MenuItem.Header>
+                <MenuItem.ItemContainerStyle>
+                    <Style TargetType="MenuItem">
+                        <Setter Property="Command" Value="{Binding SearchForVnCommand}" />
+                        <Setter Property="CommandParameter" Value="{Binding EnglishCommandString}"/>
+                        <Setter Property="Width" Value="{Binding ElementName=EnglishSearchMenu, Path=ActualWidth, Mode=OneWay}"/>
+                    </Style>
+                </MenuItem.ItemContainerStyle>
                 <MenuItem.ItemTemplate>
                     <DataTemplate>
-                        <MenuItem Header="{Binding Name}" Command="{Binding SearchForVnCommand}" CommandParameter="{Binding EnglishCommandString}"/>
+                        <TextBlock Text="{Binding Name}"/>
                     </DataTemplate>
                 </MenuItem.ItemTemplate>
             </MenuItem>
@@ -70,9 +78,16 @@
                         <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">JAPANESE SEARCH</TextBlock>
                     </StackPanel>
                 </MenuItem.Header>
+                <MenuItem.ItemContainerStyle>
+                    <Style TargetType="MenuItem">
+                        <Setter Property="Command" Value="{Binding SearchForVnCommand}" />
+                        <Setter Property="CommandParameter" Value="{Binding JapaneseCommandString}"/>
+                        <Setter Property="Width" Value="{Binding ElementName=JapaneseSearchMenu, Path=ActualWidth, Mode=OneWay}"/>
+                    </Style>
+                </MenuItem.ItemContainerStyle>
                 <MenuItem.ItemTemplate>
                     <DataTemplate>
-                        <MenuItem Header="{Binding Name}" Command="{Binding SearchForVnCommand}" CommandParameter="{Binding JapaneseCommandString}"/>
+                        <TextBlock Text="{Binding Name}"/>
                     </DataTemplate>
                 </MenuItem.ItemTemplate>
             </MenuItem>
@@ -82,7 +97,7 @@
                         <TextBlock Width="125" Style="{StaticResource MainMenuTextBlockStyle}">CUSTOM SEARCH</TextBlock>
                     </StackPanel>
                 </MenuItem.Header>
-                <MenuItem Header="Customize Search..." Command="{Binding CustomizeSearchesCommand}" MinWidth="{Binding ElementName= CustomSearchMenu, Path=ActualWidth}"/>
+                <MenuItem Header="Customize Search..." Command="{Binding CustomizeSearchesCommand}" MinWidth="{Binding ElementName=CustomSearchMenu, Path=ActualWidth}"/>
             </MenuItem>
             <MenuItem Height="30" Padding="0" HorizontalContentAlignment="Center">
                 <MenuItem.Header>
@@ -174,30 +189,35 @@
                             <Setter Property="Background" Value="#2E2E2E" />
                             <Setter Property="Foreground" Value="#C9C9C9"/>
                             <Setter Property="FontWeight" Value="Bold" />
-                            <Style.Resources>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="DarkGoldenrod"/>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.ActiveBorderBrushKey}" Color="DarkGoldenrod"/>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveBorderBrushKey}" Color="DarkGoldenrod"/>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="DarkGoldenrod"/>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.ActiveCaptionBrushKey}" Color="DarkGoldenrod"/>
-                                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="DarkGoldenrod" />
-                            </Style.Resources>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                        <Border CornerRadius="8" BorderBrush="{TemplateBinding BorderBrush}"  BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                                            <GridViewRowPresenter HorizontalAlignment="Stretch" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Width="Auto" Margin="0,1" Content="{TemplateBinding Content}"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#2E2E2E" />
                                     <Setter Property="Foreground" Value="DarkGoldenrod" />
                                     <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                                    <Setter Property="BorderThickness" Value="2" />
                                     <Setter Property="FontWeight" Value="Bold" />
                                 </Trigger>
                                 <Trigger Property="IsSelected" Value="True">
-                                    <Setter Property="Background" Value="#2E2E2E" />
-                                    <Setter Property="Foreground" Value="DarkGoldenrod" />
-                                    <Setter Property="BorderBrush" Value="DarkGoldenrod"/>
+                                    <Setter Property="Background" Value="DarkGoldenrod" />
+                                    <Setter Property="Foreground" Value="GhostWhite" />
+                                    <Setter Property="BorderBrush" Value="GhostWhite" />
+                                    <Setter Property="BorderThickness" Value="2" />
                                     <Setter Property="FontWeight" Value="Bold" />
                                 </Trigger>
                                 <DataTrigger Binding="{Binding Highlighted}" Value="True">
                                     <Setter Property="Background" Value="{Binding HighlightColor}" />
-                                    <Setter Property="Foreground" Value="WhiteSmoke" />
+                                    <Setter Property="Foreground" Value="GhostWhite" />
                                 </DataTrigger>
                             </Style.Triggers>
                         </Style>

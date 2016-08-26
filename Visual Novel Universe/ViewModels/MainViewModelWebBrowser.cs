@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Windows.Forms;
 using System.Windows.Input;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
@@ -67,10 +70,23 @@ namespace Visual_Novel_Universe.ViewModels
 
         public void OnWebBrowserNavigating(object sender, WebBrowserNavigatingEventArgs e)
         {
-            if (!e.Url.AbsoluteUri.StartsWith("vnu://")) return;
+            if (e.Url == null) return;
 
-            e.Cancel = true;
-            ProcessDirective(e.Url.AbsoluteUri);
+            string Url = e.Url.AbsoluteUri;
+            if (Url.Contains("nyaa.se/?page=download&tid="))
+            {
+                e.Cancel = true;
+
+                const string TORRENT_FILE_NAME = "DownloadedTorrent.torrent";
+
+                new WebClient().DownloadFile(Url, TORRENT_FILE_NAME);
+                Process.Start(TORRENT_FILE_NAME);
+            }
+            if (Url.StartsWith("vnu://"))
+            {
+                e.Cancel = true;
+                ProcessDirective(Url);
+            }
         }
 
         public void ProcessDirective(string DirectiveUrl)
@@ -86,8 +102,8 @@ namespace Visual_Novel_Universe.ViewModels
         public void OnWebBrowserNavigate(object sender, WebBrowserNavigatedEventArgs e)
         {
             if (e.Url == null) return;
-
-            Logger.Instance.Log($"OnWebBrowserNavigate URL: {e.Url}");
+            
+            Logger.Instance.Log($"OnWebBrowserNavigate URL: {e.Url.AbsoluteUri}");
             BrowserAddressBarText = e.Url.AbsoluteUri;
         }
 
@@ -120,6 +136,8 @@ namespace Visual_Novel_Universe.ViewModels
         {
             VndbPageNovel = VndbExtractor.ExtractVisualNovel(Url, WebBrowserAccessor.Html);
             VndbPageNovel.Owned = VisualNovels.Any(v => v.VndbLink == VndbPageNovel.VndbLink);
+
+            WebBrowserAccessor.AppendTabsToVnPage();
 
             if (VndbPageNovel.Owned)
             {

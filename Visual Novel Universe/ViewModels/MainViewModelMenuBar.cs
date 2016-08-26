@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Input;
 using Caliburn.Micro;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using Visual_Novel_Universe.Models;
@@ -205,7 +206,7 @@ namespace Visual_Novel_Universe.ViewModels
         {
             if (HighlightEnglishAvailableChecked)
             {
-                Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases.Any());
+                Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases?.Any() ?? false);
             }
             else
             {
@@ -215,7 +216,7 @@ namespace Visual_Novel_Universe.ViewModels
         private void HighlightEnglishAvailableMenu()
         {
             HighlightEnglishAvailableChecked = true;
-            Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases.Any());
+            Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases?.Any() ?? false);
         }
         private void HighlightFavorites()
         {
