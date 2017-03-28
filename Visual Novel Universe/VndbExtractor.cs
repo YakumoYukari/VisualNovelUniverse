@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
+using Core.Utils;
 using Visual_Novel_Universe.Models;
 using HtmlAgilityPack;
 
@@ -37,11 +38,24 @@ namespace Visual_Novel_Universe
             Vn.Description = StringUtils.FixUrlCharacters(StringUtils.ConvertHrefToText(Description));
 
             Vn.NovelLength = GetLength(Doc.DocumentNode);
+
             Vn.Developers = GetDevelopers(Doc.DocumentNode);
             Vn.Publishers = GetPublishers(Doc.DocumentNode);
+            if ((Vn.Developers == null || Vn.Developers.Count == 0) && Vn.Publishers.Count > 0)
+            {
+                if (Vn.Developers == null)
+                {
+                    Vn.Developers = new List<string> { Vn.Publishers.First().PublisherName };
+                }
+                else
+                {
+                    Vn.Developers.Add(Vn.Publishers.First().PublisherName);
+                }
+            }
+
             Vn.Tags = GetTags(Doc.DocumentNode);
 
-            Vn.EnglishReleases = new List<Release>(Vn.Publishers.Where(p => p.Language == "English").Select(p => new Release{ Link = p.Link, Publisher = p.PublisherName }));
+            Vn.EnglishReleases = new List<Release>(Vn.Publishers.Where(P => P.Language == "English").Select(P => new Release{ Link = P.Link, Publisher = P.PublisherName }));
 
             Vn.Favorited = false;
             Vn.HasVnInfo = false;
@@ -141,7 +155,7 @@ namespace Visual_Novel_Universe
         private static List<string> GetTags(HtmlNode Node)
         {
             var TagsNode = Node.SelectSingleNode("//div[@id=\"vntags\"]");
-            return TagsNode == null ? new List<string>() : new List<string>(TagsNode.ChildNodes.Elements().Where(e => e.Name == "a").Select(e => StringUtils.FixUrlCharacters(e.InnerText)));
+            return TagsNode == null ? new List<string>() : new List<string>(TagsNode.ChildNodes.Elements().Where(E => E.Name == "a").Select(E => StringUtils.FixUrlCharacters(E.InnerText)));
         }
     }
 }

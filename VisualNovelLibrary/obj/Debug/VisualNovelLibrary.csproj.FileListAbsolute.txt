@@ -1,0 +1,8 @@
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\bin\Debug\VisualNovelLibrary.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\bin\Debug\VisualNovelLibrary.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\obj\Debug\VisualNovelLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\obj\Debug\VisualNovelLibrary.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary\obj\Debug\VisualNovelLibrary.pdb

@@ -5,8 +5,6 @@ using System.Linq;
 using Caliburn.Micro;
 using Visual_Novel_Universe.Models;
 using System.IO;
-using System.Windows.Markup;
-using System.Security.Permissions;
 
 namespace Visual_Novel_Universe.ViewModels
 {
@@ -63,7 +61,7 @@ namespace Visual_Novel_Universe.ViewModels
             set
             {
                 _VndbPageNovel = value;
-                _VndbPageNovel.Owned = VisualNovels.Any(v => v.VndbLink == _VndbPageNovel.VndbLink);
+                _VndbPageNovel.Owned = VisualNovels.Any(V => V.VndbLink == _VndbPageNovel.VndbLink);
                 if (_VndbPageNovel.Owned)
                 {
                     OwnedStatusText = Properties.Resources.StatusLabel_Owned;
@@ -87,9 +85,9 @@ namespace Visual_Novel_Universe.ViewModels
             try
             {
                 Events.Aggregator.Subscribe(this);
-                Settings.Instance.SearchOptions.ForEach((s) =>
+                Settings.Instance.SearchOptions.ForEach((S) =>
                 {
-                    s.SearchForVnCommand = new RelayCommand<string>(SearchForVn);
+                    S.SearchForVnCommand = new RelayCommand<string>(SearchForVn);
                 });
                 Settings.Instance.SearchOptions.ForEach(EnglishSearchEntries.Add);
                 Settings.Instance.SearchOptions.ForEach(JapaneseSearchEntries.Add);
@@ -164,7 +162,7 @@ namespace Visual_Novel_Universe.ViewModels
             }
 
 
-            SortingList = SortingList.OrderBy(v => v.EnglishName).ToList();
+            SortingList = SortingList.OrderBy(V => V.EnglishName).ToList();
             SortingList.ForEach(VisualNovels.Add);
             SortingList.ForEach(ShownVisualNovels.Add);
 

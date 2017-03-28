@@ -157,12 +157,12 @@
     <Compile Include="Events.cs" />
     <Compile Include="FolderTools.cs" />
     <Compile Include="Highlight.cs" />
-    <Compile Include="Language.cs" />
     <Compile Include="LegacyVnLoader.cs" />
-    <Compile Include="Length.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Models\CoverImage.cs" />
     <Compile Include="Models\CoverImageClickedMessage.cs" />
+    <Compile Include="Models\Language.cs" />
+    <Compile Include="Models\Length.cs" />
     <Compile Include="Models\Publisher.cs" />
     <Compile Include="Models\Release.cs" />
     <Compile Include="Models\SearchEntry.cs" />
@@ -172,7 +172,6 @@
     <Compile Include="PathUtils.cs" />
     <Compile Include="RelayCommand.cs" />
     <Compile Include="Settings.cs" />
-    <Compile Include="StringUtils.cs" />
     <Compile Include="ThirdParty\BrowserConfiguration.cs" />
     <Compile Include="ThirdParty\GridViewColumnVisibilityManager.cs" />
     <Compile Include="ThirdParty\ListViewSorter.cs" />
@@ -296,6 +295,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="VNULogo2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.DependencyInjection\Core.DependencyInjection.csproj">
+      <Project>{ce7e27c4-eeb2-4725-bd8f-b2e69afb412d}</Project>
+      <Name>Core.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Core.Logging\Core.Logging.csproj">
+      <Project>{a813cf8b-4f43-433b-82e9-931fd018d9c0}</Project>
+      <Name>Core.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Core.Utils\Core.Utils.csproj">
+      <Project>{8cf0e921-bd19-46f9-9cfe-097276d85eb0}</Project>
+      <Name>Core.Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

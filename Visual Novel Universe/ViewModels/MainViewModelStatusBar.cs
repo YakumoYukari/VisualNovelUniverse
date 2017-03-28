@@ -49,11 +49,11 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
-        public void DoVndbSearch(ActionExecutionContext context)
+        public void DoVndbSearch(ActionExecutionContext Context)
         {
-            var keyArgs = context.EventArgs as KeyEventArgs;
+            var KeyArgs = Context.EventArgs as KeyEventArgs;
 
-            if (keyArgs != null && keyArgs.Key == Key.Enter && !string.IsNullOrWhiteSpace(VndbSearchText))
+            if (KeyArgs != null && KeyArgs.Key == Key.Enter && !string.IsNullOrWhiteSpace(VndbSearchText))
             {
                 WebBrowserAccessor.SearchVndb(VndbSearchText);
             }

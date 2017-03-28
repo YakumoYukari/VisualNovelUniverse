@@ -27,7 +27,7 @@
                 <RowDefinition Height="25"/>
             </Grid.RowDefinitions>
             <Label Content="Strings to remove while importing" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10" Foreground="#FFCDCDCD"/>
-            <ListView Name="FolderCleanupsList" Grid.Row="1" ItemsSource="{Binding FolderCleanups}" SelectedItem="{Binding SelectedItem}" IsSynchronizedWithCurrentItem="True" Background="#FF3F3F3F" Foreground="#C9C9C9" BorderBrush="#00000000" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView Name="FolderCleanupsList" Grid.Row="1" ItemsSource="{Binding FolderCleanups}" SelectedItem="{Binding SelectedFolderCleanup}" IsSynchronizedWithCurrentItem="True" Background="#FF3F3F3F" Foreground="#C9C9C9" BorderBrush="#00000000" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <i:Interaction.Behaviors>
                     <thirdParty:ScrollIntoViewBehavior />
                 </i:Interaction.Behaviors>

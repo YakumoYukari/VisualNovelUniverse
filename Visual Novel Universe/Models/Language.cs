@@ -1,4 +1,4 @@
-﻿namespace Visual_Novel_Universe
+﻿namespace Visual_Novel_Universe.Models
 {
     public enum Language
     {

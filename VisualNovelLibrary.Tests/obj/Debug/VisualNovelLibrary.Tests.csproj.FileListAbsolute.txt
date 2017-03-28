@@ -1,0 +1,17 @@
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\VisualNovelLibrary.Tests.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\VisualNovelLibrary.Tests.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Castle.Core.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\FluentAssert.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Moq.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\VisualNovelLibrary.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\VisualNovelLibrary.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Castle.Core.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\FluentAssert.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Moq.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\obj\Debug\VisualNovelLibrary.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\obj\Debug\VisualNovelLibrary.Tests.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\VisualNovelLibrary.Tests\obj\Debug\VisualNovelLibrary.Tests.pdb

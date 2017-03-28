@@ -2,8 +2,8 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Web;
 using System.Windows;
-using System.Windows.Input;
 using Caliburn.Micro;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using Visual_Novel_Universe.Models;
@@ -15,46 +15,44 @@ namespace Visual_Novel_Universe.ViewModels
         public void InitMenuBar()
         {
             //File
-            ChooseDirectoryCommand = new RelayCommand<string>(s => ChooseDirectory());
-            ExportVnListCommand = new RelayCommand<string>(s => ExportVnList());
-            OpenContainingFolderCommand = new RelayCommand<string>(s => OpenContainingFolder());
+            ChooseDirectoryCommand = new RelayCommand<string>(S => ChooseDirectory());
+            ExportVnListCommand = new RelayCommand<string>(S => ExportVnList());
+            OpenContainingFolderCommand = new RelayCommand<string>(S => OpenContainingFolder());
 
             //Edit
-            CopyVnLinkCommand = new RelayCommand<string>(s => CopyVnLink());
-            CopyVnEnglishNameCommand = new RelayCommand<string>(s => CopyVnEnglishName());
-            CopyVnJapaneseNameCommand = new RelayCommand<string>(s => CopyVnJapaneseName());
+            CopyVnLinkCommand = new RelayCommand<string>(S => CopyVnLink());
+            CopyVnEnglishNameCommand = new RelayCommand<string>(S => CopyVnEnglishName());
+            CopyVnJapaneseNameCommand = new RelayCommand<string>(S => CopyVnJapaneseName());
 
             //View
-            OpenCoverImageViewCommand = new RelayCommand<string>(s => OpenCoverImageView());
+            OpenCoverImageViewCommand = new RelayCommand<string>(S => OpenCoverImageView());
 
             //Highlight
-            ClearHighlightingCommand = new RelayCommand<string>(s => ClearHighlighting());
-            HighlightEnglishAvailableCommand = new RelayCommand<string>(s => HighlightEnglishAvailable());
-            HighlightEnglishAvailableMenuCommand = new RelayCommand<string>(s => HighlightEnglishAvailableMenu());
-            HighlightFavoritesCommand = new RelayCommand<string>(s => HighlightFavorites());
-            HighlightFavoritesMenuCommand = new RelayCommand<string>(s => HighlightFavoritesMenu());
-            HighlightMissingInfoCommand = new RelayCommand<string>(s => Highlight.MissingVnInfo(VisualNovels));
-            HighlightMissingImageCommand = new RelayCommand<string>(s => Highlight.MissingCoverImages(VisualNovels));
+            ClearHighlightingCommand = new RelayCommand<string>(S => ClearHighlighting());
+            HighlightEnglishAvailableCommand = new RelayCommand<string>(S => HighlightEnglishAvailable());
+            HighlightFavoritesCommand = new RelayCommand<string>(S => HighlightFavorites());
+            HighlightMissingInfoCommand = new RelayCommand<string>(S => Highlight.MissingVnInfo(VisualNovels));
+            HighlightMissingImageCommand = new RelayCommand<string>(S => Highlight.MissingCoverImages(VisualNovels));
 
             //Custom Search
-            CustomizeSearchesCommand = new RelayCommand<string>(s => CustomizeSearches());
+            CustomizeSearchesCommand = new RelayCommand<string>(S => CustomizeSearches());
 
             //Data
-            RefreshVnListCommand = new RelayCommand<string>(s => LoadVnList());
-            SetVnInfoCommand = new RelayCommand<string>(s => SetVnInfo());
-            SaveCoverImageCommand = new RelayCommand<string>(s => SaveCoverImage());
-            FavoriteCommand = new RelayCommand<string>(s => Favorite());
+            RefreshVnListCommand = new RelayCommand<string>(S => LoadVnList());
+            SetVnInfoCommand = new RelayCommand<string>(S => SetVnInfo());
+            SaveCoverImageCommand = new RelayCommand<string>(S => SaveCoverImage());
+            FavoriteCommand = new RelayCommand<string>(S => Favorite());
 
             //Tools
-            ImportVnsCommand = new RelayCommand<string>(s => ImportVns());
-            MassRenameToEnglishCommand = new RelayCommand<string>(s => MassRenameToEnglish());
-            MassRenameToJapaneseCommand = new RelayCommand<string>(s => MassRenameToJapanese());
-            LookupJapaneseTitleCommand = new RelayCommand<string>(s => LookupJapaneseTitle());
-            AutoGoToNextCommand = new RelayCommand<string>(s => AutoGoToNext());
-            OpenSettingsMenuCommand = new RelayCommand<string>(s => OpenSettingsMenu());
+            ImportVnsCommand = new RelayCommand<string>(S => ImportVns());
+            MassRenameToEnglishCommand = new RelayCommand<string>(S => MassRenameToEnglish());
+            MassRenameToJapaneseCommand = new RelayCommand<string>(S => MassRenameToJapanese());
+            LookupJapaneseTitleCommand = new RelayCommand<string>(S => LookupJapaneseTitle());
+            AutoGoToNextCommand = new RelayCommand<string>(S => AutoGoToNext());
+            OpenSettingsMenuCommand = new RelayCommand<string>(S => OpenSettingsMenu());
 
             //Help
-            GetHelpCommand = new RelayCommand<string>(s => GetHelp());
+            GetHelpCommand = new RelayCommand<string>(S => GetHelp());
         }
 
         #region File
@@ -160,10 +158,10 @@ namespace Visual_Novel_Universe.ViewModels
             try
             {
                 var Manager = new WindowManager();
-                var CoverImageViewModel = new CoverImageGridViewModel {MaxDisplayableRows = 10};
+                var CoverImageViewModel = new CoverImageGridViewModel {MaxDisplayableRows = 16};
 
                 int CoverImagesAdded = 0;
-                foreach (var Vn in VisualNovels.Where(v => v.HasCoverImage))
+                foreach (var Vn in VisualNovels.Where(V => V.HasCoverImage))
                 {
                     CoverImageViewModel.AddCover(Vn);
                     CoverImagesAdded++;
@@ -190,8 +188,6 @@ namespace Visual_Novel_Universe.ViewModels
         public RelayCommand<string> ClearHighlightingCommand { get; set; }
         public RelayCommand<string> HighlightEnglishAvailableCommand { get; set; }
         public RelayCommand<string> HighlightFavoritesCommand { get; set; }
-        public RelayCommand<string> HighlightEnglishAvailableMenuCommand { get; set; }
-        public RelayCommand<string> HighlightFavoritesMenuCommand { get; set; }
         public RelayCommand<string> HighlightMissingInfoCommand { get; set; }
         public RelayCommand<string> HighlightMissingImageCommand { get; set; }
 
@@ -202,39 +198,13 @@ namespace Visual_Novel_Universe.ViewModels
             HighlightFavoritesChecked = false;
             VnListSearchBoxText = "";
         }
-        private void HighlightEnglishAvailable()
-        {
-            if (HighlightEnglishAvailableChecked)
-            {
-                Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases?.Any() ?? false);
-            }
-            else
-            {
-                Highlight.ClearHighlighting(VisualNovels);
-            }
-        }
+        
         private void HighlightEnglishAvailableMenu()
         {
             HighlightEnglishAvailableChecked = true;
-            Highlight.OnCriteria(VisualNovels, vn => vn.EnglishReleases?.Any() ?? false);
+            Highlight.OnCriteria(VisualNovels, VN => VN.EnglishReleases?.Any() ?? false);
         }
-        private void HighlightFavorites()
-        {
-            if (HighlightFavoritesChecked)
-            {
-                Highlight.OnCriteria(VisualNovels, vn => vn.Favorited);
-            }
-            else
-            {
-                Highlight.ClearHighlighting(VisualNovels);
-            }
-        }
-        private void HighlightFavoritesMenu()
-        {
-            HighlightFavoritesChecked = true;
-            Highlight.OnCriteria(VisualNovels, vn => vn.Favorited);
-        }
-
+        
         #endregion
 
         #region Eng/Jpn Searches
@@ -281,7 +251,7 @@ namespace Visual_Novel_Universe.ViewModels
             WindowManager.ShowDialog(ViewModel);
 
             var Searches = ViewModel.SearchEntries.ToList();
-            Searches.ForEach(s => s.SearchForVnCommand = new RelayCommand<string>(SearchForVn));
+            Searches.ForEach(S => S.SearchForVnCommand = new RelayCommand<string>(SearchForVn));
 
             Settings.Instance.SearchOptions = Searches;
             Settings.Instance.Save();
@@ -331,7 +301,7 @@ namespace Visual_Novel_Universe.ViewModels
             {
                 var Temp = SelectedVisualNovel;
                 LoadVnList();
-                SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                SelectedVisualNovel = ShownVisualNovels.First(VN => VN.VndbLink == Temp.VndbLink);
             }
             catch (Exception e)
             {
@@ -420,7 +390,7 @@ namespace Visual_Novel_Universe.ViewModels
         private void LookupJapaneseTitle()
         {
             if (string.IsNullOrWhiteSpace(VndbPageNovel?.JapaneseName)) return;
-            WebBrowserAccessor.Navigate($@"http://jisho.org/search/{VndbPageNovel.JapaneseName.SafeForUrl()}".GetUri());
+            WebBrowserAccessor.Navigate($@"http://jisho.org/search/{HttpUtility.UrlEncode(VndbPageNovel.JapaneseName)}".GetUri());
         }
         private void AutoGoToNext()
         {
@@ -435,7 +405,15 @@ namespace Visual_Novel_Universe.ViewModels
                 VisualNovels.ToList().ForEach(ShownVisualNovels.Add);
 
                 AutoGoToNextOption = true;
-                SelectedVisualNovel = ShownVisualNovels.First();
+
+                if (SelectedVisualNovel != null && SelectedVisualNovel.HasVnInfo)
+                {
+                    WebBrowserAccessor.Navigate(SelectedVisualNovel.VndbLink);
+                }
+                else
+                {
+                    SelectedVisualNovel = ShownVisualNovels.First();
+                }
             }
             else
             {

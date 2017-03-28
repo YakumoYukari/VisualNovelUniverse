@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Net;
 using System.Windows.Forms;
@@ -44,38 +43,38 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
-        public RelayCommand<string> BackCommand { get; set; } = new RelayCommand<string>(s =>
+        public RelayCommand<string> BackCommand { get; set; } = new RelayCommand<string>(S =>
         {
             if (WebBrowserAccessor.WebBrowser.CanGoBack) WebBrowserAccessor.WebBrowser.GoBack();
         });
-        public RelayCommand<string> ForwardCommand { get; set; } = new RelayCommand<string>(s =>
+        public RelayCommand<string> ForwardCommand { get; set; } = new RelayCommand<string>(S =>
         {
             if (WebBrowserAccessor.WebBrowser.CanGoForward) WebBrowserAccessor.WebBrowser.GoForward();
         });
-        public RelayCommand<string> RefreshCommand { get; set; } = new RelayCommand<string>(s =>
+        public RelayCommand<string> RefreshCommand { get; set; } = new RelayCommand<string>(S =>
         {
             WebBrowserAccessor.WebBrowser.Refresh();
         });
-        public RelayCommand<string> GoCommand { get; set; } = new RelayCommand<string>(s =>
+        public RelayCommand<string> GoCommand { get; set; } = new RelayCommand<string>(S =>
         {
-            if (string.IsNullOrWhiteSpace(s)) return;
-            WebBrowserAccessor.Navigate(s);
+            if (string.IsNullOrWhiteSpace(S)) return;
+            WebBrowserAccessor.Navigate(S);
         });
 
-        public void NavigationBarKeyDown(KeyEventArgs e)
+        public void NavigationBarKeyDown(KeyEventArgs E)
         {
-            if (e.Key != Key.Enter) return;
+            if (E.Key != Key.Enter) return;
             WebBrowserAccessor.Navigate(BrowserAddressBarText.GetUri());
         }
 
-        public void OnWebBrowserNavigating(object sender, WebBrowserNavigatingEventArgs e)
+        public void OnWebBrowserNavigating(object Sender, WebBrowserNavigatingEventArgs E)
         {
-            if (e.Url == null) return;
+            if (E.Url == null) return;
 
-            string Url = e.Url.AbsoluteUri;
+            string Url = E.Url.AbsoluteUri;
             if (Url.Contains("nyaa.se/?page=download&tid="))
             {
-                e.Cancel = true;
+                E.Cancel = true;
 
                 const string TORRENT_FILE_NAME = "DownloadedTorrent.torrent";
 
@@ -84,7 +83,7 @@ namespace Visual_Novel_Universe.ViewModels
             }
             if (Url.StartsWith("vnu://"))
             {
-                e.Cancel = true;
+                E.Cancel = true;
                 ProcessDirective(Url);
             }
         }
@@ -99,24 +98,24 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
-        public void OnWebBrowserNavigate(object sender, WebBrowserNavigatedEventArgs e)
+        public void OnWebBrowserNavigate(object Sender, WebBrowserNavigatedEventArgs EventArgs)
         {
-            if (e.Url == null) return;
+            if (EventArgs.Url == null) return;
             
-            Logger.Instance.Log($"OnWebBrowserNavigate URL: {e.Url.AbsoluteUri}");
-            BrowserAddressBarText = e.Url.AbsoluteUri;
+            Logger.Instance.Log($"OnWebBrowserNavigate URL: {EventArgs.Url.AbsoluteUri}");
+            BrowserAddressBarText = EventArgs.Url.AbsoluteUri;
         }
 
-        public void OnWebBrowserLoadCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        public void OnWebBrowserLoadCompleted(object Sender, WebBrowserDocumentCompletedEventArgs EventArgs)
         {
             if (WebBrowserAccessor.IsOnVndbPage())
             {
-                Logger.Instance.Log($"Load completed on VNDB page: {e.Url}");
+                Logger.Instance.Log($"Load completed on VNDB page: {EventArgs.Url}");
                 ArrivedAtVndbPage(WebBrowserAccessor.WebBrowser.Url.AbsoluteUri);
             }
             else
             {
-                Logger.Instance.Log($"Load completed on non-VNDB page: {e.Url}");
+                Logger.Instance.Log($"Load completed on non-VNDB page: {EventArgs.Url}");
                 if (LookingForVndbEntry)
                 {
                     WebBrowserAccessor.ShowConfirmationNeededMessage();
@@ -135,13 +134,15 @@ namespace Visual_Novel_Universe.ViewModels
         private void ArrivedAtVndbPage(string Url)
         {
             VndbPageNovel = VndbExtractor.ExtractVisualNovel(Url, WebBrowserAccessor.Html);
-            VndbPageNovel.Owned = VisualNovels.Any(v => v.VndbLink == VndbPageNovel.VndbLink);
+            VndbPageNovel.Owned = VisualNovels.Any(V => V.VndbLink == VndbPageNovel.VndbLink);
 
             WebBrowserAccessor.AppendTabsToVnPage();
 
             if (VndbPageNovel.Owned)
             {
                 WebBrowserAccessor.SetVndbTitleColor(Settings.Instance.VndbOwnedVnTitleColor, 14);
+                if (ShownVisualNovels.Any(Vn => Vn.VndbLink == VndbPageNovel.VndbLink))
+                    SelectedVisualNovel = ShownVisualNovels.First(Vn => Vn.VndbLink == VndbPageNovel.VndbLink);
             }
 
             if (SelectedVisualNovel != null && !SelectedVisualNovel.HasVnInfo)
@@ -154,14 +155,15 @@ namespace Visual_Novel_Universe.ViewModels
                 SelectedVisualNovel = VisualNovelMerger.MergeLocalAndWeb(SelectedVisualNovel, VndbPageNovel);
                 VisualNovelLoader.Save(SelectedVisualNovel);
                 SaveCoverImage();
-
+                
                 if (!AutoGoToNextOption)
                 {
                     try
                     {
                         var Temp = SelectedVisualNovel;
                         LoadVnList();
-                        SelectedVisualNovel = ShownVisualNovels.First(vn => vn.VndbLink == Temp.VndbLink);
+                        SelectedVisualNovel = ShownVisualNovels.First(VN => VN.VndbLink == Temp.VndbLink);
+                        WebBrowserAccessor.WebBrowser.Refresh();
                     }
                     catch (Exception e)
                     {

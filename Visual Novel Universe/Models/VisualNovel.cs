@@ -17,6 +17,7 @@ namespace Visual_Novel_Universe.Models
             set {
                 _VnFolderPath = value;
                 NotifyOfPropertyChange(() => VnFolderPath);
+                _HasCoverImage = File.Exists(CoverImagePath);
             }
         }
 
@@ -26,9 +27,7 @@ namespace Visual_Novel_Universe.Models
         private bool _HasVnInfo;
         public bool HasVnInfo
         {
-            get
-            {
-                return File.Exists(VnInfoFilepath) && _HasVnInfo;
+            get { return _HasVnInfo; // && File.Exists(VnInfoFilepath);
             }
             set {
                 _HasVnInfo = value;
@@ -38,7 +37,9 @@ namespace Visual_Novel_Universe.Models
 
         public string VnInfoFilepath => Path.Combine(VnFolderPath, ConfigurationManager.AppSettings["VnInfoFilename"]);
         public string CoverImagePath => Path.Combine(VnFolderPath, ConfigurationManager.AppSettings["VnCoverImageFilename"]);
-        public bool HasCoverImage => File.Exists(CoverImagePath);
+
+        private bool _HasCoverImage;
+        public bool HasCoverImage => _HasCoverImage;
 
         private string _EnglishName = "";
         public string EnglishName
@@ -148,16 +149,16 @@ namespace Visual_Novel_Universe.Models
                     : Tags.Contains("Eroge", StringComparer.CurrentCultureIgnoreCase)
                         ? AgeRating.Eroge
                         : Tags.Any(
-                            s =>
-                                (s.ToLowerInvariant().Contains(" sex") ||
-                                s.ToLowerInvariant().Contains("sex ") ||
-                                s.ToLowerInvariant().Contains("rape") ||
-                                s.ToLowerInvariant().Contains("masturbat") ||
-                                s.ToLowerInvariant().Contains("incest") ||
-                                s.ToLowerInvariant().Contains("yaoi") ||
-                                s.ToLowerInvariant().Contains("yuri") ||
-                                s.ToLowerInvariant().Contains("sexual content")) &&
-                                s.ToLowerInvariant() != "no sexual content")
+                            S =>
+                                (S.ToLowerInvariant().Contains(" sex") ||
+                                S.ToLowerInvariant().Contains("sex ") ||
+                                S.ToLowerInvariant().Contains("rape") ||
+                                S.ToLowerInvariant().Contains("masturbat") ||
+                                S.ToLowerInvariant().Contains("incest") ||
+                                S.ToLowerInvariant().Contains("yaoi") ||
+                                S.ToLowerInvariant().Contains("yuri") ||
+                                S.ToLowerInvariant().Contains("sexual content")) &&
+                                S.ToLowerInvariant() != "no sexual content")
                             ? AgeRating.SexualContent
                             : AgeRating.AllAges;
             }
@@ -182,8 +183,13 @@ namespace Visual_Novel_Universe.Models
             set {
                 _Favorited = value;
                 NotifyOfPropertyChange(() => Favorited);
+                NotifyOfPropertyChange(() => FavoritedString);
+                NotifyOfPropertyChange(() => FavoritedColor);
             }
         }
+
+        public string FavoritedString => Favorited ? "♥" : "";
+        public string FavoritedColor => Favorited ? "DarkGoldenrod" : "GhostWhite";
 
         private bool _Owned;
         public bool Owned

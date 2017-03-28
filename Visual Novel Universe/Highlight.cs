@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.Utils;
 using Visual_Novel_Universe.Models;
 
 namespace Visual_Novel_Universe
@@ -20,7 +21,7 @@ namespace Visual_Novel_Universe
             SearchTerm = SearchTerm.ToLower().Trim();
             var SearchTerms = StringUtils.SplitWithQuotes(SearchTerm);
 
-            foreach (var Vn in VisualNovels)
+            foreach (var Vn in VisualNovels.Where(V => V.HasVnInfo))
             {
                 Vn.Highlighted = false;
 
@@ -38,7 +39,7 @@ namespace Visual_Novel_Universe
                 }
                 if (Settings.Instance.HighlightDeveloper)
                 {
-                    if (SearchTerms.All(st => Vn.Developers.Any(d => d.ToLower().Contains(st))))
+                    if (SearchTerms.All(Term => Vn.Developers.Any(D => D.ToLower().Contains(Term))))
                     {
                         Vn.Highlighted = true;
                         Vn.HighlightColor = Settings.Instance.HighlightDeveloperMatchColor;
@@ -59,7 +60,7 @@ namespace Visual_Novel_Universe
                 }
                 if (Settings.Instance.HighlightTags)
                 {
-                    if (SearchTerms.All(st => Vn.Tags.Any(t => t.ToLower().Contains(st))))
+                    if (SearchTerms.All(Term => Vn.Tags.Any(T => T.ToLower().Contains(Term))))
                     {
                         Vn.Highlighted = true;
                         Vn.HighlightColor = Settings.Instance.HighlightTagsMatchColor;

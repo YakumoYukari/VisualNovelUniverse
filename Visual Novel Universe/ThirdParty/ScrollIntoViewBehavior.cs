@@ -12,19 +12,19 @@ namespace Visual_Novel_Universe.ThirdParty
             AssociatedObject.SelectionChanged += AssociatedObject_SelectionChanged;
         }
 
-        private static void AssociatedObject_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private static void AssociatedObject_SelectionChanged(object Sender, SelectionChangedEventArgs EventArgs)
         {
-            var listBox = sender as ListBox;
-            if (listBox?.SelectedItem != null)
+            var ListBox = Sender as ListBox;
+            if (ListBox?.SelectedItem != null)
             {
-                listBox.Dispatcher.BeginInvoke(
+                ListBox.Dispatcher.BeginInvoke(
                     (Action) (() =>
                     {
-                        listBox.UpdateLayout();
-                        if (listBox.SelectedItem !=
+                        ListBox.UpdateLayout();
+                        if (ListBox.SelectedItem !=
                             null)
-                            listBox.ScrollIntoView(
-                                listBox.SelectedItem);
+                            ListBox.ScrollIntoView(
+                                ListBox.SelectedItem);
                     }));
             }
         }

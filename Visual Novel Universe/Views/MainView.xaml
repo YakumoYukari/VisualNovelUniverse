@@ -6,7 +6,6 @@
         xmlns:thirdParty="clr-namespace:Visual_Novel_Universe.ThirdParty"
         xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:cal="http://www.caliburnproject.org"
-        xmlns:local="clr-namespace:Visual_Novel_Universe"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         Height="768" Width="{Binding MainWindowWidth}" MinWidth="1024" MinHeight="768" Background="#FF474747"
@@ -48,8 +47,6 @@
                     </StackPanel>
                 </MenuItem.Header>
                 <MenuItem Header="Clear Highlighting" Command="{Binding ClearHighlightingCommand}"/>
-                <MenuItem Header="English Release Available" Command="{Binding HighlightEnglishAvailableMenuCommand}"/>
-                <MenuItem Header="Favorited" Command="{Binding HighlightFavoritesMenuCommand}"/>
                 <MenuItem Header="Missing Info Files" Command="{Binding HighlightMissingInfoCommand}"/>
                 <MenuItem Header="Missing Cover Images" Command="{Binding HighlightMissingImageCommand}"/>
             </MenuItem>
@@ -158,11 +155,13 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
+                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Button x:Name="ClearHighlightingButton" Command="{Binding ClearHighlightingCommand}" Content="CLR"  Height="25" Padding="0" Grid.Column="0" Style="{StaticResource MenuButton}"/>
                     <ToggleButton x:Name="EnglishAvailableButton" Command="{Binding HighlightEnglishAvailableCommand}" Content="ENG" IsChecked="{Binding HighlightEnglishAvailableChecked}" Height="25" Padding="0" Grid.Column="1" Style="{StaticResource ToggleMenuButton}"/>
                     <ToggleButton x:Name="ShowFavoritesButton" Command="{Binding HighlightFavoritesCommand}" Content="FAV" IsChecked="{Binding HighlightFavoritesChecked}" Height="25" Padding="0" Grid.Column="2" Style="{StaticResource ToggleMenuButton}"/>
                     <Button x:Name="RandomVnButton" Command="{Binding SelectRandomCommand}" Content="RND" Height="25" Padding="0" Grid.Column="3" Style="{StaticResource MenuButton}"/>
+                    <Button x:Name="NewVnButton" Command="{Binding SelectNewCommand}" Content="NEW" Height="25" Padding="0" Grid.Column="4" Style="{StaticResource MenuButton}"/>
                 </Grid>
                 <ListView x:Name="VisualNovels" ItemsSource="{Binding ShownVisualNovels}" SelectedIndex="{Binding SelectedVisualNovelIndex}" thirdParty:GridViewSort.AutoSort="True" Grid.IsSharedSizeScope="True" BorderBrush="#00000000" Background="#FF2E2E2E" Foreground="Black" IsSynchronizedWithCurrentItem="True" Grid.Row="1" Style="{DynamicResource VnListViewStyle}" SelectedItem="{Binding SelectedVisualNovel}" MouseDoubleClick="VnListMouseDoubleClick">
                     <i:Interaction.Behaviors>
@@ -177,7 +176,8 @@
                     </ListView.Resources>
                     <ListView.View>
                         <GridView ColumnHeaderContainerStyle="{StaticResource ResourceKey=VnGridViewColumnHeader}">
-                            <GridViewColumn Header="English Name"  thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowEnglishNameColumn}" DisplayMemberBinding="{Binding EnglishName}" Width="200" thirdParty:GridViewSort.PropertyName="EnglishName"/>
+                            <GridViewColumn Header="♥"  DisplayMemberBinding="{Binding FavoritedString}" Width="20" thirdParty:GridViewSort.PropertyName="FavoritedString"/>
+                            <GridViewColumn Header="English Name" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowEnglishNameColumn}" DisplayMemberBinding="{Binding EnglishName}" Width="200" thirdParty:GridViewSort.PropertyName="EnglishName"/>
                             <GridViewColumn Header="Developer" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowDeveloperColumn}" DisplayMemberBinding="{Binding DisplayDeveloper}" Width="150" thirdParty:GridViewSort.PropertyName="DisplayDeveloper"/>
                             <GridViewColumn Header="Japanese Name" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowJapaneseNameColumn}" DisplayMemberBinding="{Binding JapaneseName}" Width="200" thirdParty:GridViewSort.PropertyName="JapaneseName"/>
                             <GridViewColumn Header="Length" thirdParty:GridViewColumnVisibilityManager.IsVisible="{Binding ShowLengthColumn}" DisplayMemberBinding="{Binding LengthString}" Width="100" thirdParty:GridViewSort.PropertyName="LengthString"/>

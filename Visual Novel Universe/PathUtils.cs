@@ -1,4 +1,5 @@
 ﻿using System;
+using Core.Utils;
 
 namespace Visual_Novel_Universe
 {
@@ -6,13 +7,13 @@ namespace Visual_Novel_Universe
     {
         public static bool IsValidUrl(string Url)
         {
-            Uri uriResult;
-            return Uri.TryCreate(Url, UriKind.Absolute, out uriResult)
-                && uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps;
+            Uri UriResult;
+            return Uri.TryCreate(Url, UriKind.Absolute, out UriResult)
+                && UriResult.Scheme == Uri.UriSchemeHttp || UriResult.Scheme == Uri.UriSchemeHttps;
         }
-        public static string GetUri(this string s)
+        public static string GetUri(this string S)
         {
-            return new UriBuilder(s).Uri.AbsoluteUri;
+            return new UriBuilder(S).Uri.AbsoluteUri;
         }
 
         public static string ConvertToPathSafe(string FolderName)

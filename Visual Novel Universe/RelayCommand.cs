@@ -18,8 +18,8 @@ namespace Visual_Novel_Universe
         {
         }
 
-        public RelayCommand(Action<T> execute)
-            : this(execute, null)
+        public RelayCommand(Action<T> Execute)
+            : this(Execute, null)
         {
         }
         

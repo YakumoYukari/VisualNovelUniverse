@@ -48,3 +48,11 @@ C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\V
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Release\Visual Novel Universe.exe
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Release\Visual Novel Universe.pdb
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Release\Visual Novel Universe.csprojResolveAssemblyReference.cache
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.DependencyInjection.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.Logging.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.Utils.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Ninject.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.DependencyInjection.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.Logging.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Core.Utils.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Release\Ninject.xml

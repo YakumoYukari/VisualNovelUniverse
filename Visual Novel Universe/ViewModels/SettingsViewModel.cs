@@ -10,6 +10,41 @@ namespace Visual_Novel_Universe.ViewModels
     {
         public ObservableCollection<string> FolderCleanups { get; set; } = new ObservableCollection<string>();
 
+        private string _FolderCleanupTextBox;
+        public string FolderCleanupTextBox
+        {
+            get { return _FolderCleanupTextBox; }
+            set
+            {
+                _FolderCleanupTextBox = value;
+                NotifyOfPropertyChange(() => FolderCleanupTextBox);
+            }
+        }
+
+        private string _SelectedFolderCleanup;
+        public string SelectedFolderCleanup
+        {
+            get { return _SelectedFolderCleanup; }
+            set
+            {
+                _SelectedFolderCleanup = value;
+                FolderCleanupTextBox = SelectedFolderCleanup;
+                NotifyOfPropertyChange(() => SelectedFolderCleanup);
+            }
+        }
+
+        public void AddFolderCleanupButton()
+        {
+            if (!string.IsNullOrWhiteSpace(FolderCleanupTextBox))
+                FolderCleanups.Add(FolderCleanupTextBox);
+        }
+        public void RemoveFolderCleanupButton()
+        {
+            if (!string.IsNullOrWhiteSpace(SelectedFolderCleanup))
+                FolderCleanups.Remove(SelectedFolderCleanup);
+        }
+
+
         private bool _ShowEnglishNameChecked;
         public bool ShowEnglishNameChecked
         {

@@ -18,31 +18,32 @@ namespace Visual_Novel_Universe.Views
             BrowserConfiguration.SetBrowserFeatureControl();
             InitializeComponent();
             WebBrowserAccessor.WebBrowser = VnBrowser;
+            VnBrowser.ScriptErrorsSuppressed = true;
         }
 
-        public void VnBrowserNavigated(object sender, WebBrowserNavigatedEventArgs e)
+        public void VnBrowserNavigated(object Sender, WebBrowserNavigatedEventArgs EventArgs)
         {
-            _ViewModel?.OnWebBrowserNavigate(sender, e);
+            _ViewModel?.OnWebBrowserNavigate(Sender, EventArgs);
         }
 
-        public void VnBrowserLoadCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        public void VnBrowserLoadCompleted(object Sender, WebBrowserDocumentCompletedEventArgs EventArgs)
         {
-            _ViewModel?.OnWebBrowserLoadCompleted(sender, e);
+            _ViewModel?.OnWebBrowserLoadCompleted(Sender, EventArgs);
         }
 
-        private void OnLoaded(object sender, RoutedEventArgs e)
+        private void OnLoaded(object Sender, RoutedEventArgs E)
         {
             _ViewModel = (MainViewModel)DataContext;
         }
 
-        private void VnListMouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void VnListMouseDoubleClick(object Sender, MouseButtonEventArgs EventArgs)
         {
             _ViewModel?.VnListMouseDoubleClick();
         }
 
-        private void VnBrowser_OnNavigating(object sender, WebBrowserNavigatingEventArgs e)
+        private void VnBrowser_OnNavigating(object Sender, WebBrowserNavigatingEventArgs EventArgs)
         {
-            _ViewModel?.OnWebBrowserNavigating(sender, e);
+            _ViewModel?.OnWebBrowserNavigating(Sender, EventArgs);
         }
     }
 }

@@ -1,0 +1,10 @@
+[ERROR]: 3/16/2017 4:27:32 PM: Error initializing MainViewModel: Object reference not set to an instance of an object.
+   at Visual_Novel_Universe.Settings.get_Instance() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\Settings.cs:line 26
+   at Visual_Novel_Universe.ViewModels.MainViewModel..ctor() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 88
+3/16/2017 4:27:35 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:27:36 PM: Load completed on non-VNDB page: https://vndb.org/
+[ERROR]: 3/16/2017 4:29:35 PM: Error initializing MainViewModel: Object reference not set to an instance of an object.
+   at Visual_Novel_Universe.Settings.get_Instance() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\Settings.cs:line 26
+   at Visual_Novel_Universe.ViewModels.MainViewModel..ctor() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 88
+3/16/2017 4:29:36 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:29:36 PM: Load completed on non-VNDB page: https://vndb.org/

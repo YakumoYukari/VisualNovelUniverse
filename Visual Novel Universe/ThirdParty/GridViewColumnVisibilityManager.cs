@@ -9,22 +9,22 @@ namespace Visual_Novel_Universe.ThirdParty
     {
         private static readonly Dictionary<GridViewColumn, double> OriginalColumnWidths = new Dictionary<GridViewColumn, double>();
 
-        public static bool GetIsVisible(DependencyObject obj)
+        public static bool GetIsVisible(DependencyObject Obj)
         {
-            return (bool)obj.GetValue(IsVisibleProperty);
+            return (bool)Obj.GetValue(IsVisibleProperty);
         }
 
-        public static void SetIsVisible(DependencyObject obj, bool value)
+        public static void SetIsVisible(DependencyObject Obj, bool Value)
         {
-            obj.SetValue(IsVisibleProperty, value);
+            Obj.SetValue(IsVisibleProperty, Value);
         }
 
         public static readonly DependencyProperty IsVisibleProperty =
             DependencyProperty.RegisterAttached("IsVisible", typeof(bool), typeof(GridViewColumnVisibilityManager), new UIPropertyMetadata(true, OnIsVisibleChanged));
 
-        private static void OnIsVisibleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        private static void OnIsVisibleChanged(DependencyObject D, DependencyPropertyChangedEventArgs E)
         {
-            var gc = d as GridViewColumn;
+            var gc = D as GridViewColumn;
             if (gc == null)
                 return;
 

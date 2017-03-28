@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using Core.Utils;
 using mshtml;
 using Visual_Novel_Universe.Models;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
@@ -41,13 +42,13 @@ namespace Visual_Novel_Universe
             WebBrowser.Navigate(SearchQuery.GetUri());
         }
 
-        public static void InjectCss(string css)
+        public static void InjectCss(string Css)
         {
             if (WebBrowser.Document == null) return;
             var doc = (IHTMLDocument2)(WebBrowser.Document.DomDocument);
             var ss = doc.createStyleSheet("", 0);
 
-            ss.cssText = css;
+            ss.cssText = Css;
         }
 
         public static void SetVndbTitleColor(string Color, int FontSize)
@@ -84,14 +85,18 @@ namespace Visual_Novel_Universe
             var HeaderElements = WebBrowser.Document.GetElementsByTagName("a");
 
             foreach (var Element in HeaderElements.Cast<HtmlElement>()
-                .Where(he =>
+                .Where(HtmlElem =>
                     {
-                        string Href = he.GetAttribute("href");
-                        return Regex.IsMatch(Href, @"/v\d+") && LookupSource.Select(v => v.VndbLink).Contains(Href);
-                    })
-                .Select(e => new { Elem = e, Href = e.GetAttribute("href") }))
+                        string Href = HtmlElem.GetAttribute("href");
+                        return Regex.IsMatch(Href, @"/v\d+") && LookupSource.Select(V => V.VndbLink).Contains(Href);
+                    }))
             {
-                Element.Elem.Style = string.Format(Properties.Settings.Default.VndbLinkOwnedStyle, Color.ToLower());
+                Element.Style = string.Format(Properties.Settings.Default.VndbLinkOwnedStyle, Color.ToLower());
+
+                foreach (var Child in Element.Children.Cast<HtmlElement>())
+                {
+                    Child.Style = $"border-style:solid;border-width:2px;border-color:{Color.ToLower()};";
+                }
             }
         }
 
@@ -113,7 +118,7 @@ namespace Visual_Novel_Universe
             var HeaderElements = WebBrowser.Document.GetElementsByTagName("h1");
 
             foreach (var Element in HeaderElements.Cast<HtmlElement>()
-                .Where(he => he.InnerText == "Browse visual novels"))
+                .Where(HtmlElem => HtmlElem.InnerText == "Browse visual novels"))
             {
                 Element.Style = @"background-color:#000000;color:#FF0000";
                 Element.InnerText = " Select the correct VN below (or change your search) and go to Data -> Confirm VN. ";
@@ -166,7 +171,7 @@ namespace Visual_Novel_Universe
 
             var HeaderElements = WebBrowser.Document.GetElementsByTagName("ul");
 
-            const string SUKEBEI_NYAA = @"http://sukebei.nyaa.se/?page=search&term={0}&sort=2";
+            const string SUKEBEI_NYAA = @"http://sukebei.nyaa.se/?page=search&cats=7_27&term={0}&sort=2";
 
             foreach (var Element in HeaderElements.Cast<HtmlElement>())
             {

@@ -1,1 +1,1079 @@
-﻿
+﻿9/1/2016 8:05:37 PM: Starting InitVnList
+9/1/2016 8:05:37 PM: Starting InitMenuBar
+9/1/2016 8:05:37 PM: Starting ReloadVnListColumns
+9/1/2016 8:05:37 PM: Starting LoadVnList
+9/1/2016 8:05:37 PM: Starting LoadVnList.
+9/1/2016 8:05:38 PM: Ending LoadVnList.
+9/1/2016 8:05:46 PM: Load completed on non-VNDB page: https://vndb.org/
+9/1/2016 8:06:01 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+9/1/2016 8:06:01 PM: Going to known address: https://vndb.org/v16448
+9/1/2016 8:06:01 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+9/1/2016 8:06:02 PM: Load completed on VNDB page: https://vndb.org/v16448
+9/1/2016 8:06:06 PM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Yuuki Yuuna wa Yuusha de Aru to match Yuuki Yuuna wa Yuusha de Aru.
+9/1/2016 8:06:06 PM: SetVnInfo confirmation box shown.
+9/1/2016 8:06:08 PM: Saving cover image from https://vndb.org/v16448.
+9/1/2016 8:06:09 PM: Starting LoadVnList.
+9/1/2016 8:06:09 PM: Ending LoadVnList.
+9/1/2016 8:06:12 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+9/1/2016 8:06:12 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+9/1/2016 8:06:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko%20no%20Naku%20Koro%20ni%20Chiru
+9/1/2016 8:06:13 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+9/1/2016 8:07:23 PM: Starting InitVnList
+9/1/2016 8:07:23 PM: Starting InitMenuBar
+9/1/2016 8:07:23 PM: Starting ReloadVnListColumns
+9/1/2016 8:07:23 PM: Starting LoadVnList
+9/1/2016 8:07:23 PM: Starting LoadVnList.
+9/1/2016 8:07:23 PM: Ending LoadVnList.
+9/1/2016 8:07:25 PM: Load completed on non-VNDB page: https://vndb.org/
+9/1/2016 8:10:24 PM: Starting InitVnList
+9/1/2016 8:10:24 PM: Starting InitMenuBar
+9/1/2016 8:10:24 PM: Starting ReloadVnListColumns
+9/1/2016 8:10:24 PM: Starting LoadVnList
+9/1/2016 8:10:24 PM: Starting LoadVnList.
+9/1/2016 8:10:25 PM: Ending LoadVnList.
+9/1/2016 8:10:26 PM: OnWebBrowserNavigate URL: https://vndb.org/
+9/1/2016 8:10:27 PM: Load completed on non-VNDB page: https://vndb.org/
+9/1/2016 8:10:46 PM: Selected visual novel changed to: Air
+9/1/2016 8:10:46 PM: Searching VNDB for Air
+9/1/2016 8:10:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:10:46 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:10:48 PM: Opening settings.
+9/1/2016 8:12:15 PM: Starting InitVnList
+9/1/2016 8:12:15 PM: Starting InitMenuBar
+9/1/2016 8:12:15 PM: Starting ReloadVnListColumns
+9/1/2016 8:12:15 PM: Starting LoadVnList
+9/1/2016 8:12:15 PM: Starting LoadVnList.
+9/1/2016 8:12:16 PM: Ending LoadVnList.
+9/1/2016 8:12:18 PM: Load completed on non-VNDB page: https://vndb.org/
+9/1/2016 8:14:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v11927
+9/1/2016 8:14:26 PM: Load completed on VNDB page: https://vndb.org/v11927
+9/1/2016 8:14:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v11927
+9/1/2016 8:14:38 PM: Load completed on VNDB page: https://vndb.org/v11927
+9/1/2016 8:14:49 PM: OnWebBrowserNavigate URL: https://vndb.org/p3197
+9/1/2016 8:14:49 PM: Load completed on non-VNDB page: https://vndb.org/p3197
+9/1/2016 8:14:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v15175
+9/1/2016 8:14:52 PM: Load completed on VNDB page: https://vndb.org/v15175
+9/1/2016 8:14:55 PM: OnWebBrowserNavigate URL: https://vndb.org/
+9/1/2016 8:14:55 PM: Load completed on non-VNDB page: https://vndb.org/
+9/1/2016 8:14:57 PM: OnWebBrowserNavigate URL: https://vndb.org/v10846
+9/1/2016 8:14:57 PM: Load completed on VNDB page: https://vndb.org/v10846
+9/1/2016 8:15:06 PM: OnWebBrowserNavigate URL: https://vndb.org/v2853
+9/1/2016 8:15:06 PM: Load completed on VNDB page: https://vndb.org/v2853
+9/1/2016 8:15:10 PM: OnWebBrowserNavigate URL: https://vndb.org/v10846
+9/1/2016 8:15:10 PM: Load completed on VNDB page: https://vndb.org/v10846
+9/1/2016 8:15:16 PM: Selected visual novel changed to: Air
+9/1/2016 8:15:16 PM: Searching VNDB for Air
+9/1/2016 8:15:16 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:16 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:18 PM: Opening settings.
+9/1/2016 8:15:32 PM: Opening settings.
+9/1/2016 8:15:35 PM: Selected visual novel changed to: Air
+9/1/2016 8:15:35 PM: Searching VNDB for Air
+9/1/2016 8:15:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:37 PM: Opening settings.
+9/1/2016 8:15:39 PM: Selected visual novel changed to: Air
+9/1/2016 8:15:39 PM: Searching VNDB for Air
+9/1/2016 8:15:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:40 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:42 PM: Starting AutoGoToNext
+9/1/2016 8:15:42 PM: Selected visual novel changed to: Air
+9/1/2016 8:15:42 PM: Searching VNDB for Air
+9/1/2016 8:15:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:43 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:15:43 PM: Selected visual novel changed to: Chaos;Head
+9/1/2016 8:15:43 PM: Searching VNDB for Chaos;Head
+9/1/2016 8:15:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+9/1/2016 8:15:43 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+9/1/2016 8:15:43 PM: Selected visual novel changed to: Clannad
+9/1/2016 8:15:43 PM: Searching VNDB for Clannad
+9/1/2016 8:15:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:15:44 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:15:44 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+9/1/2016 8:15:44 PM: Going to known address: https://vndb.org/v4037
+9/1/2016 8:15:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+9/1/2016 8:15:45 PM: Load completed on VNDB page: https://vndb.org/v4037
+9/1/2016 8:15:45 PM: Saving cover image from https://vndb.org/v4037.
+9/1/2016 8:15:46 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+9/1/2016 8:15:46 PM: Going to known address: https://vndb.org/v17
+9/1/2016 8:15:46 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+9/1/2016 8:15:47 PM: Load completed on VNDB page: https://vndb.org/v17
+9/1/2016 8:15:47 PM: Saving cover image from https://vndb.org/v17.
+9/1/2016 8:15:48 PM: Selected visual novel changed to: Fata morgana no yakata
+9/1/2016 8:15:48 PM: Searching VNDB for Fata morgana no yakata
+9/1/2016 8:15:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata%20morgana%20no%20yakata
+9/1/2016 8:15:48 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+9/1/2016 8:15:48 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+9/1/2016 8:15:48 PM: Going to known address: https://vndb.org/v50
+9/1/2016 8:15:48 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+9/1/2016 8:15:49 PM: Load completed on VNDB page: https://vndb.org/v50
+9/1/2016 8:15:49 PM: Saving cover image from https://vndb.org/v50.
+9/1/2016 8:15:50 PM: Selected visual novel changed to: Fate／Stay Night
+9/1/2016 8:15:50 PM: Going to known address: https://vndb.org/v11
+9/1/2016 8:15:50 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+9/1/2016 8:15:50 PM: Load completed on VNDB page: https://vndb.org/v11
+9/1/2016 8:15:50 PM: Saving cover image from https://vndb.org/v11.
+9/1/2016 8:15:50 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+9/1/2016 8:15:50 PM: Searching VNDB for Higurashi no Naku Koro ni
+9/1/2016 8:15:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+9/1/2016 8:15:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+9/1/2016 8:15:51 PM: Selected visual novel changed to: NOEXTENSION
+9/1/2016 8:15:51 PM: Searching VNDB for NOEXTENSION
+9/1/2016 8:15:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=NOEXTENSION
+9/1/2016 8:15:51 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=NOEXTENSION
+9/1/2016 8:15:51 PM: Selected visual novel changed to: Planetarian
+9/1/2016 8:15:51 PM: Going to known address: https://vndb.org/v34
+9/1/2016 8:15:52 PM: OnWebBrowserNavigate URL: https://vndb.org/v34
+9/1/2016 8:15:52 PM: Load completed on VNDB page: https://vndb.org/v34
+9/1/2016 8:15:52 PM: Saving cover image from https://vndb.org/v34.
+9/1/2016 8:15:53 PM: Selected visual novel changed to: Rewrite
+9/1/2016 8:15:53 PM: Going to known address: https://vndb.org/v751
+9/1/2016 8:15:53 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+9/1/2016 8:15:54 PM: Load completed on VNDB page: https://vndb.org/v751
+9/1/2016 8:15:54 PM: Saving cover image from https://vndb.org/v751.
+9/1/2016 8:15:54 PM: Selected visual novel changed to: Rose Guns Days
+9/1/2016 8:15:54 PM: Going to known address: https://vndb.org/v9678
+9/1/2016 8:15:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+9/1/2016 8:15:55 PM: Load completed on VNDB page: https://vndb.org/v9678
+9/1/2016 8:15:55 PM: Saving cover image from https://vndb.org/v9678.
+9/1/2016 8:15:56 PM: Selected visual novel changed to: Symphonic Rain
+9/1/2016 8:15:56 PM: Going to known address: https://vndb.org/v38
+9/1/2016 8:15:56 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+9/1/2016 8:15:57 PM: Load completed on VNDB page: https://vndb.org/v38
+9/1/2016 8:15:57 PM: Saving cover image from https://vndb.org/v38.
+9/1/2016 8:15:57 PM: Selected visual novel changed to: Tsukihime
+9/1/2016 8:15:57 PM: Searching VNDB for Tsukihime
+9/1/2016 8:15:57 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+9/1/2016 8:15:58 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+9/1/2016 8:15:58 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+9/1/2016 8:15:58 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+9/1/2016 8:15:58 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko%20no%20Naku%20Koro%20ni%20Chiru
+9/1/2016 8:15:58 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+9/1/2016 8:15:58 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+9/1/2016 8:15:58 PM: Going to known address: https://vndb.org/v16448
+9/1/2016 8:15:58 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+9/1/2016 8:15:58 PM: Load completed on VNDB page: https://vndb.org/v16448
+9/1/2016 8:15:58 PM: Saving cover image from https://vndb.org/v16448.
+9/1/2016 8:15:59 PM: Starting LoadVnList.
+9/1/2016 8:15:59 PM: Ending LoadVnList.
+9/1/2016 8:16:03 PM: Selected visual novel changed to: Symphonic Rain
+9/1/2016 8:16:03 PM: Going to known address: https://vndb.org/v38
+9/1/2016 8:16:03 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+9/1/2016 8:16:04 PM: Load completed on VNDB page: https://vndb.org/v38
+9/1/2016 8:16:04 PM: Selected visual novel changed to: Rose Guns Days
+9/1/2016 8:16:04 PM: Going to known address: https://vndb.org/v9678
+9/1/2016 8:16:04 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+9/1/2016 8:16:04 PM: Load completed on VNDB page: https://vndb.org/v9678
+9/1/2016 8:16:23 PM: Favoriting Rose Guns Days.
+9/1/2016 8:16:24 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+9/1/2016 8:16:24 PM: Going to known address: https://vndb.org/v50
+9/1/2016 8:16:24 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+9/1/2016 8:16:24 PM: Load completed on VNDB page: https://vndb.org/v50
+9/1/2016 8:16:25 PM: Favoriting Fate/Hollow Ataraxia.
+9/1/2016 8:16:26 PM: Selected visual novel changed to: Clannad
+9/1/2016 8:16:26 PM: Searching VNDB for Clannad
+9/1/2016 8:16:26 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:16:26 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:16:26 PM: Selected visual novel changed to: Air
+9/1/2016 8:16:26 PM: Searching VNDB for Air
+9/1/2016 8:16:27 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:16:27 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:16:35 PM: Starting AutoGoToNext
+9/1/2016 8:16:35 PM: Selected visual novel changed to: Air
+9/1/2016 8:16:35 PM: Searching VNDB for Air
+9/1/2016 8:16:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+9/1/2016 8:16:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+9/1/2016 8:16:36 PM: Selected visual novel changed to: Chaos;Head
+9/1/2016 8:16:36 PM: Searching VNDB for Chaos;Head
+9/1/2016 8:16:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+9/1/2016 8:16:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+9/1/2016 8:16:36 PM: Selected visual novel changed to: Clannad
+9/1/2016 8:16:36 PM: Searching VNDB for Clannad
+9/1/2016 8:16:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:16:37 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+9/1/2016 8:16:37 PM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+9/1/2016 8:16:37 PM: Going to known address: https://vndb.org/v4037
+9/1/2016 8:16:37 PM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+9/1/2016 8:16:37 PM: Load completed on VNDB page: https://vndb.org/v4037
+9/1/2016 8:16:37 PM: Saving cover image from https://vndb.org/v4037.
+9/1/2016 8:16:38 PM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+9/1/2016 8:16:38 PM: Going to known address: https://vndb.org/v17
+9/1/2016 8:16:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v17
+9/1/2016 8:16:38 PM: Load completed on VNDB page: https://vndb.org/v17
+9/1/2016 8:16:38 PM: Saving cover image from https://vndb.org/v17.
+9/1/2016 8:16:39 PM: Selected visual novel changed to: Fata morgana no yakata
+9/1/2016 8:16:39 PM: Searching VNDB for Fata morgana no yakata
+9/1/2016 8:16:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata%20morgana%20no%20yakata
+9/1/2016 8:16:39 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata morgana no yakata
+9/1/2016 8:16:39 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+9/1/2016 8:16:39 PM: Going to known address: https://vndb.org/v50
+9/1/2016 8:16:39 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+9/1/2016 8:16:39 PM: Load completed on VNDB page: https://vndb.org/v50
+9/1/2016 8:16:39 PM: Saving cover image from https://vndb.org/v50.
+9/1/2016 8:16:40 PM: Selected visual novel changed to: Fate／Stay Night
+9/1/2016 8:16:40 PM: Going to known address: https://vndb.org/v11
+9/1/2016 8:16:40 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+9/1/2016 8:16:40 PM: Load completed on VNDB page: https://vndb.org/v11
+9/1/2016 8:16:40 PM: Saving cover image from https://vndb.org/v11.
+9/1/2016 8:16:40 PM: Selected visual novel changed to: Higurashi no Naku Koro ni
+9/1/2016 8:16:40 PM: Searching VNDB for Higurashi no Naku Koro ni
+9/1/2016 8:16:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+9/1/2016 8:16:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+9/1/2016 8:16:41 PM: Selected visual novel changed to: NOEXTENSION
+9/1/2016 8:16:41 PM: Searching VNDB for NOEXTENSION
+9/1/2016 8:16:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=NOEXTENSION
+9/1/2016 8:16:41 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=NOEXTENSION
+9/1/2016 8:16:41 PM: Selected visual novel changed to: Planetarian
+9/1/2016 8:16:41 PM: Going to known address: https://vndb.org/v34
+9/1/2016 8:16:41 PM: OnWebBrowserNavigate URL: https://vndb.org/v34
+9/1/2016 8:16:42 PM: Load completed on VNDB page: https://vndb.org/v34
+9/1/2016 8:16:42 PM: Saving cover image from https://vndb.org/v34.
+9/1/2016 8:16:42 PM: Selected visual novel changed to: Rewrite
+9/1/2016 8:16:42 PM: Going to known address: https://vndb.org/v751
+9/1/2016 8:16:42 PM: OnWebBrowserNavigate URL: https://vndb.org/v751
+9/1/2016 8:16:42 PM: Load completed on VNDB page: https://vndb.org/v751
+9/1/2016 8:16:43 PM: Saving cover image from https://vndb.org/v751.
+9/1/2016 8:16:43 PM: Selected visual novel changed to: Rose Guns Days
+9/1/2016 8:16:43 PM: Going to known address: https://vndb.org/v9678
+9/1/2016 8:16:43 PM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+9/1/2016 8:16:43 PM: Load completed on VNDB page: https://vndb.org/v9678
+9/1/2016 8:16:43 PM: Saving cover image from https://vndb.org/v9678.
+9/1/2016 8:16:43 PM: Selected visual novel changed to: Symphonic Rain
+9/1/2016 8:16:44 PM: Going to known address: https://vndb.org/v38
+9/1/2016 8:16:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v38
+9/1/2016 8:16:44 PM: Load completed on VNDB page: https://vndb.org/v38
+9/1/2016 8:16:44 PM: Saving cover image from https://vndb.org/v38.
+9/1/2016 8:16:44 PM: Selected visual novel changed to: Tsukihime
+9/1/2016 8:16:44 PM: Searching VNDB for Tsukihime
+9/1/2016 8:16:44 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Tsukihime
+9/1/2016 8:16:44 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Tsukihime
+9/1/2016 8:16:44 PM: Selected visual novel changed to: Umineko no Naku Koro ni Chiru
+9/1/2016 8:16:44 PM: Searching VNDB for Umineko no Naku Koro ni Chiru
+9/1/2016 8:16:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Umineko%20no%20Naku%20Koro%20ni%20Chiru
+9/1/2016 8:16:45 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Umineko no Naku Koro ni Chiru
+9/1/2016 8:16:45 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+9/1/2016 8:16:45 PM: Going to known address: https://vndb.org/v16448
+9/1/2016 8:16:45 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+9/1/2016 8:16:45 PM: Load completed on VNDB page: https://vndb.org/v16448
+9/1/2016 8:16:45 PM: Saving cover image from https://vndb.org/v16448.
+9/1/2016 8:16:45 PM: Starting LoadVnList.
+9/1/2016 8:16:45 PM: Ending LoadVnList.
+10/30/2016 12:44:25 PM: Starting InitVnList
+10/30/2016 12:44:26 PM: Starting InitMenuBar
+10/30/2016 12:44:26 PM: Starting ReloadVnListColumns
+10/30/2016 12:44:26 PM: Starting LoadVnList
+10/30/2016 12:44:26 PM: Starting LoadVnList.
+10/30/2016 12:44:26 PM: Ending LoadVnList.
+10/30/2016 12:44:28 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 12:45:20 PM: Starting InitVnList
+10/30/2016 12:45:21 PM: Starting InitMenuBar
+10/30/2016 12:45:21 PM: Starting ReloadVnListColumns
+10/30/2016 12:45:21 PM: Starting LoadVnList
+10/30/2016 12:45:21 PM: Starting LoadVnList.
+10/30/2016 12:45:21 PM: Ending LoadVnList.
+10/30/2016 12:45:22 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 12:45:23 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 12:51:41 PM: Starting InitVnList
+10/30/2016 12:51:41 PM: Starting InitMenuBar
+10/30/2016 12:51:41 PM: Starting ReloadVnListColumns
+10/30/2016 12:51:41 PM: Starting LoadVnList
+10/30/2016 12:51:41 PM: Starting LoadVnList.
+10/30/2016 12:51:41 PM: Ending LoadVnList.
+10/30/2016 12:51:43 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 12:52:13 PM: OnWebBrowserNavigate URL: https://vndb.org/r44007
+10/30/2016 12:52:13 PM: Load completed on non-VNDB page: https://vndb.org/r44007
+10/30/2016 12:52:14 PM: OnWebBrowserNavigate URL: https://vndb.org/v6458
+10/30/2016 12:52:15 PM: Load completed on VNDB page: https://vndb.org/v6458
+10/30/2016 12:52:32 PM: OnWebBrowserNavigate URL: https://vndb.org/r44007
+10/30/2016 12:52:32 PM: Load completed on non-VNDB page: https://vndb.org/r44007
+10/30/2016 12:52:51 PM: OnWebBrowserNavigate URL: https://vndb.org/v6458
+10/30/2016 12:52:51 PM: Load completed on VNDB page: https://vndb.org/v6458
+10/30/2016 12:53:30 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 12:53:30 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 12:57:05 PM: Starting InitVnList
+10/30/2016 12:57:05 PM: Starting InitMenuBar
+10/30/2016 12:57:05 PM: Starting ReloadVnListColumns
+10/30/2016 12:57:05 PM: Starting LoadVnList
+10/30/2016 12:57:05 PM: Starting LoadVnList.
+10/30/2016 12:57:05 PM: Ending LoadVnList.
+10/30/2016 12:57:06 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 12:57:06 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 12:57:12 PM: OnWebBrowserNavigate URL: https://vndb.org/v14071
+10/30/2016 12:57:12 PM: Load completed on VNDB page: https://vndb.org/v14071
+10/30/2016 1:04:17 PM: Starting InitVnList
+10/30/2016 1:04:17 PM: Starting InitMenuBar
+10/30/2016 1:04:17 PM: Starting ReloadVnListColumns
+10/30/2016 1:04:17 PM: Starting LoadVnList
+10/30/2016 1:04:17 PM: Starting LoadVnList.
+10/30/2016 1:04:17 PM: Ending LoadVnList.
+10/30/2016 1:04:18 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 1:04:18 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 1:12:10 PM: Starting InitVnList
+10/30/2016 1:12:10 PM: Starting InitMenuBar
+10/30/2016 1:12:10 PM: Starting ReloadVnListColumns
+10/30/2016 1:12:10 PM: Starting LoadVnList
+10/30/2016 1:12:10 PM: Starting LoadVnList.
+10/30/2016 1:12:10 PM: Ending LoadVnList.
+10/30/2016 1:12:12 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 1:12:12 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 1:12:44 PM: Starting InitVnList
+10/30/2016 1:12:44 PM: Starting InitMenuBar
+10/30/2016 1:12:44 PM: Starting ReloadVnListColumns
+10/30/2016 1:12:44 PM: Starting LoadVnList
+10/30/2016 1:12:44 PM: Starting LoadVnList.
+10/30/2016 1:12:44 PM: Ending LoadVnList.
+10/30/2016 1:12:45 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 1:12:46 PM: Load completed on non-VNDB page: https://vndb.org/
+10/30/2016 1:14:03 PM: Starting InitVnList
+10/30/2016 1:14:03 PM: Starting InitMenuBar
+10/30/2016 1:14:03 PM: Starting ReloadVnListColumns
+10/30/2016 1:14:03 PM: Starting LoadVnList
+10/30/2016 1:14:03 PM: Starting LoadVnList.
+10/30/2016 1:14:03 PM: Ending LoadVnList.
+10/30/2016 1:14:04 PM: OnWebBrowserNavigate URL: https://vndb.org/
+10/30/2016 1:14:05 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:07:52 AM: Starting InitVnList
+3/16/2017 12:07:52 AM: Starting InitMenuBar
+3/16/2017 12:07:52 AM: Starting ReloadVnListColumns
+3/16/2017 12:07:52 AM: Starting LoadVnList
+3/16/2017 12:07:52 AM: Starting LoadVnList.
+3/16/2017 12:07:53 AM: Ending LoadVnList.
+3/16/2017 12:07:57 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:09:08 AM: Starting InitVnList
+3/16/2017 12:09:08 AM: Starting InitMenuBar
+3/16/2017 12:09:08 AM: Starting ReloadVnListColumns
+3/16/2017 12:09:08 AM: Starting LoadVnList
+3/16/2017 12:09:08 AM: Starting LoadVnList.
+3/16/2017 12:09:10 AM: Ending LoadVnList.
+3/16/2017 12:09:14 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:09:20 AM: Selected visual novel changed to: Fate／Hollow Ataraxia
+3/16/2017 12:09:20 AM: Going to known address: https://vndb.org/v50
+3/16/2017 12:09:20 AM: OnWebBrowserNavigate URL: https://vndb.org/v50
+3/16/2017 12:09:21 AM: Selected visual novel changed to: Rewrite
+3/16/2017 12:09:21 AM: Going to known address: https://vndb.org/v751
+3/16/2017 12:09:21 AM: OnWebBrowserNavigate URL: https://vndb.org/v751
+3/16/2017 12:09:22 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 12:09:22 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 12:09:22 AM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+3/16/2017 12:09:23 AM: Selected visual novel changed to: Rewrite
+3/16/2017 12:09:23 AM: Going to known address: https://vndb.org/v751
+3/16/2017 12:09:23 AM: OnWebBrowserNavigate URL: https://vndb.org/v751
+3/16/2017 12:09:25 AM: Load completed on VNDB page: https://vndb.org/v751
+3/16/2017 12:09:35 AM: Selected visual novel changed to: Air
+3/16/2017 12:09:35 AM: Searching VNDB for Air
+3/16/2017 12:09:35 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 12:09:36 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 12:15:53 AM: Starting InitVnList
+3/16/2017 12:15:53 AM: Starting InitMenuBar
+3/16/2017 12:15:53 AM: Starting ReloadVnListColumns
+3/16/2017 12:15:53 AM: Starting LoadVnList
+3/16/2017 12:15:53 AM: Starting LoadVnList.
+3/16/2017 12:15:54 AM: Ending LoadVnList.
+3/16/2017 12:15:56 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:16:05 AM: Selected visual novel changed to: Air
+3/16/2017 12:16:05 AM: Searching VNDB for Air
+3/16/2017 12:16:06 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 12:16:06 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 12:16:07 AM: Selected visual novel changed to: Symphonic Rain
+3/16/2017 12:16:07 AM: Going to known address: https://vndb.org/v38
+3/16/2017 12:16:08 AM: OnWebBrowserNavigate URL: https://vndb.org/v38
+3/16/2017 12:16:09 AM: Selected visual novel changed to: Air
+3/16/2017 12:16:09 AM: Searching VNDB for Air
+3/16/2017 12:16:09 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 12:16:09 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 12:16:10 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 12:16:10 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 12:16:10 AM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+3/16/2017 12:16:11 AM: Load completed on VNDB page: https://vndb.org/v9678
+3/16/2017 12:16:11 AM: Selected visual novel changed to: NOEXTENSION
+3/16/2017 12:16:11 AM: Searching VNDB for NOEXTENSION
+3/16/2017 12:16:12 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=NOEXTENSION
+3/16/2017 12:16:12 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=NOEXTENSION
+3/16/2017 12:16:15 AM: Opening cover grid with 9 VNs
+3/16/2017 12:26:45 AM: Starting InitVnList
+3/16/2017 12:26:45 AM: Starting InitMenuBar
+3/16/2017 12:26:45 AM: Starting ReloadVnListColumns
+3/16/2017 12:26:45 AM: Starting LoadVnList
+3/16/2017 12:26:45 AM: Starting LoadVnList.
+3/16/2017 12:26:45 AM: Ending LoadVnList.
+3/16/2017 12:26:48 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:26:50 AM: Opening cover grid with 9 VNs
+3/16/2017 12:29:39 AM: Starting InitVnList
+3/16/2017 12:29:39 AM: Starting InitMenuBar
+3/16/2017 12:29:39 AM: Starting ReloadVnListColumns
+3/16/2017 12:29:39 AM: Starting LoadVnList
+3/16/2017 12:29:39 AM: Starting LoadVnList.
+3/16/2017 12:29:39 AM: Ending LoadVnList.
+3/16/2017 12:29:43 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:29:47 AM: OnWebBrowserNavigate URL: https://vndb.org/v12556
+3/16/2017 12:29:48 AM: Load completed on VNDB page: https://vndb.org/v12556
+3/16/2017 12:29:51 AM: Opening cover grid with 9 VNs
+3/16/2017 12:30:39 AM: Starting InitVnList
+3/16/2017 12:30:39 AM: Starting InitMenuBar
+3/16/2017 12:30:39 AM: Starting ReloadVnListColumns
+3/16/2017 12:30:39 AM: Starting LoadVnList
+3/16/2017 12:30:39 AM: Starting LoadVnList.
+3/16/2017 12:30:39 AM: Ending LoadVnList.
+3/16/2017 12:30:43 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:30:45 AM: Opening cover grid with 9 VNs
+3/16/2017 12:34:20 AM: Starting InitVnList
+3/16/2017 12:34:20 AM: Starting InitMenuBar
+3/16/2017 12:34:20 AM: Starting ReloadVnListColumns
+3/16/2017 12:34:20 AM: Starting LoadVnList
+3/16/2017 12:34:20 AM: Starting LoadVnList.
+3/16/2017 12:34:21 AM: Ending LoadVnList.
+3/16/2017 12:34:26 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:34:28 AM: Opening cover grid with 9 VNs
+3/16/2017 12:39:23 AM: Starting InitVnList
+3/16/2017 12:39:23 AM: Starting InitMenuBar
+3/16/2017 12:39:23 AM: Starting ReloadVnListColumns
+3/16/2017 12:39:23 AM: Starting LoadVnList
+3/16/2017 12:39:23 AM: Starting LoadVnList.
+3/16/2017 12:39:23 AM: Ending LoadVnList.
+3/16/2017 12:39:24 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:39:25 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:39:27 AM: Opening cover grid with 9 VNs
+3/16/2017 12:43:43 AM: Starting InitVnList
+3/16/2017 12:43:43 AM: Starting InitMenuBar
+3/16/2017 12:43:43 AM: Starting ReloadVnListColumns
+3/16/2017 12:43:43 AM: Starting LoadVnList
+3/16/2017 12:43:43 AM: Starting LoadVnList.
+3/16/2017 12:43:44 AM: Ending LoadVnList.
+3/16/2017 12:43:45 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:43:46 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:43:55 AM: Opening cover grid with 9 VNs
+3/16/2017 12:44:07 AM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Stay Night
+3/16/2017 12:44:07 AM: Selected visual novel changed to: Fate／Stay Night
+3/16/2017 12:44:07 AM: Going to known address: https://vndb.org/v11
+3/16/2017 12:44:08 AM: OnWebBrowserNavigate URL: https://vndb.org/v11
+3/16/2017 12:44:08 AM: Load completed on VNDB page: https://vndb.org/v11
+3/16/2017 12:44:11 AM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Ever17 -The Out of Infinity-
+3/16/2017 12:44:11 AM: Selected visual novel changed to: Ever17 -The Out of Infinity-
+3/16/2017 12:44:11 AM: Going to known address: https://vndb.org/v17
+3/16/2017 12:44:12 AM: OnWebBrowserNavigate URL: https://vndb.org/v17
+3/16/2017 12:44:13 AM: Load completed on VNDB page: https://vndb.org/v17
+3/16/2017 12:47:26 AM: Starting InitVnList
+3/16/2017 12:47:26 AM: Starting InitMenuBar
+3/16/2017 12:47:26 AM: Starting ReloadVnListColumns
+3/16/2017 12:47:26 AM: Starting LoadVnList
+3/16/2017 12:47:26 AM: Starting LoadVnList.
+3/16/2017 12:47:26 AM: Ending LoadVnList.
+3/16/2017 12:47:28 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:47:28 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:47:36 AM: Opening cover grid with 9 VNs
+3/16/2017 12:49:04 AM: Starting InitVnList
+3/16/2017 12:49:05 AM: Starting InitMenuBar
+3/16/2017 12:49:05 AM: Starting ReloadVnListColumns
+3/16/2017 12:49:05 AM: Starting LoadVnList
+3/16/2017 12:49:05 AM: Starting LoadVnList.
+3/16/2017 12:49:05 AM: Ending LoadVnList.
+3/16/2017 12:49:07 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:49:10 AM: Opening cover grid with 9 VNs
+3/16/2017 12:50:31 AM: Starting InitVnList
+3/16/2017 12:50:31 AM: Starting InitMenuBar
+3/16/2017 12:50:31 AM: Starting ReloadVnListColumns
+3/16/2017 12:50:31 AM: Starting LoadVnList
+3/16/2017 12:50:31 AM: Starting LoadVnList.
+3/16/2017 12:50:31 AM: Ending LoadVnList.
+3/16/2017 12:50:33 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:50:33 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:50:35 AM: OnWebBrowserNavigate URL: https://vndb.org/v379
+3/16/2017 12:50:36 AM: Load completed on VNDB page: https://vndb.org/v379
+3/16/2017 12:50:41 AM: Opening cover grid with 9 VNs
+3/16/2017 12:51:41 AM: Starting InitVnList
+3/16/2017 12:51:41 AM: Starting InitMenuBar
+3/16/2017 12:51:41 AM: Starting ReloadVnListColumns
+3/16/2017 12:51:41 AM: Starting LoadVnList
+3/16/2017 12:51:41 AM: Starting LoadVnList.
+3/16/2017 12:51:41 AM: Ending LoadVnList.
+3/16/2017 12:51:42 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:51:43 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:51:45 AM: Opening cover grid with 9 VNs
+3/16/2017 12:52:58 AM: Starting InitVnList
+3/16/2017 12:52:58 AM: Starting InitMenuBar
+3/16/2017 12:52:58 AM: Starting ReloadVnListColumns
+3/16/2017 12:52:58 AM: Starting LoadVnList
+3/16/2017 12:52:58 AM: Starting LoadVnList.
+3/16/2017 12:52:59 AM: Ending LoadVnList.
+3/16/2017 12:53:00 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 12:53:00 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 12:53:02 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 12:53:02 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 12:53:02 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 12:53:03 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 12:53:04 AM: Favoriting Higurashi no Naku Koro ni.
+3/16/2017 12:53:06 AM: Selected visual novel changed to: NOEXTENSION
+3/16/2017 12:53:06 AM: Searching VNDB for NOEXTENSION
+3/16/2017 12:53:06 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=NOEXTENSION
+3/16/2017 12:53:06 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=NOEXTENSION
+3/16/2017 12:53:06 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 12:53:06 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 12:53:07 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 12:53:07 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 12:53:10 AM: Starting LoadVnList.
+3/16/2017 12:53:10 AM: Ending LoadVnList.
+3/16/2017 1:01:37 AM: Starting InitVnList
+3/16/2017 1:01:37 AM: Starting InitMenuBar
+3/16/2017 1:01:37 AM: Starting ReloadVnListColumns
+3/16/2017 1:01:38 AM: Starting LoadVnList
+3/16/2017 1:01:38 AM: Starting LoadVnList.
+3/16/2017 1:01:38 AM: Ending LoadVnList.
+3/16/2017 1:01:40 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 1:01:40 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 1:01:42 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 1:01:42 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 1:01:42 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 1:01:43 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 1:01:44 AM: Favoriting Higurashi no Naku Koro ni.
+3/16/2017 1:01:44 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 1:01:44 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 1:01:44 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 1:01:44 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 1:01:44 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 1:01:45 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 1:01:45 AM: Selected visual novel changed to: NOEXTENSION
+3/16/2017 1:01:45 AM: Searching VNDB for NOEXTENSION
+3/16/2017 1:01:45 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 1:01:45 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 1:01:46 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 1:01:46 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 1:01:48 AM: Starting LoadVnList.
+3/16/2017 1:01:48 AM: Ending LoadVnList.
+3/16/2017 1:01:51 AM: Opening cover grid with 9 VNs
+3/16/2017 1:05:22 AM: Starting InitVnList
+3/16/2017 1:05:22 AM: Starting InitMenuBar
+3/16/2017 1:05:22 AM: Starting ReloadVnListColumns
+3/16/2017 1:05:22 AM: Starting LoadVnList
+3/16/2017 1:05:22 AM: Starting LoadVnList.
+3/16/2017 1:05:22 AM: Ending LoadVnList.
+3/16/2017 1:05:24 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 1:05:24 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 1:05:49 AM: Selected visual novel changed to: NOEXTENSION
+3/16/2017 1:05:49 AM: Searching VNDB for NOEXTENSION
+3/16/2017 1:05:50 AM: Selected visual novel changed to: Higurashi no Naku Koro ni
+3/16/2017 1:05:50 AM: Searching VNDB for Higurashi no Naku Koro ni
+3/16/2017 1:05:50 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Higurashi%20no%20Naku%20Koro%20ni
+3/16/2017 1:05:50 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Higurashi no Naku Koro ni
+3/16/2017 1:05:54 AM: Favoriting Higurashi no Naku Koro ni.
+3/16/2017 1:05:59 AM: Favoriting Higurashi no Naku Koro ni.
+3/16/2017 1:14:15 AM: Starting InitVnList
+3/16/2017 1:14:15 AM: Starting InitMenuBar
+3/16/2017 1:14:15 AM: Starting ReloadVnListColumns
+3/16/2017 1:14:15 AM: Starting LoadVnList
+3/16/2017 1:14:15 AM: Starting LoadVnList.
+3/16/2017 1:14:16 AM: Ending LoadVnList.
+3/16/2017 1:14:17 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 1:14:18 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 1:14:20 AM: Selected visual novel changed to: Air
+3/16/2017 1:14:20 AM: Searching VNDB for Air
+3/16/2017 1:14:20 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:21 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:23 AM: Favoriting Air.
+3/16/2017 1:14:31 AM: Selected visual novel changed to: Air
+3/16/2017 1:14:31 AM: Searching VNDB for Air
+3/16/2017 1:14:32 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:32 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:35 AM: Selected visual novel changed to: Air
+3/16/2017 1:14:35 AM: Searching VNDB for Air
+3/16/2017 1:14:35 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:35 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:39 AM: Selected visual novel changed to: Air
+3/16/2017 1:14:39 AM: Searching VNDB for Air
+3/16/2017 1:14:39 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:39 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:14:41 AM: Favoriting Air.
+3/16/2017 1:14:42 AM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+3/16/2017 1:14:42 AM: Going to known address: https://vndb.org/v4037
+3/16/2017 1:14:42 AM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+3/16/2017 1:14:42 AM: Load completed on VNDB page: https://vndb.org/v4037
+3/16/2017 1:14:43 AM: Favoriting Eroge! ~H mo Game mo Kaihatsu Zanmai~.
+3/16/2017 1:14:47 AM: Opening cover grid with 9 VNs
+3/16/2017 1:14:54 AM: Favoriting Eroge! ~H mo Game mo Kaihatsu Zanmai~.
+3/16/2017 1:14:56 AM: Favoriting Eroge! ~H mo Game mo Kaihatsu Zanmai~.
+3/16/2017 1:15:13 AM: Selected visual novel changed to: Air
+3/16/2017 1:15:13 AM: Searching VNDB for Air
+3/16/2017 1:15:13 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:15:14 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:16:33 AM: Starting InitVnList
+3/16/2017 1:16:33 AM: Starting InitMenuBar
+3/16/2017 1:16:33 AM: Starting ReloadVnListColumns
+3/16/2017 1:16:33 AM: Starting LoadVnList
+3/16/2017 1:16:33 AM: Starting LoadVnList.
+3/16/2017 1:16:33 AM: Ending LoadVnList.
+3/16/2017 1:16:35 AM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 1:16:35 AM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 1:16:48 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:48 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:16:48 AM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+3/16/2017 1:16:49 AM: Load completed on VNDB page: https://vndb.org/v9678
+3/16/2017 1:16:56 AM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+3/16/2017 1:16:56 AM: Going to known address: https://vndb.org/v4037
+3/16/2017 1:16:56 AM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+3/16/2017 1:16:56 AM: Load completed on VNDB page: https://vndb.org/v4037
+3/16/2017 1:16:56 AM: Selected visual novel changed to: Fate／Hollow Ataraxia
+3/16/2017 1:16:56 AM: Going to known address: https://vndb.org/v50
+3/16/2017 1:16:57 AM: OnWebBrowserNavigate URL: https://vndb.org/v50
+3/16/2017 1:16:57 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:57 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:16:57 AM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+3/16/2017 1:16:57 AM: Load completed on VNDB page: https://vndb.org/v9678
+3/16/2017 1:16:58 AM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+3/16/2017 1:16:58 AM: Going to known address: https://vndb.org/v4037
+3/16/2017 1:16:58 AM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+3/16/2017 1:16:58 AM: Selected visual novel changed to: Fate／Hollow Ataraxia
+3/16/2017 1:16:58 AM: Going to known address: https://vndb.org/v50
+3/16/2017 1:16:58 AM: Load completed on VNDB page: https://vndb.org/v4037
+3/16/2017 1:16:59 AM: Selected visual novel changed to: Fate／Hollow Ataraxia
+3/16/2017 1:16:59 AM: Going to known address: https://vndb.org/v50
+3/16/2017 1:16:59 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:59 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:16:59 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:59 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:16:59 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:59 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:16:59 AM: Selected visual novel changed to: Rose Guns Days
+3/16/2017 1:16:59 AM: Going to known address: https://vndb.org/v9678
+3/16/2017 1:17:00 AM: OnWebBrowserNavigate URL: https://vndb.org/v9678
+3/16/2017 1:17:00 AM: Load completed on VNDB page: https://vndb.org/v9678
+3/16/2017 1:17:06 AM: Selected visual novel changed to: Air
+3/16/2017 1:17:06 AM: Searching VNDB for Air
+3/16/2017 1:17:07 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Air
+3/16/2017 1:17:07 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Air
+3/16/2017 1:17:11 AM: OnWebBrowserNavigate URL: https://vndb.org/v36
+3/16/2017 1:17:13 AM: Load completed on VNDB page: https://vndb.org/v36
+3/16/2017 1:17:21 AM: Setting VN info for: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Air to match Air.
+3/16/2017 1:17:21 AM: SetVnInfo confirmation box shown.
+3/16/2017 1:17:22 AM: Saving cover image from https://vndb.org/v36.
+[ERROR]: 3/16/2017 1:17:22 AM: Error saving cover image: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadData(String address)
+   at Visual_Novel_Universe.VndbExtractor.ExtractCoverImage(String Html) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\VndbExtractor.cs:line 80
+   at Visual_Novel_Universe.ViewModels.MainViewModel.SaveCoverImage() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModelMenuBar.cs:line 332
+3/16/2017 1:17:22 AM: Starting LoadVnList.
+3/16/2017 1:17:22 AM: Ending LoadVnList.
+3/16/2017 1:17:24 AM: Selected visual novel changed to: Clannad
+3/16/2017 1:17:24 AM: Searching VNDB for Clannad
+3/16/2017 1:17:24 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+3/16/2017 1:17:25 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+3/16/2017 1:17:25 AM: Selected visual novel changed to: Chaos;Head
+3/16/2017 1:17:25 AM: Searching VNDB for Chaos;Head
+3/16/2017 1:17:25 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Chaos;Head
+3/16/2017 1:17:25 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Chaos;Head
+3/16/2017 1:17:27 AM: Selected visual novel changed to: Clannad
+3/16/2017 1:17:27 AM: Searching VNDB for Clannad
+3/16/2017 1:17:28 AM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Clannad
+3/16/2017 1:17:28 AM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Clannad
+3/16/2017 1:17:33 AM: Selected visual novel changed to: Eroge! ~H mo Game mo Kaihatsu Zanmai~
+3/16/2017 1:17:33 AM: Going to known address: https://vndb.org/v4037
+3/16/2017 1:17:33 AM: OnWebBrowserNavigate URL: https://vndb.org/v4037
+3/16/2017 1:17:33 AM: Load completed on VNDB page: https://vndb.org/v4037
+3/16/2017 1:17:47 AM: Opening cover grid with 9 VNs
+3/16/2017 4:35:30 PM: Starting InitVnList
+3/16/2017 4:35:30 PM: Starting InitMenuBar
+3/16/2017 4:35:30 PM: Starting ReloadVnListColumns
+3/16/2017 4:35:30 PM: Starting LoadVnList
+3/16/2017 4:35:30 PM: Starting LoadVnList.
+3/16/2017 4:35:30 PM: Ending LoadVnList.
+3/16/2017 4:35:31 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:35:32 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 4:35:41 PM: Opening cover grid with 9 VNs
+3/16/2017 4:44:38 PM: Starting InitVnList
+3/16/2017 4:44:38 PM: Starting InitMenuBar
+3/16/2017 4:44:38 PM: Starting ReloadVnListColumns
+3/16/2017 4:44:38 PM: Starting LoadVnList
+3/16/2017 4:44:38 PM: Starting LoadVnList.
+3/16/2017 4:44:38 PM: Ending LoadVnList.
+3/16/2017 4:44:40 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:44:40 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 4:44:42 PM: Opening cover grid with 9 VNs
+3/16/2017 4:46:22 PM: Starting InitVnList
+3/16/2017 4:46:22 PM: Starting InitMenuBar
+3/16/2017 4:46:22 PM: Starting ReloadVnListColumns
+3/16/2017 4:46:22 PM: Starting LoadVnList
+3/16/2017 4:46:22 PM: Starting LoadVnList.
+3/16/2017 4:46:22 PM: Ending LoadVnList.
+3/16/2017 4:46:23 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:46:24 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 4:46:25 PM: Opening cover grid with 9 VNs
+3/16/2017 4:48:16 PM: Starting InitVnList
+3/16/2017 4:48:16 PM: Starting InitMenuBar
+3/16/2017 4:48:16 PM: Starting ReloadVnListColumns
+3/16/2017 4:48:16 PM: Starting LoadVnList
+3/16/2017 4:48:16 PM: Starting LoadVnList.
+3/16/2017 4:48:16 PM: Ending LoadVnList.
+3/16/2017 4:48:17 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:48:18 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 4:48:18 PM: Opening cover grid with 9 VNs
+3/16/2017 4:49:56 PM: Starting InitVnList
+3/16/2017 4:49:56 PM: Starting InitMenuBar
+3/16/2017 4:49:56 PM: Starting ReloadVnListColumns
+3/16/2017 4:49:56 PM: Starting LoadVnList
+3/16/2017 4:49:56 PM: Starting LoadVnList.
+3/16/2017 4:49:56 PM: Ending LoadVnList.
+3/16/2017 4:49:57 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 4:49:58 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 4:49:59 PM: Opening cover grid with 9 VNs
+3/16/2017 5:04:36 PM: Starting InitVnList
+3/16/2017 5:04:36 PM: Starting InitMenuBar
+3/16/2017 5:04:36 PM: Starting ReloadVnListColumns
+3/16/2017 5:04:36 PM: Starting LoadVnList
+3/16/2017 5:04:36 PM: Starting LoadVnList.
+3/16/2017 5:04:37 PM: Ending LoadVnList.
+3/16/2017 5:04:38 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:04:38 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:04:39 PM: Opening cover grid with 9 VNs
+3/16/2017 5:04:50 PM: Opening cover grid with 9 VNs
+3/16/2017 5:05:19 PM: Starting InitVnList
+3/16/2017 5:05:19 PM: Starting InitMenuBar
+3/16/2017 5:05:19 PM: Starting ReloadVnListColumns
+3/16/2017 5:05:19 PM: Starting LoadVnList
+3/16/2017 5:05:19 PM: Starting LoadVnList.
+3/16/2017 5:05:19 PM: Ending LoadVnList.
+3/16/2017 5:05:20 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:05:21 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:05:22 PM: Opening cover grid with 9 VNs
+3/16/2017 5:06:22 PM: Starting InitVnList
+3/16/2017 5:06:22 PM: Starting InitMenuBar
+3/16/2017 5:06:22 PM: Starting ReloadVnListColumns
+3/16/2017 5:06:22 PM: Starting LoadVnList
+3/16/2017 5:06:22 PM: Starting LoadVnList.
+3/16/2017 5:06:22 PM: Ending LoadVnList.
+3/16/2017 5:06:23 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:06:23 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:06:25 PM: Opening cover grid with 9 VNs
+3/16/2017 5:06:29 PM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Yuuki Yuuna wa Yuusha de Aru
+3/16/2017 5:06:29 PM: Selected visual novel changed to: Yuuki Yuuna wa Yuusha de Aru
+3/16/2017 5:06:29 PM: Going to known address: https://vndb.org/v16448
+3/16/2017 5:06:29 PM: OnWebBrowserNavigate URL: https://vndb.org/v16448
+3/16/2017 5:06:31 PM: Load completed on VNDB page: https://vndb.org/v16448
+3/16/2017 5:07:45 PM: Starting InitVnList
+3/16/2017 5:07:45 PM: Starting InitMenuBar
+3/16/2017 5:07:45 PM: Starting ReloadVnListColumns
+3/16/2017 5:07:45 PM: Starting LoadVnList
+3/16/2017 5:07:45 PM: Starting LoadVnList.
+3/16/2017 5:07:45 PM: Ending LoadVnList.
+3/16/2017 5:07:46 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:07:46 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:07:47 PM: Opening cover grid with 9 VNs
+3/16/2017 5:08:22 PM: Starting InitVnList
+3/16/2017 5:08:22 PM: Starting InitMenuBar
+3/16/2017 5:08:22 PM: Starting ReloadVnListColumns
+3/16/2017 5:08:22 PM: Starting LoadVnList
+3/16/2017 5:08:22 PM: Starting LoadVnList.
+3/16/2017 5:08:22 PM: Ending LoadVnList.
+3/16/2017 5:08:23 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:08:23 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:08:25 PM: Opening cover grid with 9 VNs
+3/16/2017 5:10:01 PM: Starting InitVnList
+3/16/2017 5:10:01 PM: Starting InitMenuBar
+3/16/2017 5:10:01 PM: Starting ReloadVnListColumns
+3/16/2017 5:10:01 PM: Starting LoadVnList
+3/16/2017 5:10:01 PM: Starting LoadVnList.
+3/16/2017 5:10:02 PM: Ending LoadVnList.
+3/16/2017 5:10:03 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:10:03 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:10:04 PM: Opening cover grid with 9 VNs
+3/16/2017 5:10:35 PM: Starting InitVnList
+3/16/2017 5:10:35 PM: Starting InitMenuBar
+3/16/2017 5:10:35 PM: Starting ReloadVnListColumns
+3/16/2017 5:10:35 PM: Starting LoadVnList
+3/16/2017 5:10:35 PM: Starting LoadVnList.
+3/16/2017 5:10:35 PM: Ending LoadVnList.
+3/16/2017 5:10:36 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:10:37 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:10:37 PM: Opening cover grid with 9 VNs
+3/16/2017 5:11:24 PM: Starting InitVnList
+3/16/2017 5:11:24 PM: Starting InitMenuBar
+3/16/2017 5:11:24 PM: Starting ReloadVnListColumns
+3/16/2017 5:11:24 PM: Starting LoadVnList
+3/16/2017 5:11:24 PM: Starting LoadVnList.
+3/16/2017 5:11:24 PM: Ending LoadVnList.
+3/16/2017 5:11:25 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:11:26 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:11:28 PM: Opening cover grid with 9 VNs
+3/16/2017 5:15:04 PM: Starting InitVnList
+3/16/2017 5:15:04 PM: Starting InitMenuBar
+3/16/2017 5:15:04 PM: Starting ReloadVnListColumns
+3/16/2017 5:15:04 PM: Starting LoadVnList
+3/16/2017 5:15:04 PM: Starting LoadVnList.
+3/16/2017 5:15:04 PM: Ending LoadVnList.
+3/16/2017 5:15:05 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:15:05 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:15:06 PM: Opening cover grid with 9 VNs
+[ERROR]: 3/16/2017 5:15:06 PM: Uncaught exception: Items collection must be empty before using ItemsSource.
+   at System.Windows.Controls.ItemCollection.SetItemsSource(IEnumerable value, Func`2 GetSourceItem)
+   at System.Windows.Controls.ItemsControl.OnItemsSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   at System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   at System.Windows.DependencyObject.InvalidateProperty(DependencyProperty dp, Boolean preserveCurrentValue)
+   at System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at MS.Internal.Data.ClrBindingWorker.CompleteGetValue(AsyncGetValueRequest request)
+   at MS.Internal.Data.ClrBindingWorker.OnCompleteGetValueOperation(Object arg)
+   at MS.Internal.Data.DataBindOperation.Invoke()
+   at MS.Internal.Data.DataBindEngine.ProcessCrossThreadRequests()
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.DispatcherOperation.Invoke()
+   at System.Windows.Threading.Dispatcher.ProcessQueue()
+   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run(Window window)
+   at System.Windows.Application.Run()
+   at Visual_Novel_Universe.App.Main() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\App.g.cs:line 0
+3/16/2017 5:16:14 PM: Starting InitVnList
+3/16/2017 5:16:14 PM: Starting InitMenuBar
+3/16/2017 5:16:14 PM: Starting ReloadVnListColumns
+3/16/2017 5:16:14 PM: Starting LoadVnList
+3/16/2017 5:16:14 PM: Starting LoadVnList.
+3/16/2017 5:16:14 PM: Ending LoadVnList.
+3/16/2017 5:16:15 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:16:15 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:16:16 PM: Opening cover grid with 9 VNs
+3/16/2017 5:16:19 PM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Hollow Ataraxia
+3/16/2017 5:16:19 PM: Selected visual novel changed to: Fate／Hollow Ataraxia
+3/16/2017 5:16:19 PM: Going to known address: https://vndb.org/v50
+3/16/2017 5:16:20 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+3/16/2017 5:16:20 PM: Load completed on VNDB page: https://vndb.org/v50
+3/16/2017 5:16:21 PM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Stay Night
+3/16/2017 5:16:21 PM: Selected visual novel changed to: Fate／Stay Night
+3/16/2017 5:16:21 PM: Going to known address: https://vndb.org/v11
+3/16/2017 5:16:21 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+3/16/2017 5:16:21 PM: Load completed on VNDB page: https://vndb.org/v11
+3/16/2017 5:18:02 PM: Starting InitVnList
+3/16/2017 5:18:02 PM: Starting InitMenuBar
+3/16/2017 5:18:02 PM: Starting ReloadVnListColumns
+3/16/2017 5:18:02 PM: Starting LoadVnList
+3/16/2017 5:18:02 PM: Starting LoadVnList.
+3/16/2017 5:18:02 PM: Ending LoadVnList.
+3/16/2017 5:18:03 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:18:03 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:18:07 PM: Opening cover grid with 9 VNs
+3/16/2017 5:20:42 PM: Starting InitVnList
+3/16/2017 5:20:42 PM: Starting InitMenuBar
+3/16/2017 5:20:42 PM: Starting ReloadVnListColumns
+3/16/2017 5:20:42 PM: Starting LoadVnList
+3/16/2017 5:20:42 PM: Starting LoadVnList.
+3/16/2017 5:20:42 PM: Ending LoadVnList.
+3/16/2017 5:20:43 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:20:43 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:20:44 PM: Opening cover grid with 9 VNs
+3/16/2017 5:21:48 PM: Starting InitVnList
+3/16/2017 5:21:48 PM: Starting InitMenuBar
+3/16/2017 5:21:48 PM: Starting ReloadVnListColumns
+3/16/2017 5:21:48 PM: Starting LoadVnList
+3/16/2017 5:21:48 PM: Starting LoadVnList.
+3/16/2017 5:21:48 PM: Ending LoadVnList.
+3/16/2017 5:21:49 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:21:49 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:21:52 PM: Opening cover grid with 9 VNs
+3/16/2017 5:21:53 PM: Cover Image Clicked: C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Fate／Stay Night
+3/16/2017 5:21:53 PM: Selected visual novel changed to: Fate／Stay Night
+3/16/2017 5:21:53 PM: Going to known address: https://vndb.org/v11
+3/16/2017 5:21:54 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+3/16/2017 5:21:54 PM: Load completed on VNDB page: https://vndb.org/v11
+3/16/2017 5:28:34 PM: Starting InitVnList
+3/16/2017 5:28:34 PM: Starting InitMenuBar
+3/16/2017 5:28:34 PM: Starting ReloadVnListColumns
+3/16/2017 5:28:34 PM: Starting LoadVnList
+3/16/2017 5:28:34 PM: Starting LoadVnList.
+[ERROR]: 3/16/2017 5:28:34 PM: Error loading VN C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Air: Cannot deserialize type 'Visual_Novel_Universe.Models.VisualNovel' because it contains property 'HasCoverImage' which has no public setter.
+[ERROR]: 3/16/2017 5:28:34 PM: Error in LoadVnList: Object reference not set to an instance of an object.
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVisualNovel(String FolderName, Boolean ForceSave) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 178
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVnList() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 146
+3/16/2017 5:28:34 PM: Ending LoadVnList.
+3/16/2017 5:28:35 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:28:35 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:28:40 PM: Opening cover grid with 0 VNs
+3/16/2017 5:29:07 PM: Starting InitVnList
+3/16/2017 5:29:07 PM: Starting InitMenuBar
+3/16/2017 5:29:07 PM: Starting ReloadVnListColumns
+3/16/2017 5:29:07 PM: Starting LoadVnList
+3/16/2017 5:29:07 PM: Starting LoadVnList.
+[ERROR]: 3/16/2017 5:29:07 PM: Error loading VN C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Air: Cannot deserialize type 'Visual_Novel_Universe.Models.VisualNovel' because it contains property 'HasCoverImage' which has no public setter.
+[ERROR]: 3/16/2017 5:29:07 PM: Error in LoadVnList: Object reference not set to an instance of an object.
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVisualNovel(String FolderName, Boolean ForceSave) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 178
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVnList() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 146
+3/16/2017 5:29:07 PM: Ending LoadVnList.
+3/16/2017 5:29:08 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:29:08 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:29:09 PM: Opening directories window.
+3/16/2017 5:29:13 PM: Starting LoadVnList.
+[ERROR]: 3/16/2017 5:29:13 PM: Error loading VN C:\Users\Lukez_000\Desktop\Folders\Projects\VNU Test Dir 1\Air: Cannot deserialize type 'Visual_Novel_Universe.Models.VisualNovel' because it contains property 'HasCoverImage' which has no public setter.
+[ERROR]: 3/16/2017 5:29:13 PM: Error in LoadVnList: Object reference not set to an instance of an object.
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVisualNovel(String FolderName, Boolean ForceSave) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 178
+   at Visual_Novel_Universe.ViewModels.MainViewModel.LoadVnList() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModel.cs:line 146
+3/16/2017 5:29:13 PM: Ending LoadVnList.
+3/16/2017 5:30:02 PM: Starting InitVnList
+3/16/2017 5:30:02 PM: Starting InitMenuBar
+3/16/2017 5:30:02 PM: Starting ReloadVnListColumns
+3/16/2017 5:30:02 PM: Starting LoadVnList
+3/16/2017 5:30:02 PM: Starting LoadVnList.
+3/16/2017 5:30:02 PM: Ending LoadVnList.
+3/16/2017 5:30:04 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:30:04 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:30:06 PM: Opening cover grid with 9 VNs
+3/16/2017 5:51:58 PM: Starting InitVnList
+3/16/2017 5:51:58 PM: Starting InitMenuBar
+3/16/2017 5:51:58 PM: Starting ReloadVnListColumns
+3/16/2017 5:51:58 PM: Starting LoadVnList
+3/16/2017 5:51:58 PM: Starting LoadVnList.
+3/16/2017 5:51:58 PM: Ending LoadVnList.
+3/16/2017 5:51:59 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:52:00 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:52:00 PM: Opening cover grid with 9 VNs
+3/16/2017 5:52:04 PM: Opening cover grid with 9 VNs
+3/16/2017 5:52:20 PM: Starting InitVnList
+3/16/2017 5:52:20 PM: Starting InitMenuBar
+3/16/2017 5:52:20 PM: Starting ReloadVnListColumns
+3/16/2017 5:52:20 PM: Starting LoadVnList
+3/16/2017 5:52:20 PM: Starting LoadVnList.
+3/16/2017 5:52:20 PM: Ending LoadVnList.
+3/16/2017 5:52:21 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:52:21 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:52:22 PM: Opening directories window.
+3/16/2017 5:52:31 PM: Starting LoadVnList.
+3/16/2017 5:52:31 PM: Ending LoadVnList.
+3/16/2017 5:52:33 PM: Opening cover grid with 1105 VNs
+3/16/2017 5:54:39 PM: Starting InitVnList
+3/16/2017 5:54:39 PM: Starting InitMenuBar
+3/16/2017 5:54:39 PM: Starting ReloadVnListColumns
+3/16/2017 5:54:40 PM: Starting LoadVnList
+3/16/2017 5:54:40 PM: Starting LoadVnList.
+3/16/2017 5:54:40 PM: Ending LoadVnList.
+3/16/2017 5:54:41 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:54:42 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:54:46 PM: Opening cover grid with 1105 VNs
+3/16/2017 5:57:03 PM: Starting InitVnList
+3/16/2017 5:57:03 PM: Starting InitMenuBar
+3/16/2017 5:57:03 PM: Starting ReloadVnListColumns
+3/16/2017 5:57:03 PM: Starting LoadVnList
+3/16/2017 5:57:03 PM: Starting LoadVnList.
+3/16/2017 5:57:04 PM: Ending LoadVnList.
+3/16/2017 5:57:05 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:57:05 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:57:07 PM: Opening cover grid with 1105 VNs
+3/16/2017 5:59:27 PM: Starting InitVnList
+3/16/2017 5:59:27 PM: Starting InitMenuBar
+3/16/2017 5:59:27 PM: Starting ReloadVnListColumns
+3/16/2017 5:59:27 PM: Starting LoadVnList
+3/16/2017 5:59:27 PM: Starting LoadVnList.
+3/16/2017 5:59:28 PM: Ending LoadVnList.
+3/16/2017 5:59:29 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 5:59:29 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 5:59:31 PM: Opening cover grid with 1105 VNs
+3/16/2017 6:03:30 PM: Starting InitVnList
+3/16/2017 6:03:30 PM: Starting InitMenuBar
+3/16/2017 6:03:30 PM: Starting ReloadVnListColumns
+3/16/2017 6:03:30 PM: Starting LoadVnList
+3/16/2017 6:03:30 PM: Starting LoadVnList.
+3/16/2017 6:03:32 PM: Ending LoadVnList.
+3/16/2017 6:03:33 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 6:03:34 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 6:03:38 PM: Opening directories window.
+3/16/2017 6:03:40 PM: Starting LoadVnList.
+3/16/2017 6:03:40 PM: Ending LoadVnList.
+3/16/2017 6:43:22 PM: Starting InitVnList
+3/16/2017 6:43:22 PM: Starting InitMenuBar
+3/16/2017 6:43:22 PM: Starting ReloadVnListColumns
+3/16/2017 6:43:22 PM: Starting LoadVnList
+3/16/2017 6:43:22 PM: Starting LoadVnList.
+3/16/2017 6:43:22 PM: Ending LoadVnList.
+3/16/2017 6:43:23 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 6:43:24 PM: Load completed on non-VNDB page: https://vndb.org/
+3/16/2017 6:43:36 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fata+morgana
+3/16/2017 6:43:36 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fata+morgana
+3/16/2017 6:43:38 PM: OnWebBrowserNavigate URL: https://vndb.org/v12402
+3/16/2017 6:43:40 PM: Load completed on VNDB page: https://vndb.org/v12402
+3/16/2017 6:43:52 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?sq=Fate+stay+nght
+3/16/2017 6:43:52 PM: Load completed on non-VNDB page: https://vndb.org/v/all?sq=Fate+stay+nght
+3/16/2017 6:43:55 PM: OnWebBrowserNavigate URL: https://vndb.org/v/all?q=Fate+stay+night&fil=&rfil=&s=title&o=a
+3/16/2017 6:43:55 PM: Load completed on non-VNDB page: https://vndb.org/v/all?q=Fate+stay+night&fil=&rfil=&s=title&o=a
+3/16/2017 6:43:57 PM: OnWebBrowserNavigate URL: https://vndb.org/v11
+3/16/2017 6:43:57 PM: Load completed on VNDB page: https://vndb.org/v11
+3/16/2017 6:44:13 PM: OnWebBrowserNavigate URL: https://vndb.org/v50
+3/16/2017 6:44:13 PM: Load completed on VNDB page: https://vndb.org/v50
+3/16/2017 7:43:13 PM: Starting InitVnList
+3/16/2017 7:43:13 PM: Starting InitMenuBar
+3/16/2017 7:43:13 PM: Starting ReloadVnListColumns
+3/16/2017 7:43:13 PM: Starting LoadVnList
+3/16/2017 7:43:13 PM: Starting LoadVnList.
+3/16/2017 7:43:13 PM: Ending LoadVnList.
+3/16/2017 7:43:15 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 7:43:15 PM: Load completed on non-VNDB page: https://vndb.org/
+[ERROR]: 3/16/2017 7:43:17 PM: Uncaught exception: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at Visual_Novel_Universe.ViewModels.MainViewModel.<>c.<HighlightEnglishAvailable>b__210_0(VisualNovel VN) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModelVnList.cs:line 164
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Visual_Novel_Universe.ViewModels.MainViewModel.HighlightEnglishAvailable() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModelVnList.cs:line 166
+   at Visual_Novel_Universe.ViewModels.MainViewModel.<InitMenuBar>b__34_8(String S) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\ViewModels\MainViewModelMenuBar.cs:line 32
+   at Visual_Novel_Universe.RelayCommand`1.Execute(Object Parameter) in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\RelayCommand.cs:line 52
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   at System.Windows.Controls.Primitives.ToggleButton.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   at System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run(Window window)
+   at System.Windows.Application.Run()
+   at Visual_Novel_Universe.App.Main() in C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\App.g.cs:line 0
+3/16/2017 7:43:48 PM: Starting InitVnList
+3/16/2017 7:43:48 PM: Starting InitMenuBar
+3/16/2017 7:43:48 PM: Starting ReloadVnListColumns
+3/16/2017 7:43:48 PM: Starting LoadVnList
+3/16/2017 7:43:48 PM: Starting LoadVnList.
+3/16/2017 7:43:48 PM: Ending LoadVnList.
+3/16/2017 7:43:49 PM: OnWebBrowserNavigate URL: https://vndb.org/
+3/16/2017 7:43:50 PM: Load completed on non-VNDB page: https://vndb.org/

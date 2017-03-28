@@ -46,3 +46,11 @@ C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\V
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.exe.manifest
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.application
 C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\obj\Debug\Visual Novel Universe.TrustInfo.xml
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.DependencyInjection.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.Logging.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.Utils.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Ninject.dll
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.DependencyInjection.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.Logging.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Core.Utils.pdb
+C:\Users\Lukez_000\Documents\Visual Studio 2015\Projects\Visual Novel Universe\Visual Novel Universe\bin\Debug\Ninject.xml

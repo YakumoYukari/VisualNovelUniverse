@@ -17,6 +17,10 @@ namespace Visual_Novel_Universe.ViewModels
                 {
                     HighlightEnglishAvailableChecked = false;
                 }
+                else if (!_HighlightEnglishAvailableChecked && !_HighlightFavoritesChecked)
+                {
+                    DoHighlighting();
+                }
                 NotifyOfPropertyChange(() => HighlightFavoritesChecked);
             }
         }
@@ -31,6 +35,10 @@ namespace Visual_Novel_Universe.ViewModels
                 if (_HighlightEnglishAvailableChecked)
                 {
                     HighlightFavoritesChecked = false;
+                }
+                else if (!_HighlightEnglishAvailableChecked && !_HighlightFavoritesChecked)
+                {
+                    DoHighlighting();
                 }
                 NotifyOfPropertyChange(() => HighlightEnglishAvailableChecked);
             }
@@ -126,17 +134,73 @@ namespace Visual_Novel_Universe.ViewModels
             }
         }
 
+        private void HighlightFavorites()
+        {
+            if (HighlightFavoritesChecked)
+            {
+                var Added = VisualNovels.Where(VN => VN.Favorited);
+                ShownVisualNovels.Clear();
+                Added.ToList().ForEach(ShownVisualNovels.Add);
+            }
+            else if (string.IsNullOrWhiteSpace(VnListSearchBoxText))
+            {
+                ShownVisualNovels.Clear();
+                VisualNovels.ToList().ForEach(ShownVisualNovels.Add);
+                Highlight.ClearHighlighting(ShownVisualNovels);
+                Highlight.ClearHighlighting(VisualNovels);
+            }
+            else
+            {
+                var Added = Highlight.SearchTerms(VisualNovels, VnListSearchBoxText);
+                ShownVisualNovels.Clear();
+                Added.ToList().ForEach(ShownVisualNovels.Add);
+            }
+        }
+
+        private void HighlightEnglishAvailable()
+        {
+            if (HighlightEnglishAvailableChecked)
+            {
+                var Added = VisualNovels.Where(VN => VN.EnglishReleases?.Any() ?? false);
+                ShownVisualNovels.Clear();
+                Added.ToList().ForEach(ShownVisualNovels.Add);
+            }
+            else if (string.IsNullOrWhiteSpace(VnListSearchBoxText))
+            {
+                ShownVisualNovels.Clear();
+                VisualNovels.ToList().ForEach(ShownVisualNovels.Add);
+                Highlight.ClearHighlighting(ShownVisualNovels);
+                Highlight.ClearHighlighting(VisualNovels);
+            }
+            else
+            {
+                var Added = Highlight.SearchTerms(VisualNovels, VnListSearchBoxText);
+                ShownVisualNovels.Clear();
+                Added.ToList().ForEach(ShownVisualNovels.Add);
+            }
+        }
+
         public RelayCommand<string> SelectRandomCommand { get; set; }
+        public RelayCommand<string> SelectNewCommand { get; set; }
 
         public void InitVnList()
         {
-            SelectRandomCommand = new RelayCommand<string>(s => SelectRandom());
+            SelectRandomCommand = new RelayCommand<string>(SelectRandom);
+            SelectNewCommand = new RelayCommand<string>(SelectNew);
         }
 
-        public void SelectRandom()
+        public void SelectRandom(string Args)
         {
-            int SelectedIndex = new Random().Next(0, VisualNovels.Count);
-            SelectedVisualNovel = VisualNovels.ElementAt(SelectedIndex);
+            if (!ShownVisualNovels.Any()) return;
+            int SelectedIndex = new Random().Next(0, ShownVisualNovels.Count);
+            SelectedVisualNovel = ShownVisualNovels.ElementAt(SelectedIndex);
+        }
+
+        public void SelectNew(string Args)
+        {
+            var NewVn = ShownVisualNovels.FirstOrDefault(Vn => !Vn.HasVnInfo);
+            if (NewVn == null) return;
+            SelectedVisualNovel = NewVn;
         }
 
         public void ClearVnSearchButton()

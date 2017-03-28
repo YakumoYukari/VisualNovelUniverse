@@ -8,38 +8,56 @@
         mc:Ignorable="d"
         Title="Visual Novel Covers" Height="300" Width="300" MinWidth="800" MinHeight="600" Icon="/Visual Novel Universe;component/Resources/VNULogo2.ico" ResizeMode="CanResizeWithGrip">
     <Grid>
-        <ScrollViewer HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto" CanContentScroll="True">
-            <ScrollViewer.Resources>
+        <ListBox ItemsSource="{Binding CoverImages, IsAsync=True, Mode=OneWay}" Background="#2E2E2E" VerticalContentAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="IsSelected" Value="{Binding Content.IsSelected, Mode=TwoWay, RelativeSource={RelativeSource Self}}"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <ContentPresenter/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+
+            <ListBox.Resources>
                 <Style TargetType="{x:Type ScrollBar}">
                     <Setter Property="Background" Value="#2E2E2E" />
                     <Setter Property="Foreground" Value="#606466"/>
                     <Setter Property="BorderBrush" Value="#2E2E2E"/>
                 </Style>
-            </ScrollViewer.Resources>
-            <!--<UniformGrid x:Name="CoverImages" Background="#2E2E2E" Columns="5">
+            </ListBox.Resources>
+            
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid IsItemsHost="True" Columns="{Binding ColumnsDisplayed}" VerticalAlignment="Top" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
 
-            </UniformGrid>-->
-            <ItemsControl ItemsSource="{Binding CoverImages}" Background="#2E2E2E">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <UniformGrid Columns="{Binding ColumnsDisplayed}"></UniformGrid>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Image Source="{Binding Filepath}">
-                            <i:Interaction.Triggers>
-                                <i:EventTrigger EventName="MouseDown">
-                                    <cal:ActionMessage MethodName="CoverImageClicked">
-                                        <cal:Parameter Value="{Binding}" />
-                                    </cal:ActionMessage>
-                                </i:EventTrigger>
-                            </i:Interaction.Triggers>
-                        </Image>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="8" BorderThickness="5" BorderBrush="{Binding ParentVisualNovel.FavoritedColor}" Background="#4E4E4E" Margin="2">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseDown">
+                                <cal:ActionMessage MethodName="CoverImageClicked">
+                                    <cal:Parameter Value="{Binding}" />
+                                </cal:ActionMessage>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="25"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding Filepath, IsAsync=True}"/>
+                            <TextBlock Grid.Row="1" x:Name="EnglishNameText" Text="{Binding ParentVisualNovel.EnglishName}" Foreground="GhostWhite" FontFamily="Calibri" FontWeight="Bold" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextTrimming="CharacterEllipsis" TextAlignment="Center" Margin="2,4,2,0" FontSize="14"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
         <Button x:Name="ZoomOut" Content ="-" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="25" Height="25" Background="#2E2E2E" BorderBrush="#FF7163FF" FontWeight="Bold" Foreground="DarkGoldenrod"/>
         <Button x:Name="ZoomIn" Content ="+" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="25" Height="25" Background="#2E2E2E" BorderBrush="#FF7163FF" FontWeight="Bold" Foreground="DarkGoldenrod" Margin="25,0,0,0"/>
     </Grid>

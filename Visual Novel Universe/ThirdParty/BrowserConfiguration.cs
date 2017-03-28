@@ -8,73 +8,73 @@ namespace Visual_Novel_Universe.ThirdParty
 {
     public static class BrowserConfiguration
     {
-        private static void SetBrowserFeatureControlKey(string feature, string appName, uint value)
+        private static void SetBrowserFeatureControlKey(string Feature, string AppName, uint Value)
         {
             using (var key = Registry.CurrentUser.CreateSubKey(
-                string.Concat(@"Software\Microsoft\Internet Explorer\Main\FeatureControl\", feature),
+                string.Concat(@"Software\Microsoft\Internet Explorer\Main\FeatureControl\", Feature),
                 RegistryKeyPermissionCheck.ReadWriteSubTree))
             {
-                key?.SetValue(appName, value, RegistryValueKind.DWord);
+                key?.SetValue(AppName, Value, RegistryValueKind.DWord);
             }
         }
 
         public static void SetBrowserFeatureControl()
         {
-            string fileName = Path.GetFileName(Process.GetCurrentProcess().MainModule.FileName);
+            string FileName = Path.GetFileName(Process.GetCurrentProcess().MainModule.FileName);
             
-            if (string.Compare(fileName, "devenv.exe", StringComparison.OrdinalIgnoreCase) == 0
-                || string.Compare(fileName, "XDesProc.exe", StringComparison.OrdinalIgnoreCase) == 0)
+            if (string.Compare(FileName, "devenv.exe", StringComparison.OrdinalIgnoreCase) == 0
+                || string.Compare(FileName, "XDesProc.exe", StringComparison.OrdinalIgnoreCase) == 0)
                 return;
 
-            SetBrowserFeatureControlKey("FEATURE_BROWSER_EMULATION", fileName, GetBrowserEmulationMode());
-            SetBrowserFeatureControlKey("FEATURE_AJAX_CONNECTIONEVENTS", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_ENABLE_CLIPCHILDREN_OPTIMIZATION", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_MANAGE_SCRIPT_CIRCULAR_REFS", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_DOMSTORAGE ", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_GPU_RENDERING ", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_IVIEWOBJECTDRAW_DMLT9_WITH_GDI  ", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_DISABLE_LEGACY_COMPRESSION", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_LOCALMACHINE_LOCKDOWN", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_BLOCK_LMZ_OBJECT", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_BLOCK_LMZ_SCRIPT", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_DISABLE_NAVIGATION_SOUNDS", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_SCRIPTURL_MITIGATION", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_SPELLCHECKING", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_STATUS_BAR_THROTTLING", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_TABBED_BROWSING", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_VALIDATE_NAVIGATE_URL", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_WEBOC_DOCUMENT_ZOOM", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_WEBOC_POPUPMANAGEMENT", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_WEBOC_MOVESIZECHILD", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_ADDON_MANAGEMENT", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_WEBSOCKET", fileName, 1);
-            SetBrowserFeatureControlKey("FEATURE_WINDOW_RESTRICTIONS ", fileName, 0);
-            SetBrowserFeatureControlKey("FEATURE_XMLHTTP", fileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_BROWSER_EMULATION", FileName, GetBrowserEmulationMode());
+            SetBrowserFeatureControlKey("FEATURE_AJAX_CONNECTIONEVENTS", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_ENABLE_CLIPCHILDREN_OPTIMIZATION", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_MANAGE_SCRIPT_CIRCULAR_REFS", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_DOMSTORAGE ", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_GPU_RENDERING ", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_IVIEWOBJECTDRAW_DMLT9_WITH_GDI  ", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_DISABLE_LEGACY_COMPRESSION", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_LOCALMACHINE_LOCKDOWN", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_BLOCK_LMZ_OBJECT", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_BLOCK_LMZ_SCRIPT", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_DISABLE_NAVIGATION_SOUNDS", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_SCRIPTURL_MITIGATION", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_SPELLCHECKING", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_STATUS_BAR_THROTTLING", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_TABBED_BROWSING", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_VALIDATE_NAVIGATE_URL", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_WEBOC_DOCUMENT_ZOOM", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_WEBOC_POPUPMANAGEMENT", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_WEBOC_MOVESIZECHILD", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_ADDON_MANAGEMENT", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_WEBSOCKET", FileName, 1);
+            SetBrowserFeatureControlKey("FEATURE_WINDOW_RESTRICTIONS ", FileName, 0);
+            SetBrowserFeatureControlKey("FEATURE_XMLHTTP", FileName, 1);
         }
 
         private static uint GetBrowserEmulationMode()
         {
-            int browserVersion = 7;
-            using (var ieKey = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Internet Explorer",
+            int BrowserVersion = 7;
+            using (var IeKey = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Internet Explorer",
                 RegistryKeyPermissionCheck.ReadSubTree,
                 RegistryRights.QueryValues))
             {
-                if (ieKey != null)
+                if (IeKey != null)
                 {
-                    object version = ieKey.GetValue("svcVersion");
+                    object version = IeKey.GetValue("svcVersion");
                     if (null == version)
                     {
-                        version = ieKey.GetValue("Version");
+                        version = IeKey.GetValue("Version");
                         if (null == version)
                             throw new ApplicationException("Microsoft Internet Explorer is required!");
                     }
-                    int.TryParse(version.ToString().Split('.')[0], out browserVersion);
+                    int.TryParse(version.ToString().Split('.')[0], out BrowserVersion);
                 }
             }
 
             uint mode = 10000;
 
-            switch (browserVersion)
+            switch (BrowserVersion)
             {
                 case 7:
                     mode = 7000;

@@ -14,11 +14,11 @@ namespace Visual_Novel_Universe
         }
 
         [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlAppDomain)]
-        protected override void OnStartup(object sender, StartupEventArgs e)
+        protected override void OnStartup(object Sender, StartupEventArgs EventArgs)
         {
-            AppDomain.CurrentDomain.UnhandledException += (s, args) =>
+            AppDomain.CurrentDomain.UnhandledException += (SentFrom, Args) =>
             {
-                var ex = (Exception)args.ExceptionObject;
+                var ex = (Exception)Args.ExceptionObject;
                 Logger.Instance.LogError($"Uncaught exception: {ex.Message}\n{ex.StackTrace}");
             };
 

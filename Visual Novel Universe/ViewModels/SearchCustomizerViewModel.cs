@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using Caliburn.Micro;
+using Core.Utils;
 using Visual_Novel_Universe.Models;
 
 namespace Visual_Novel_Universe.ViewModels

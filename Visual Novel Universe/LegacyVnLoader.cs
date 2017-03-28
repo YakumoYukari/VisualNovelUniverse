@@ -28,13 +28,13 @@ namespace Visual_Novel_Universe
                 JapaneseName = GetValue(Lines, "Japanese Name"),
                 Publishers = new List<Publisher>(),
                 VndbLink = GetValue(Lines, "VNDB Link"),
-                Tags = GetValue(Lines, "VNDB Tags").Split(',').Select(t => t.Trim()).ToList(),
+                Tags = GetValue(Lines, "VNDB Tags").Split(',').Select(T => T.Trim()).ToList(),
                 Owned = true,
                 EnglishReleases = GetValue(Lines, "English Release").Split(',')
-                    .Where(s => !string.IsNullOrWhiteSpace(s) && s.Contains('-'))
-                    .Select(s =>
+                    .Where(S => !string.IsNullOrWhiteSpace(S) && S.Contains('-'))
+                    .Select(S =>
                     {
-                        var Parts = s.Split('-');
+                        var Parts = S.Split('-');
                         return new Release {Publisher = Parts[0].Trim(), Link = Parts[1].Trim()};
                     }).ToList()
             };
@@ -44,7 +44,7 @@ namespace Visual_Novel_Universe
 
         private static string GetValue(IEnumerable<string> Lines, string Value)
         {
-            string Match = Lines.SingleOrDefault(s => s.StartsWith(Value));
+            string Match = Lines.SingleOrDefault(S => S.StartsWith(Value));
             return string.IsNullOrEmpty(Match) ? string.Empty : Match.Split(new[] { ':' }, 2)[1].Trim();
         }
 

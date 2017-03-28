@@ -4,6 +4,7 @@ using System.Configuration;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows;
+using Core.Utils;
 using Visual_Novel_Universe.Models;
 
 namespace Visual_Novel_Universe
@@ -169,7 +170,7 @@ namespace Visual_Novel_Universe
         {
             string Cleaned = FolderName;
 
-            if (!Regex.IsMatch(Cleaned, @"\d{5}\d*")) return Cleaned;
+            if (!Regex.IsMatch(Cleaned, @"^\d{5}\d*")) return Cleaned;
 
             int FirstLetterPosition = 0;
             foreach (char c in Cleaned)
